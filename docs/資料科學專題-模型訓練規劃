@@ -1,0 +1,61 @@
+資料科學專題-模型訓練規劃
+
+資料集:
+
+資料區間: 2020-01-01T00:00:00Z - 2024-12-20T23:00:00Z
+
+Combine: 合併所有資料集 檔名: Combine_AllData
+Combine_Nomolization: 合併所有資料集正規化 檔名: Nomorlization_Combine_AllData.csv
+
+
+資料集範例:
+date	AQI_aqi	AQI_so2	AQI_co	AQI_o3	AQI_o3_8hr	AQI_pm10	AQI_pm2.5	AQI_no2	AQI_nox	AQI_no	AQI_co_8hr	AQI_pm2.5_avg	AQI_pm10_avg	AQI_so2_avg	Weather_Tx	Weather_RH	Weather_WS	Weather_WD	Factory_city	Factory_district	AQI_pollutant_0	AQI_pollutant_1	AQI_pollutant_2	AQI_pollutant_3	AQI_pollutant_4	AQI_pollutant_5	AQI_pollutant_6	label_1	label_2	label_3	label_4	label_5	label_6	label_7	label_8	label_9	label_10	label_11	label_12	label_13	label_14	label_15	label_16	label_17	label_18	label_19	label_20	label_21	label_22	label_23	label_24	label_25	label_26	label_27	label_28	label_29	label_30	label_31	label_32	label_33	label_34	label_35	label_36	label_37	label_38	label_40	label_41	label_42	label_43	label_44	label_45	label_46	label_47	label_48	label_49	label_50	label_51	label_52	label_53	label_54	label_55	label_56	label_58	label_59	label_60	label_61	label_62	label_63	label_64	label_65	label_66	label_67	label_68	label_69	label_70	label_73	label_74	label_75	label_76	label_77	label_78	label_80	month_sin	hour_sin	day_sin
+2020-01-01T00:00:00Z	30	0.1	0.22	29	28	27	5	6	6	0	0.3	8	32	1	14.5	87	3.9	16	11960	168	1	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.5	0	0.20129852
+
+
+Separate: 區分不同測站 檔名範例:二林_C0G730_combined.csv
+Separate_Nomorlization: 區分不同測站正規化 檔名範例:二林_C0G730_combined.csv
+
+資料集範例:
+date	AQI_aqi	AQI_so2	AQI_co	AQI_o3	AQI_o3_8hr	AQI_pm10	AQI_pm2.5	AQI_no2	AQI_nox	AQI_no	AQI_co_8hr	AQI_pm2.5_avg	AQI_pm10_avg	AQI_so2_avg	Weather_Tx	Weather_RH	Weather_WS	Weather_WD	AQI_pollutant_0	AQI_pollutant_1	AQI_pollutant_2	AQI_pollutant_3	month_sin	hour_sin	day_sin
+2020-01-01T00:00:00Z	30	0.1	0.22	29	28	27	5	6	6	0	0.3	8	32	1	14.5	87	3.9	16	1	0	0	0	0.5	0	0.20129852
+
+
+資料處理:
+
+1.針對AQI_pollutant 文字做處理如下
+          AQI_pollutant 全域對照表：
+           1 → 細懸浮微粒
+           2 → 臭氧八小時
+           3 → 懸浮微粒
+           4 → 二氧化氮
+           5 → 二氧化硫
+           6 → 臭氧
+           7 → 一氧化碳
+           0 → NA
+
+
+2.本地有經過one-hot-encoding(針對label & AQI_Pollutant)、Add_month-day-hour(有經過正弦轉換)
+    其餘20個特徵有經過偏態修正以及標準化，設定值如下：
+    (1) |skew| > 2 (極度偏態) → Yeo-Johnson 變換
+    (2) 1 < skew ≤ 2 (強偏態) → 對數變換
+    (3) -2 ≤ skew < -1 (左強偏態) → Yeo-Johnson 變換
+    (4) 0.5 < skew ≤ 1 (中度偏態) → 平方根/平方變換
+    (5) -1 ≤ skew < -0.5 (左中度偏態) → Yeo-Johnson 變換
+    (6) |skew| ≤ 0.5 (近似對稱) → 不動作
+    (7) transform用 log1p(x) 而不是 log(x)，以免遇到 0 時出錯
+    (8) 穩健標準化 (RobustScaler) => 一定先進行偏態修正再進行標準化
+    
+    後續有分類成4種類型檔案 => 區分地區無標準化、區分地區有標準化、合併無標準化、合併有標準化
+
+訓練目標及預計:
+
+請協助規劃使用時間序列模型及機器學習模型
+訓練出一個天氣的預測模型
+模型需預測24小時的aqi各指標
+可基於五年的每小時歷史資料進行預測
+
+請協助釐清執行方法
+並釐清預測模型該如何檢視各資料如何影響後續天氣
+例如現在基於訓練模型
+是否只要提供日期時間及過去五天(或特定天數)就可對未來24小時進行預測
