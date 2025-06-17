@@ -13,10 +13,10 @@ The goals of this project.
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|李翔仁|資科碩一|113971021|團隊中的吉祥物🦒，負責增進團隊氣氛| 
-|張敦皓|資科碩一|113971007|團隊的中流砥柱，一個人打十個|
-|林遠哲|資科碩一|113971001|團隊的中流砥柱，一個人打十個|
-|王秀暐|資科碩三|111971025|團隊的中流砥柱，一個人打十個|
+|李翔仁|資科碩一|113971021|資料獲取 → 清理 / 特徵工程| 
+|張敦皓|資科碩一|113971007|時間序列 & XGBoost 預測 → 分群 / 異常偵測|
+|林遠哲|資科碩一|113971001|時間序列 & XGBoost 預測 → 分群 / 異常偵測|
+|王秀暐|資科碩三|111971025|Shiny 展示|
 
 ## Folder organization and its related description
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
