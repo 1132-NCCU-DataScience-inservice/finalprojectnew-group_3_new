@@ -1,0 +1,57 @@
+2025-06-08 18:45:00,349 - preprocessor_separate_norm_汐止 - INFO - ==================================================
+2025-06-08 18:45:00,349 - preprocessor_separate_norm_汐止 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:45:00,349 - preprocessor_separate_norm_汐止 - INFO - ==================================================
+2025-06-08 18:45:00,349 - preprocessor_separate_norm_汐止 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:45:00,350 - preprocessor_separate_norm_汐止 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_汐止_C0AH00_combined.csv
+2025-06-08 18:45:00,458 - preprocessor_separate_norm_汐止 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:45:00,489 - preprocessor_separate_norm_汐止 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:45:00,489 - preprocessor_separate_norm_汐止 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 18:45:00,489 - preprocessor_separate_norm_汐止 - INFO - 開始數據預處理
+2025-06-08 18:45:00,490 - preprocessor_separate_norm_汐止 - INFO - 處理時間特徵
+2025-06-08 18:45:00,490 - preprocessor_separate_norm_汐止 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:45:00,501 - preprocessor_separate_norm_汐止 - INFO - 執行特徵工程
+2025-06-08 18:45:00,535 - preprocessor_separate_norm_汐止 - INFO - 執行數據清理
+2025-06-08 18:45:00,684 - preprocessor_separate_norm_汐止 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:45:00,700 - preprocessor_separate_norm_汐止 - INFO - 執行特徵選擇
+2025-06-08 18:45:00,700 - preprocessor_separate_norm_汐止 - INFO - 特徵選擇完成: 69 個特徵, 20 個目標
+2025-06-08 18:45:00,707 - preprocessor_separate_norm_汐止 - INFO - 數據預處理完成: (43584, 91)
+2025-06-08 18:45:01,283 - preprocessor_separate_norm_汐止 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_汐止_20250608_184500_processed.npz
+2025-06-08 18:45:01,283 - preprocessor_separate_norm_汐止 - INFO - 數據形狀: X=(43584, 69), y=(43584, 20)
+2025-06-08 18:45:01,283 - preprocessor_separate_norm_汐止 - INFO - 預處理管道執行完成
+2025-06-08 18:45:01,292 - windows_separate_norm_汐止 - INFO - ==================================================
+2025-06-08 18:45:01,292 - windows_separate_norm_汐止 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:45:01,292 - windows_separate_norm_汐止 - INFO - ==================================================
+2025-06-08 18:45:01,292 - windows_separate_norm_汐止 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_汐止_20250608_184500_processed.npz
+2025-06-08 18:45:01,375 - windows_separate_norm_汐止 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 20)
+2025-06-08 18:45:01,375 - windows_separate_norm_汐止 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:45:01,375 - windows_separate_norm_汐止 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:45:01,385 - windows_separate_norm_汐止 - INFO - 處理 1 個測站的數據
+2025-06-08 18:45:01,487 - windows_separate_norm_汐止 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:45:01,487 - windows_separate_norm_汐止 - INFO - 測站 汐止: 43555 個窗口
+2025-06-08 18:45:01,545 - windows_separate_norm_汐止 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:45:01,560 - windows_separate_norm_汐止 - INFO - 開始分割數據集
+2025-06-08 18:45:01,560 - windows_separate_norm_汐止 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 20)
+2025-06-08 18:45:01,560 - windows_separate_norm_汐止 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 20)
+2025-06-08 18:45:01,560 - windows_separate_norm_汐止 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 20)
+2025-06-08 18:45:06,063 - windows_separate_norm_汐止 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_汐止_20250608_184500_windows.npz
+2025-06-08 18:45:06,594 - windows_separate_norm_汐止 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_汐止_20250608_184500_windows.pt
+2025-06-08 18:45:06,594 - windows_separate_norm_汐止 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:45:06,615 - trainer_separate_norm_汐止 - INFO - 使用設備: cuda
+2025-06-08 18:45:06,615 - trainer_separate_norm_汐止 - INFO - ==================================================
+2025-06-08 18:45:06,615 - trainer_separate_norm_汐止 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:45:06,615 - trainer_separate_norm_汐止 - INFO - ==================================================
+2025-06-08 18:45:06,616 - trainer_separate_norm_汐止 - INFO - 載入訓練數據
+2025-06-08 18:45:07,699 - trainer_separate_norm_汐止 - INFO - 訓練LightGBM模型...
+2025-06-08 18:45:07,700 - trainer_separate_norm_汐止 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:45:07,700 - trainer_separate_norm_汐止 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 120)
+2025-06-08 18:45:16,703 - trainer_separate_norm_汐止 - INFO - LightGBM訓練完成: 8.46s
+2025-06-08 18:45:16,703 - trainer_separate_norm_汐止 - INFO - 驗證集MAE: 0.1118
+2025-06-08 18:45:16,777 - trainer_separate_norm_汐止 - INFO - 訓練LSTM模型...
+2025-06-08 18:45:16,777 - trainer_separate_norm_汐止 - INFO - 開始訓練LSTM模型
+2025-06-08 18:45:16,861 - trainer_separate_norm_汐止 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 18:45:17,577 - trainer_separate_norm_汐止 - INFO - Epoch 0: Train Loss=0.232619, Val Loss=0.166109
+2025-06-08 18:45:24,335 - trainer_separate_norm_汐止 - INFO - Epoch 10: Train Loss=0.087975, Val Loss=0.186248
+2025-06-08 18:45:27,045 - trainer_separate_norm_汐止 - INFO - 早停於 epoch 14
+2025-06-08 18:45:27,229 - trainer_separate_norm_汐止 - INFO - LSTM訓練完成: 10.27s
+2025-06-08 18:45:27,229 - trainer_separate_norm_汐止 - INFO - 驗證集MAE: 0.2840
+2025-06-08 18:45:27,251 - trainer_separate_norm_汐止 - INFO - 模型訓練管道執行完成

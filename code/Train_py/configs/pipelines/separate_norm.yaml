@@ -1,0 +1,52 @@
+# separate_norm模式配置
+# Pipeline Configuration for Separate Normalization Mode
+
+pipeline:
+  name: "separate_norm"
+  description: "為每個測站單獨訓練模型（使用標準化數據）"
+  type: "station_specific"
+  
+# 數據源配置
+data_source:
+  raw_dir: "data/raw/Separate_Nomorlization"
+  file_pattern: "*_combined.csv"
+  station_pattern: "^([^_]+)_"  # 從檔名提取測站名稱的正則表達式
+  
+# 預處理配置
+preprocessing:
+  normalization: true  # 數據已經標準化
+  station_specific: true
+  feature_selection:
+    method: "importance"  # correlation, importance, variance
+    threshold: 0.01
+    
+# 輸出路徑配置
+output_paths:
+  processed_data: "data/processed/separate_norm"
+  windows_data: "data/windows/separate_norm"
+  models:
+    lightgbm: "models/lightgbm/separate_norm"
+    lstm: "models/lstm/separate_norm"
+  reports: "outputs/reports/separate_norm"
+  predictions: "outputs/predictions"
+  evaluations: "outputs/evaluations"
+
+# 訓練配置
+training:
+  cross_validation: false  # 單站訓練通常不需要交叉驗證
+  validation_strategy: "holdout"
+  test_size: 0.1
+  
+# 特殊參數
+special_config:
+  station_isolation: true
+  local_features: true
+  meteorological_priority: true
+  seasonal_adjustment: true
+  normalized_input: true
+  
+# 批量處理配置
+batch_processing:
+  parallel: true
+  max_workers: 4
+  station_groups: "auto"  # auto, manual, geographic 

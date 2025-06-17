@@ -1,0 +1,6 @@
+2025-06-08 00:39:37,265 - trainer_separate_觀音 - INFO - 使用設備: cuda
+2025-06-08 00:39:37,265 - trainer_separate_觀音 - INFO - ==================================================
+2025-06-08 00:39:37,265 - trainer_separate_觀音 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 00:39:37,265 - trainer_separate_觀音 - INFO - ==================================================
+2025-06-08 00:39:37,265 - trainer_separate_觀音 - INFO - 載入訓練數據
+2025-06-08 00:39:37,266 - trainer_separate_觀音 - ERROR - 訓練管道執行失敗: NumPy數據文件不存在: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_觀音_20250608_003937_windows.npz

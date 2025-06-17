@@ -1,0 +1,1885 @@
+{
+  "pipeline_mode": "separate",
+  "total_runs": 75,
+  "successful_runs": 75,
+  "failed_runs": 0,
+  "success_rate": 1.0,
+  "results": [
+    {
+      "pipeline_mode": "separate",
+      "station": "三義",
+      "timestamp": "20250608_153648",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "三重",
+      "timestamp": "20250608_153655",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "中壢",
+      "timestamp": "20250608_153703",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "中山",
+      "timestamp": "20250608_153710",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "二林",
+      "timestamp": "20250608_153718",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "仁武",
+      "timestamp": "20250608_153725",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "冬山",
+      "timestamp": "20250608_153733",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "前金",
+      "timestamp": "20250608_153740",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "前鎮",
+      "timestamp": "20250608_153748",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "南投",
+      "timestamp": "20250608_153755",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "古亭",
+      "timestamp": "20250608_153803",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "善化",
+      "timestamp": "20250608_153810",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "嘉義",
+      "timestamp": "20250608_153818",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "土城",
+      "timestamp": "20250608_153825",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "埔里",
+      "timestamp": "20250608_153833",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "基隆",
+      "timestamp": "20250608_153840",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "士林",
+      "timestamp": "20250608_153847",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "大同",
+      "timestamp": "20250608_153855",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "大園",
+      "timestamp": "20250608_153902",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "大寮",
+      "timestamp": "20250608_153910",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "大里",
+      "timestamp": "20250608_153917",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "安南",
+      "timestamp": "20250608_153925",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "宜蘭",
+      "timestamp": "20250608_153932",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "富貴角",
+      "timestamp": "20250608_153939",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "小港",
+      "timestamp": "20250608_153947",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "屏東",
+      "timestamp": "20250608_153954",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "崙背",
+      "timestamp": "20250608_154001",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "左營",
+      "timestamp": "20250608_154009",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "平鎮",
+      "timestamp": "20250608_154016",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "彰化",
+      "timestamp": "20250608_154024",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "復興",
+      "timestamp": "20250608_154032",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "忠明",
+      "timestamp": "20250608_154039",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "恆春",
+      "timestamp": "20250608_154047",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "斗六",
+      "timestamp": "20250608_154054",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "新店",
+      "timestamp": "20250608_154102",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "新港",
+      "timestamp": "20250608_154109",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "新營",
+      "timestamp": "20250608_154117",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "新竹",
+      "timestamp": "20250608_154125",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "新莊",
+      "timestamp": "20250608_154133",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "朴子",
+      "timestamp": "20250608_154141",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "松山",
+      "timestamp": "20250608_154149",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "板橋",
+      "timestamp": "20250608_154156",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "林口",
+      "timestamp": "20250608_154204",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "林園",
+      "timestamp": "20250608_154212",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "桃園",
+      "timestamp": "20250608_154220",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "楠梓",
+      "timestamp": "20250608_154228",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "橋頭",
+      "timestamp": "20250608_154236",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "永和",
+      "timestamp": "20250608_154243",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "汐止",
+      "timestamp": "20250608_154251",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "沙鹿",
+      "timestamp": "20250608_154259",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "淡水",
+      "timestamp": "20250608_154307",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "湖口",
+      "timestamp": "20250608_154315",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "潮州",
+      "timestamp": "20250608_154322",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "竹山",
+      "timestamp": "20250608_154331",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "竹東",
+      "timestamp": "20250608_154339",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "線西",
+      "timestamp": "20250608_154346",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "美濃",
+      "timestamp": "20250608_154354",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "臺南",
+      "timestamp": "20250608_154401",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "臺東",
+      "timestamp": "20250608_154409",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "臺西",
+      "timestamp": "20250608_154417",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "花蓮",
+      "timestamp": "20250608_154425",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "苗栗",
+      "timestamp": "20250608_154432",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "菜寮",
+      "timestamp": "20250608_154440",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "萬華",
+      "timestamp": "20250608_154447",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "萬里",
+      "timestamp": "20250608_154455",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "西屯",
+      "timestamp": "20250608_154502",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "觀音",
+      "timestamp": "20250608_154510",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "豐原",
+      "timestamp": "20250608_154518",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "金門",
+      "timestamp": "20250608_154527",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "陽明",
+      "timestamp": "20250608_154535",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "頭份",
+      "timestamp": "20250608_154543",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "馬公",
+      "timestamp": "20250608_154550",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "馬祖",
+      "timestamp": "20250608_154558",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "麥寮",
+      "timestamp": "20250608_154606",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    },
+    {
+      "pipeline_mode": "separate",
+      "station": "龍潭",
+      "timestamp": "20250608_154614",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+        },
+        "lstm": {
+          "error": "'ConfigManager' object has no attribute 'lstm_config'"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    }
+  ],
+  "timestamp": "20250608_154622"
+}

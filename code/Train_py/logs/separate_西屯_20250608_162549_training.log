@@ -1,0 +1,58 @@
+2025-06-08 16:25:49,882 - preprocessor_separate_西屯 - INFO - ==================================================
+2025-06-08 16:25:49,883 - preprocessor_separate_西屯 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 16:25:49,883 - preprocessor_separate_西屯 - INFO - ==================================================
+2025-06-08 16:25:49,883 - preprocessor_separate_西屯 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 16:25:49,883 - preprocessor_separate_西屯 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\西屯_C0F9T0_combined.csv
+2025-06-08 16:25:49,944 - preprocessor_separate_西屯 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 16:25:49,966 - preprocessor_separate_西屯 - INFO - 數據驗證通過: (43584, 30), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 16:25:49,966 - preprocessor_separate_西屯 - INFO - 原始數據載入完成: (43584, 30)
+2025-06-08 16:25:49,966 - preprocessor_separate_西屯 - INFO - 開始數據預處理
+2025-06-08 16:25:49,966 - preprocessor_separate_西屯 - INFO - 處理時間特徵
+2025-06-08 16:25:50,011 - preprocessor_separate_西屯 - INFO - 執行特徵工程
+2025-06-08 16:25:50,059 - preprocessor_separate_西屯 - INFO - 執行數據清理
+2025-06-08 16:25:50,253 - preprocessor_separate_西屯 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 16:25:50,253 - preprocessor_separate_西屯 - INFO - 執行特徵選擇
+2025-06-08 16:25:50,257 - preprocessor_separate_西屯 - INFO - 特徵選擇完成: 74 個特徵, 21 個目標
+2025-06-08 16:25:50,260 - preprocessor_separate_西屯 - INFO - 執行數據標準化
+2025-06-08 16:25:50,299 - preprocessor_separate_西屯 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 16:25:50,299 - preprocessor_separate_西屯 - INFO - 數據預處理完成: (43584, 97)
+2025-06-08 16:25:50,764 - preprocessor_separate_西屯 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_西屯_20250608_162549_processed.npz
+2025-06-08 16:25:50,764 - preprocessor_separate_西屯 - INFO - 數據形狀: X=(43584, 74), y=(43584, 21)
+2025-06-08 16:25:50,780 - preprocessor_separate_西屯 - INFO - 預處理管道執行完成
+2025-06-08 16:25:50,780 - windows_separate_西屯 - INFO - ==================================================
+2025-06-08 16:25:50,780 - windows_separate_西屯 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 16:25:50,780 - windows_separate_西屯 - INFO - ==================================================
+2025-06-08 16:25:50,780 - windows_separate_西屯 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_西屯_20250608_162549_processed.npz
+2025-06-08 16:25:50,844 - windows_separate_西屯 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 21)
+2025-06-08 16:25:50,844 - windows_separate_西屯 - INFO - 開始創建滑動時間窗口
+2025-06-08 16:25:50,844 - windows_separate_西屯 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 16:25:50,844 - windows_separate_西屯 - INFO - 處理 1 個測站的數據
+2025-06-08 16:25:50,960 - windows_separate_西屯 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 16:25:50,960 - windows_separate_西屯 - INFO - 測站 西屯: 43555 個窗口
+2025-06-08 16:25:51,027 - windows_separate_西屯 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 16:25:51,049 - windows_separate_西屯 - INFO - 開始分割數據集
+2025-06-08 16:25:51,049 - windows_separate_西屯 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 21)
+2025-06-08 16:25:51,049 - windows_separate_西屯 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 21)
+2025-06-08 16:25:51,049 - windows_separate_西屯 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 21)
+2025-06-08 16:25:55,912 - windows_separate_西屯 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_西屯_20250608_162549_windows.npz
+2025-06-08 16:25:56,452 - windows_separate_西屯 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_西屯_20250608_162549_windows.pt
+2025-06-08 16:25:56,452 - windows_separate_西屯 - INFO - 時間窗口生成管道執行完成
+2025-06-08 16:25:56,471 - trainer_separate_西屯 - INFO - 使用設備: cuda
+2025-06-08 16:25:56,471 - trainer_separate_西屯 - INFO - ==================================================
+2025-06-08 16:25:56,471 - trainer_separate_西屯 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 16:25:56,471 - trainer_separate_西屯 - INFO - ==================================================
+2025-06-08 16:25:56,471 - trainer_separate_西屯 - INFO - 載入訓練數據
+2025-06-08 16:25:57,638 - trainer_separate_西屯 - INFO - 訓練LightGBM模型...
+2025-06-08 16:25:57,638 - trainer_separate_西屯 - INFO - 開始訓練LightGBM模型
+2025-06-08 16:25:57,638 - trainer_separate_西屯 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 126)
+2025-06-08 16:26:05,070 - trainer_separate_西屯 - INFO - LightGBM訓練完成: 7.20s
+2025-06-08 16:26:05,070 - trainer_separate_西屯 - INFO - 驗證集MAE: 2.7335
+2025-06-08 16:26:05,101 - trainer_separate_西屯 - INFO - 訓練LSTM模型...
+2025-06-08 16:26:05,101 - trainer_separate_西屯 - INFO - 開始訓練LSTM模型
+2025-06-08 16:26:05,194 - trainer_separate_西屯 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 21])
+2025-06-08 16:26:05,929 - trainer_separate_西屯 - INFO - Epoch 0: Train Loss=209.722085, Val Loss=107.178704
+2025-06-08 16:26:12,830 - trainer_separate_西屯 - INFO - Epoch 10: Train Loss=20.573202, Val Loss=32.629503
+2025-06-08 16:26:18,956 - trainer_separate_西屯 - INFO - 早停於 epoch 19
+2025-06-08 16:26:19,140 - trainer_separate_西屯 - INFO - LSTM訓練完成: 13.85s
+2025-06-08 16:26:19,140 - trainer_separate_西屯 - INFO - 驗證集MAE: 2.8920
+2025-06-08 16:26:19,162 - trainer_separate_西屯 - INFO - 模型訓練管道執行完成

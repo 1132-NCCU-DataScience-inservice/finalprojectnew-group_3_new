@@ -1,0 +1,59 @@
+2025-06-08 15:50:27,897 - preprocessor_separate_中山 - INFO - ==================================================
+2025-06-08 15:50:27,898 - preprocessor_separate_中山 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:50:27,898 - preprocessor_separate_中山 - INFO - ==================================================
+2025-06-08 15:50:27,898 - preprocessor_separate_中山 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:50:27,899 - preprocessor_separate_中山 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\中山_C0AH70_combined.csv
+2025-06-08 15:50:27,958 - preprocessor_separate_中山 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:50:27,992 - preprocessor_separate_中山 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:50:27,993 - preprocessor_separate_中山 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 15:50:27,993 - preprocessor_separate_中山 - INFO - 開始數據預處理
+2025-06-08 15:50:27,993 - preprocessor_separate_中山 - INFO - 處理時間特徵
+2025-06-08 15:50:28,038 - preprocessor_separate_中山 - INFO - 執行特徵工程
+2025-06-08 15:50:28,074 - preprocessor_separate_中山 - INFO - 執行數據清理
+2025-06-08 15:50:28,256 - preprocessor_separate_中山 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:50:28,261 - preprocessor_separate_中山 - INFO - 執行特徵選擇
+2025-06-08 15:50:28,266 - preprocessor_separate_中山 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 15:50:28,267 - preprocessor_separate_中山 - INFO - 執行數據標準化
+2025-06-08 15:50:28,311 - preprocessor_separate_中山 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:50:28,312 - preprocessor_separate_中山 - INFO - 數據預處理完成: (43584, 95)
+2025-06-08 15:50:28,829 - preprocessor_separate_中山 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_中山_20250608_155027_processed.npz
+2025-06-08 15:50:28,829 - preprocessor_separate_中山 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:50:28,830 - preprocessor_separate_中山 - INFO - 預處理管道執行完成
+2025-06-08 15:50:28,835 - windows_separate_中山 - INFO - ==================================================
+2025-06-08 15:50:28,835 - windows_separate_中山 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:50:28,835 - windows_separate_中山 - INFO - ==================================================
+2025-06-08 15:50:28,836 - windows_separate_中山 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_中山_20250608_155027_processed.npz
+2025-06-08 15:50:28,894 - windows_separate_中山 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:50:28,894 - windows_separate_中山 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:50:28,895 - windows_separate_中山 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:50:28,903 - windows_separate_中山 - INFO - 處理 1 個測站的數據
+2025-06-08 15:50:29,018 - windows_separate_中山 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:50:29,018 - windows_separate_中山 - INFO - 測站 中山: 43555 個窗口
+2025-06-08 15:50:29,080 - windows_separate_中山 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:50:29,098 - windows_separate_中山 - INFO - 開始分割數據集
+2025-06-08 15:50:29,098 - windows_separate_中山 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 15:50:29,098 - windows_separate_中山 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 15:50:29,098 - windows_separate_中山 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)
+2025-06-08 15:50:34,312 - windows_separate_中山 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_中山_20250608_155027_windows.npz
+2025-06-08 15:50:34,918 - windows_separate_中山 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_中山_20250608_155027_windows.pt
+2025-06-08 15:50:34,919 - windows_separate_中山 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:50:34,936 - trainer_separate_中山 - INFO - 使用設備: cuda
+2025-06-08 15:50:34,936 - trainer_separate_中山 - INFO - ==================================================
+2025-06-08 15:50:34,936 - trainer_separate_中山 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:50:34,936 - trainer_separate_中山 - INFO - ==================================================
+2025-06-08 15:50:34,936 - trainer_separate_中山 - INFO - 載入訓練數據
+2025-06-08 15:50:35,907 - trainer_separate_中山 - INFO - 訓練LightGBM模型...
+2025-06-08 15:50:35,907 - trainer_separate_中山 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:50:35,908 - trainer_separate_中山 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 114)
+2025-06-08 15:50:44,279 - trainer_separate_中山 - INFO - LightGBM訓練完成: 8.28s
+2025-06-08 15:50:44,279 - trainer_separate_中山 - INFO - 驗證集MAE: 3.1431
+2025-06-08 15:50:44,299 - trainer_separate_中山 - INFO - 訓練LSTM模型...
+2025-06-08 15:50:44,299 - trainer_separate_中山 - INFO - 開始訓練LSTM模型
+2025-06-08 15:50:44,390 - trainer_separate_中山 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 15:50:45,231 - trainer_separate_中山 - INFO - Epoch 0: Train Loss=152.077997, Val Loss=101.746360
+2025-06-08 15:50:52,610 - trainer_separate_中山 - INFO - Epoch 10: Train Loss=22.584832, Val Loss=40.366209
+2025-06-08 15:50:59,893 - trainer_separate_中山 - INFO - Epoch 20: Train Loss=12.266944, Val Loss=43.207199
+2025-06-08 15:51:02,114 - trainer_separate_中山 - INFO - 早停於 epoch 23
+2025-06-08 15:51:02,300 - trainer_separate_中山 - INFO - LSTM訓練完成: 17.81s
+2025-06-08 15:51:02,300 - trainer_separate_中山 - INFO - 驗證集MAE: 3.5041
+2025-06-08 15:51:02,305 - trainer_separate_中山 - INFO - 模型訓練管道執行完成

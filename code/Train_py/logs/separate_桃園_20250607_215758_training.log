@@ -1,0 +1,4 @@
+2025-06-07 21:57:58,230 - windows_separate_桃園 - INFO - ==================================================
+2025-06-07 21:57:58,230 - windows_separate_桃園 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-07 21:57:58,230 - windows_separate_桃園 - INFO - ==================================================
+2025-06-07 21:57:58,230 - windows_separate_桃園 - ERROR - 時間窗口生成管道執行失敗: 預處理數據不存在: D:\pythonWork\R_datascience\final\Train\data\processed\separate_桃園_20250607_215758_processed.npz

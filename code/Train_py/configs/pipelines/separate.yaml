@@ -1,0 +1,51 @@
+# separate模式配置
+# Pipeline Configuration for Separate Mode
+
+pipeline:
+  name: "separate"
+  description: "為每個測站單獨訓練模型"
+  type: "station_specific"
+  
+# 數據源配置
+data_source:
+  raw_dir: "data/raw/Separate"
+  file_pattern: "*_combined.csv"
+  station_pattern: "^([^_]+)_"  # 從檔名提取測站名稱的正則表達式
+  
+# 預處理配置
+preprocessing:
+  normalization: false
+  station_specific: true
+  feature_selection:
+    method: "importance"  # correlation, importance, variance
+    threshold: 0.01
+    
+# 輸出路徑配置
+output_paths:
+  processed_data: "data/processed/separate"
+  windows_data: "data/windows/separate"
+  models:
+    lightgbm: "models/lightgbm/separate"
+    lstm: "models/lstm/separate"
+  reports: "outputs/reports/separate"
+  predictions: "outputs/predictions"
+  evaluations: "outputs/evaluations"
+
+# 訓練配置
+training:
+  cross_validation: false  # 單站訓練通常不需要交叉驗證
+  validation_strategy: "holdout"
+  test_size: 0.1
+  
+# 特殊參數
+special_config:
+  station_isolation: true
+  local_features: true
+  meteorological_priority: true
+  seasonal_adjustment: true
+  
+# 批量處理配置
+batch_processing:
+  parallel: true
+  max_workers: 4
+  station_groups: "auto"  # auto, manual, geographic 

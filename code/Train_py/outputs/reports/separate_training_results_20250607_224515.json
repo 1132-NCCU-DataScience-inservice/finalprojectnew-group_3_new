@@ -1,0 +1,35 @@
+{
+  "pipeline_mode": "separate",
+  "total_runs": 1,
+  "successful_runs": 1,
+  "failed_runs": 0,
+  "success_rate": 1.0,
+  "results": [
+    {
+      "pipeline_mode": "separate",
+      "station": "桃園",
+      "timestamp": "20250607_224503",
+      "success": true,
+      "models": {
+        "lightgbm": {
+          "error": "Wrong type(ndarray) for label.\nIt should be list, numpy 1-D array or pandas Series"
+        },
+        "lstm": {
+          "error": "Caught RuntimeError in pin memory thread for device 0.\nOriginal Traceback (most recent call last):\n  File \"D:\\conda\\envs\\aqi\\lib\\site-packages\\torch\\utils\\data\\_utils\\pin_memory.py\", line 41, in do_one_step\n    data = pin_memory(data, device)\n  File \"D:\\conda\\envs\\aqi\\lib\\site-packages\\torch\\utils\\data\\_utils\\pin_memory.py\", line 98, in pin_memory\n    clone[i] = pin_memory(item, device)\n  File \"D:\\conda\\envs\\aqi\\lib\\site-packages\\torch\\utils\\data\\_utils\\pin_memory.py\", line 64, in pin_memory\n    return data.pin_memory(device)\nRuntimeError: cannot pin 'torch.cuda.FloatTensor' only dense CPU tensors can be pinned\n"
+        }
+      },
+      "config_summary": {
+        "time_settings": {
+          "window_size": 24,
+          "horizon": 6,
+          "train_ratio": 0.8
+        },
+        "hardware": {
+          "use_gpu": true,
+          "device": "cuda"
+        }
+      }
+    }
+  ],
+  "timestamp": "20250607_224515"
+}

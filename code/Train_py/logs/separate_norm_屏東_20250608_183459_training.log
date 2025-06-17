@@ -1,0 +1,57 @@
+2025-06-08 18:34:59,685 - preprocessor_separate_norm_屏東 - INFO - ==================================================
+2025-06-08 18:34:59,686 - preprocessor_separate_norm_屏東 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:34:59,686 - preprocessor_separate_norm_屏東 - INFO - ==================================================
+2025-06-08 18:34:59,686 - preprocessor_separate_norm_屏東 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:34:59,686 - preprocessor_separate_norm_屏東 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_屏東_C0R570_combined.csv
+2025-06-08 18:34:59,797 - preprocessor_separate_norm_屏東 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:34:59,828 - preprocessor_separate_norm_屏東 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:34:59,828 - preprocessor_separate_norm_屏東 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 18:34:59,828 - preprocessor_separate_norm_屏東 - INFO - 開始數據預處理
+2025-06-08 18:34:59,828 - preprocessor_separate_norm_屏東 - INFO - 處理時間特徵
+2025-06-08 18:34:59,828 - preprocessor_separate_norm_屏東 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:34:59,839 - preprocessor_separate_norm_屏東 - INFO - 執行特徵工程
+2025-06-08 18:34:59,871 - preprocessor_separate_norm_屏東 - INFO - 執行數據清理
+2025-06-08 18:35:00,029 - preprocessor_separate_norm_屏東 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:35:00,029 - preprocessor_separate_norm_屏東 - INFO - 執行特徵選擇
+2025-06-08 18:35:00,045 - preprocessor_separate_norm_屏東 - INFO - 特徵選擇完成: 69 個特徵, 20 個目標
+2025-06-08 18:35:00,050 - preprocessor_separate_norm_屏東 - INFO - 數據預處理完成: (43584, 91)
+2025-06-08 18:35:00,577 - preprocessor_separate_norm_屏東 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_屏東_20250608_183459_processed.npz
+2025-06-08 18:35:00,577 - preprocessor_separate_norm_屏東 - INFO - 數據形狀: X=(43584, 69), y=(43584, 20)
+2025-06-08 18:35:00,582 - preprocessor_separate_norm_屏東 - INFO - 預處理管道執行完成
+2025-06-08 18:35:00,582 - windows_separate_norm_屏東 - INFO - ==================================================
+2025-06-08 18:35:00,586 - windows_separate_norm_屏東 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:35:00,586 - windows_separate_norm_屏東 - INFO - ==================================================
+2025-06-08 18:35:00,586 - windows_separate_norm_屏東 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_屏東_20250608_183459_processed.npz
+2025-06-08 18:35:00,669 - windows_separate_norm_屏東 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 20)
+2025-06-08 18:35:00,669 - windows_separate_norm_屏東 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:35:00,669 - windows_separate_norm_屏東 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:35:00,678 - windows_separate_norm_屏東 - INFO - 處理 1 個測站的數據
+2025-06-08 18:35:00,779 - windows_separate_norm_屏東 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:35:00,779 - windows_separate_norm_屏東 - INFO - 測站 屏東: 43555 個窗口
+2025-06-08 18:35:00,838 - windows_separate_norm_屏東 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:35:00,849 - windows_separate_norm_屏東 - INFO - 開始分割數據集
+2025-06-08 18:35:00,850 - windows_separate_norm_屏東 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 20)
+2025-06-08 18:35:00,850 - windows_separate_norm_屏東 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 20)
+2025-06-08 18:35:00,850 - windows_separate_norm_屏東 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 20)
+2025-06-08 18:35:05,153 - windows_separate_norm_屏東 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_屏東_20250608_183459_windows.npz
+2025-06-08 18:35:05,685 - windows_separate_norm_屏東 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_屏東_20250608_183459_windows.pt
+2025-06-08 18:35:05,685 - windows_separate_norm_屏東 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:35:05,690 - trainer_separate_norm_屏東 - INFO - 使用設備: cuda
+2025-06-08 18:35:05,701 - trainer_separate_norm_屏東 - INFO - ==================================================
+2025-06-08 18:35:05,701 - trainer_separate_norm_屏東 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:35:05,701 - trainer_separate_norm_屏東 - INFO - ==================================================
+2025-06-08 18:35:05,701 - trainer_separate_norm_屏東 - INFO - 載入訓練數據
+2025-06-08 18:35:06,769 - trainer_separate_norm_屏東 - INFO - 訓練LightGBM模型...
+2025-06-08 18:35:06,769 - trainer_separate_norm_屏東 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:35:06,769 - trainer_separate_norm_屏東 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 120)
+2025-06-08 18:35:20,555 - trainer_separate_norm_屏東 - INFO - LightGBM訓練完成: 13.19s
+2025-06-08 18:35:20,557 - trainer_separate_norm_屏東 - INFO - 驗證集MAE: 0.0583
+2025-06-08 18:35:20,624 - trainer_separate_norm_屏東 - INFO - 訓練LSTM模型...
+2025-06-08 18:35:20,624 - trainer_separate_norm_屏東 - INFO - 開始訓練LSTM模型
+2025-06-08 18:35:20,708 - trainer_separate_norm_屏東 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 18:35:21,522 - trainer_separate_norm_屏東 - INFO - Epoch 0: Train Loss=0.208930, Val Loss=0.149262
+2025-06-08 18:35:28,324 - trainer_separate_norm_屏東 - INFO - Epoch 10: Train Loss=0.079304, Val Loss=0.156540
+2025-06-08 18:35:30,344 - trainer_separate_norm_屏東 - INFO - 早停於 epoch 13
+2025-06-08 18:35:30,524 - trainer_separate_norm_屏東 - INFO - LSTM訓練完成: 9.72s
+2025-06-08 18:35:30,524 - trainer_separate_norm_屏東 - INFO - 驗證集MAE: 0.2475
+2025-06-08 18:35:30,529 - trainer_separate_norm_屏東 - INFO - 模型訓練管道執行完成

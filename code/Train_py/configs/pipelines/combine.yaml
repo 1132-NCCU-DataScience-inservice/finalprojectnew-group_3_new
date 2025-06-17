@@ -1,0 +1,46 @@
+# combine模式配置
+# Pipeline Configuration for Combine Mode
+
+pipeline:
+  name: "combine"
+  description: "合併所有測站數據進行統一訓練"
+  type: "global"
+  
+# 數據源配置
+data_source:
+  raw_dir: "data/raw/Combine"
+  file_pattern: "*_combined.csv"
+  combine_strategy: "concatenate"
+  station_encoding: true  # 是否添加測站編碼特徵
+
+# 預處理配置
+preprocessing:
+  normalization: false
+  station_specific: false
+  feature_selection:
+    method: "correlation"  # correlation, importance, variance
+    threshold: 0.95
+  
+# 輸出路徑配置
+output_paths:
+  processed_data: "data/processed/combine"
+  windows_data: "data/windows/combine"
+  models: 
+    lightgbm: "models/lightgbm/combine"
+    lstm: "models/lstm/combine"
+  reports: "outputs/reports/combine"
+  predictions: "outputs/predictions"
+  evaluations: "outputs/evaluations"
+
+# 訓練配置
+training:
+  cross_validation: true
+  validation_strategy: "time_series_split"
+  test_size: 0.1
+  
+# 特殊參數
+special_config:
+  multi_station_features: true
+  station_weights: "equal"  # equal, population, area
+  spatial_features: false
+  temporal_alignment: true 

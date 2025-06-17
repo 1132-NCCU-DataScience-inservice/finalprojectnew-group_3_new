@@ -1,0 +1,13 @@
+{
+  "station_id": "桃園_C0C480",
+  "timestamp": "2025-06-05 01:05:27",
+  "lgbm": {
+    "model_path": "models\\stations\\dual_桃園_C0C480_lgbm.pkl",
+    "train_data": "data\\processed\\stations\\dual_桃園_C0C480_lgbm_168_train.npz",
+    "duration": 80.10095286369324,
+    "size_mb": 55.63901996612549,
+    "metrics": {},
+    "model_type": "LightGBM"
+  },
+  "lstm": null
+}

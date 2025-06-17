@@ -1,0 +1,72 @@
+2025-06-08 15:11:37,451 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-08 15:11:37,451 - preprocessor_separate_桃園 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:11:37,451 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-08 15:11:37,451 - preprocessor_separate_桃園 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:11:37,451 - preprocessor_separate_桃園 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\桃園_C0C480_combined.csv
+2025-06-08 15:11:37,507 - preprocessor_separate_桃園 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:11:37,539 - preprocessor_separate_桃園 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:11:37,539 - preprocessor_separate_桃園 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 15:11:37,539 - preprocessor_separate_桃園 - INFO - 開始數據預處理
+2025-06-08 15:11:37,539 - preprocessor_separate_桃園 - INFO - 處理時間特徵
+2025-06-08 15:11:37,578 - preprocessor_separate_桃園 - INFO - 執行特徵工程
+2025-06-08 15:11:37,611 - preprocessor_separate_桃園 - INFO - 執行數據清理
+2025-06-08 15:11:37,790 - preprocessor_separate_桃園 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:11:37,792 - preprocessor_separate_桃園 - INFO - 執行特徵選擇
+2025-06-08 15:11:37,797 - preprocessor_separate_桃園 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 15:11:37,798 - preprocessor_separate_桃園 - INFO - 執行數據標準化
+2025-06-08 15:11:37,842 - preprocessor_separate_桃園 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_scaler.pkl
+2025-06-08 15:11:37,843 - preprocessor_separate_桃園 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 15:11:38,319 - preprocessor_separate_桃園 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_桃園_processed_processed_processed.npz
+2025-06-08 15:11:38,319 - preprocessor_separate_桃園 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:11:38,319 - preprocessor_separate_桃園 - INFO - 預處理管道執行完成
+2025-06-08 15:11:38,319 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:11:38,319 - windows_separate_桃園 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:11:38,319 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:11:38,319 - windows_separate_桃園 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_桃園_processed_processed_processed.npz
+2025-06-08 15:11:38,381 - windows_separate_桃園 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:11:38,381 - windows_separate_桃園 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:11:38,381 - windows_separate_桃園 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:11:38,391 - windows_separate_桃園 - INFO - 處理 1 個測站的數據
+2025-06-08 15:11:38,496 - windows_separate_桃園 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:11:38,497 - windows_separate_桃園 - INFO - 測站 桃園: 43555 個窗口
+2025-06-08 15:11:38,557 - windows_separate_桃園 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:11:38,567 - windows_separate_桃園 - INFO - 開始分割數據集
+2025-06-08 15:11:38,567 - windows_separate_桃園 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:11:38,568 - windows_separate_桃園 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:11:38,568 - windows_separate_桃園 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:11:43,414 - windows_separate_桃園 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_桃園_processed_processed_windows.npz
+2025-06-08 15:11:43,961 - windows_separate_桃園 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_桃園_processed_processed_windows.pt
+2025-06-08 15:11:43,962 - windows_separate_桃園 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:11:43,972 - trainer_separate_桃園 - INFO - 使用設備: cuda
+2025-06-08 15:11:43,973 - trainer_separate_桃園 - INFO - ==================================================
+2025-06-08 15:11:43,973 - trainer_separate_桃園 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:11:43,973 - trainer_separate_桃園 - INFO - ==================================================
+2025-06-08 15:11:43,973 - trainer_separate_桃園 - INFO - 載入訓練數據
+2025-06-08 15:11:44,893 - trainer_separate_桃園 - INFO - 訓練LightGBM模型...
+2025-06-08 15:11:44,893 - trainer_separate_桃園 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:11:44,893 - trainer_separate_桃園 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 15:11:44,893 - trainer_separate_桃園 - ERROR - LightGBM訓練失敗: 'UnifiedConfig' object has no attribute 'lightgbm'
+2025-06-08 15:11:44,893 - trainer_separate_桃園 - INFO - 訓練LSTM模型...
+2025-06-08 15:11:44,893 - trainer_separate_桃園 - INFO - 開始訓練LSTM模型
+2025-06-08 15:11:45,018 - trainer_separate_桃園 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 15:11:45,021 - trainer_separate_桃園 - ERROR - LSTM訓練失敗: 'UnifiedConfig' object has no attribute 'lstm'
+2025-06-08 15:11:45,023 - trainer_separate_桃園 - INFO - 模型訓練管道執行完成
+2025-06-08 15:14:51,900 - trainer_separate_桃園 - INFO - 使用設備: cuda
+2025-06-08 15:14:51,900 - trainer_separate_桃園 - INFO - ==================================================
+2025-06-08 15:14:51,900 - trainer_separate_桃園 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:14:51,900 - trainer_separate_桃園 - INFO - ==================================================
+2025-06-08 15:14:51,900 - trainer_separate_桃園 - INFO - 載入訓練數據
+2025-06-08 15:14:52,788 - trainer_separate_桃園 - INFO - 訓練LightGBM模型...
+2025-06-08 15:14:52,788 - trainer_separate_桃園 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:14:52,789 - trainer_separate_桃園 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 15:14:59,110 - trainer_separate_桃園 - INFO - LightGBM訓練完成: 6.24s
+2025-06-08 15:14:59,110 - trainer_separate_桃園 - INFO - 驗證集MAE: 2.7769
+2025-06-08 15:14:59,127 - trainer_separate_桃園 - INFO - 訓練LSTM模型...
+2025-06-08 15:14:59,127 - trainer_separate_桃園 - INFO - 開始訓練LSTM模型
+2025-06-08 15:14:59,240 - trainer_separate_桃園 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 15:15:01,992 - trainer_separate_桃園 - INFO - Epoch 0: Train Loss=154.092728, Val Loss=100.434880
+2025-06-08 15:15:09,832 - trainer_separate_桃園 - INFO - Epoch 10: Train Loss=18.393351, Val Loss=34.000412
+2025-06-08 15:15:15,166 - trainer_separate_桃園 - INFO - 早停於 epoch 17
+2025-06-08 15:15:15,553 - trainer_separate_桃園 - INFO - LSTM訓練完成: 16.05s
+2025-06-08 15:15:15,553 - trainer_separate_桃園 - INFO - 驗證集MAE: 3.1298
+2025-06-08 15:15:15,559 - trainer_separate_桃園 - INFO - 模型訓練管道執行完成

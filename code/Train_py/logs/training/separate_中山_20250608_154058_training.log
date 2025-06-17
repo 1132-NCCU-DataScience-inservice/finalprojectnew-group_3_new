@@ -1,0 +1,32 @@
+2025-06-08 15:40:58,592 - preprocessor_separate_中山 - INFO - ==================================================
+2025-06-08 15:40:58,592 - preprocessor_separate_中山 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:40:58,594 - preprocessor_separate_中山 - INFO - ==================================================
+2025-06-08 15:40:58,594 - preprocessor_separate_中山 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:40:58,594 - preprocessor_separate_中山 - INFO - 載入單一文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\中山_C0AH70_combined.csv
+2025-06-08 15:40:58,669 - preprocessor_separate_中山 - INFO - 數據驗證通過: (43584, 27), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:40:58,669 - preprocessor_separate_中山 - INFO - 原始數據載入完成: (43584, 27)
+2025-06-08 15:40:58,669 - preprocessor_separate_中山 - INFO - 開始數據預處理
+2025-06-08 15:40:58,669 - preprocessor_separate_中山 - INFO - 處理時間特徵
+2025-06-08 15:40:58,707 - preprocessor_separate_中山 - INFO - 執行特徵工程
+2025-06-08 15:40:58,740 - preprocessor_separate_中山 - INFO - 執行數據清理
+2025-06-08 15:40:58,918 - preprocessor_separate_中山 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:40:58,918 - preprocessor_separate_中山 - INFO - 執行特徵選擇
+2025-06-08 15:40:58,935 - preprocessor_separate_中山 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 15:40:58,939 - preprocessor_separate_中山 - INFO - 執行數據標準化
+2025-06-08 15:40:58,982 - preprocessor_separate_中山 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:40:58,983 - preprocessor_separate_中山 - INFO - 數據預處理完成: (43584, 94)
+2025-06-08 15:40:59,461 - preprocessor_separate_中山 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_中山_20250608_154058_processed.npz
+2025-06-08 15:40:59,461 - preprocessor_separate_中山 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:40:59,477 - preprocessor_separate_中山 - INFO - 預處理管道執行完成
+2025-06-08 15:40:59,477 - windows_separate_中山 - INFO - ==================================================
+2025-06-08 15:40:59,482 - windows_separate_中山 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:40:59,482 - windows_separate_中山 - INFO - ==================================================
+2025-06-08 15:40:59,482 - windows_separate_中山 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_中山_20250608_154058_processed.npz
+2025-06-08 15:40:59,534 - windows_separate_中山 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:40:59,534 - windows_separate_中山 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:40:59,534 - windows_separate_中山 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:40:59,645 - windows_separate_中山 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:40:59,645 - windows_separate_中山 - INFO - 開始分割數據集
+2025-06-08 15:40:59,645 - windows_separate_中山 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 15:40:59,645 - windows_separate_中山 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 15:40:59,645 - windows_separate_中山 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)

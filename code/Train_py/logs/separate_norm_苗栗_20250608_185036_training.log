@@ -1,0 +1,57 @@
+2025-06-08 18:50:36,413 - preprocessor_separate_norm_苗栗 - INFO - ==================================================
+2025-06-08 18:50:36,413 - preprocessor_separate_norm_苗栗 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:50:36,413 - preprocessor_separate_norm_苗栗 - INFO - ==================================================
+2025-06-08 18:50:36,414 - preprocessor_separate_norm_苗栗 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:50:36,414 - preprocessor_separate_norm_苗栗 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_苗栗_C0E750_combined.csv
+2025-06-08 18:50:36,519 - preprocessor_separate_norm_苗栗 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:50:36,550 - preprocessor_separate_norm_苗栗 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:50:36,550 - preprocessor_separate_norm_苗栗 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 18:50:36,550 - preprocessor_separate_norm_苗栗 - INFO - 開始數據預處理
+2025-06-08 18:50:36,550 - preprocessor_separate_norm_苗栗 - INFO - 處理時間特徵
+2025-06-08 18:50:36,550 - preprocessor_separate_norm_苗栗 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:50:36,562 - preprocessor_separate_norm_苗栗 - INFO - 執行特徵工程
+2025-06-08 18:50:36,594 - preprocessor_separate_norm_苗栗 - INFO - 執行數據清理
+2025-06-08 18:50:36,751 - preprocessor_separate_norm_苗栗 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:50:36,751 - preprocessor_separate_norm_苗栗 - INFO - 執行特徵選擇
+2025-06-08 18:50:36,751 - preprocessor_separate_norm_苗栗 - INFO - 特徵選擇完成: 69 個特徵, 19 個目標
+2025-06-08 18:50:36,765 - preprocessor_separate_norm_苗栗 - INFO - 數據預處理完成: (43584, 90)
+2025-06-08 18:50:37,293 - preprocessor_separate_norm_苗栗 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_苗栗_20250608_185036_processed.npz
+2025-06-08 18:50:37,293 - preprocessor_separate_norm_苗栗 - INFO - 數據形狀: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:50:37,293 - preprocessor_separate_norm_苗栗 - INFO - 預處理管道執行完成
+2025-06-08 18:50:37,302 - windows_separate_norm_苗栗 - INFO - ==================================================
+2025-06-08 18:50:37,302 - windows_separate_norm_苗栗 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:50:37,302 - windows_separate_norm_苗栗 - INFO - ==================================================
+2025-06-08 18:50:37,302 - windows_separate_norm_苗栗 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_苗栗_20250608_185036_processed.npz
+2025-06-08 18:50:37,387 - windows_separate_norm_苗栗 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:50:37,387 - windows_separate_norm_苗栗 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:50:37,387 - windows_separate_norm_苗栗 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:50:37,396 - windows_separate_norm_苗栗 - INFO - 處理 1 個測站的數據
+2025-06-08 18:50:37,496 - windows_separate_norm_苗栗 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:50:37,497 - windows_separate_norm_苗栗 - INFO - 測站 苗栗: 43555 個窗口
+2025-06-08 18:50:37,555 - windows_separate_norm_苗栗 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:50:37,570 - windows_separate_norm_苗栗 - INFO - 開始分割數據集
+2025-06-08 18:50:37,570 - windows_separate_norm_苗栗 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 19)
+2025-06-08 18:50:37,571 - windows_separate_norm_苗栗 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 19)
+2025-06-08 18:50:37,571 - windows_separate_norm_苗栗 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 19)
+2025-06-08 18:50:41,909 - windows_separate_norm_苗栗 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_苗栗_20250608_185036_windows.npz
+2025-06-08 18:50:42,445 - windows_separate_norm_苗栗 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_苗栗_20250608_185036_windows.pt
+2025-06-08 18:50:42,445 - windows_separate_norm_苗栗 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:50:42,471 - trainer_separate_norm_苗栗 - INFO - 使用設備: cuda
+2025-06-08 18:50:42,472 - trainer_separate_norm_苗栗 - INFO - ==================================================
+2025-06-08 18:50:42,472 - trainer_separate_norm_苗栗 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:50:42,472 - trainer_separate_norm_苗栗 - INFO - ==================================================
+2025-06-08 18:50:42,472 - trainer_separate_norm_苗栗 - INFO - 載入訓練數據
+2025-06-08 18:50:43,553 - trainer_separate_norm_苗栗 - INFO - 訓練LightGBM模型...
+2025-06-08 18:50:43,553 - trainer_separate_norm_苗栗 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:50:43,553 - trainer_separate_norm_苗栗 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 114)
+2025-06-08 18:50:54,275 - trainer_separate_norm_苗栗 - INFO - LightGBM訓練完成: 9.97s
+2025-06-08 18:50:54,275 - trainer_separate_norm_苗栗 - INFO - 驗證集MAE: 0.0794
+2025-06-08 18:50:54,307 - trainer_separate_norm_苗栗 - INFO - 訓練LSTM模型...
+2025-06-08 18:50:54,307 - trainer_separate_norm_苗栗 - INFO - 開始訓練LSTM模型
+2025-06-08 18:50:54,392 - trainer_separate_norm_苗栗 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 18:50:55,156 - trainer_separate_norm_苗栗 - INFO - Epoch 0: Train Loss=0.227921, Val Loss=0.178210
+2025-06-08 18:51:01,947 - trainer_separate_norm_苗栗 - INFO - Epoch 10: Train Loss=0.088913, Val Loss=0.196589
+2025-06-08 18:51:03,998 - trainer_separate_norm_苗栗 - INFO - 早停於 epoch 13
+2025-06-08 18:51:04,171 - trainer_separate_norm_苗栗 - INFO - LSTM訓練完成: 9.69s
+2025-06-08 18:51:04,171 - trainer_separate_norm_苗栗 - INFO - 驗證集MAE: 0.2976
+2025-06-08 18:51:04,171 - trainer_separate_norm_苗栗 - INFO - 模型訓練管道執行完成

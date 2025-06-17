@@ -1,0 +1,79 @@
+# AQI預測系統 - 基礎配置
+# Base Configuration for AQI Prediction System
+
+# 全域設置
+global:
+  project_name: "AQI_Prediction_System"
+  version: "2.0.0"
+  description: "統一的空氣品質預測系統"
+  random_seed: 42
+  debug: false
+
+# 路徑配置
+paths:
+  # 數據路徑
+  data:
+    raw: "data/raw"
+    processed: "data/processed"
+    windows: "data/windows"
+  
+  # 模型路徑
+  models:
+    lightgbm: "models/lightgbm"
+    lstm: "models/lstm"
+  
+  # 輸出路徑
+  outputs:
+    reports: "outputs/reports"
+    predictions: "outputs/predictions"
+    evaluations: "outputs/evaluations"
+    comparisons: "outputs/comparisons"
+  
+  # 日志路徑
+  logs:
+    training: "logs/training"
+    preprocessing: "logs/preprocessing"
+    evaluation: "logs/evaluation"
+    system: "logs/system"
+
+# 時間配置（統一）
+time_settings:
+  window_size: 24      # 輸入時間窗口（小時）
+  horizon: 6           # 預測時間範圍（小時）
+  stride: 1            # 滑動步長
+  train_ratio: 0.8     # 訓練集比例
+  val_ratio: 0.1       # 驗證集比例
+  test_ratio: 0.1      # 測試集比例
+
+# 硬體配置
+hardware:
+  use_gpu: true        # 是否使用GPU
+  device: "auto"       # 設備選擇（auto/cpu/cuda）
+  num_workers: 4       # 數據載入工作進程數
+  pin_memory: true     # 是否使用記憶體釘選
+  mixed_precision: true # 是否使用混合精度
+
+# 評估指標
+metrics:
+  primary: ["mae", "rmse", "mape", "r2"]
+  thresholds:
+    mae: 2.0          # MAE閾值
+    rmse: 3.0         # RMSE閾值
+    mape: 15.0        # MAPE閾值
+    r2: 0.7           # R²閾值
+
+# 研究標準
+research_standards:
+  reproducibility: true
+  cross_validation: 5
+  statistical_significance: 0.05
+  confidence_interval: 0.95
+  effect_size_threshold: 0.5
+
+# 日志設置
+logging:
+  level: "INFO"        # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_rotation: true  # 是否進行日志輪轉
+  max_size: "10MB"     # 單個日志文件最大大小
+  backup_count: 5      # 保留的備份日志文件數量 

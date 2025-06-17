@@ -1,0 +1,54 @@
+2025-06-08 15:34:27,761 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:34:27,761 - windows_separate_桃園 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:34:27,761 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:34:27,761 - windows_separate_桃園 - ERROR - 時間窗口生成管道執行失敗: 預處理數據不存在: D:\pythonWork\R_datascience\final\Train\data\processed\separate_桃園_20250608_153356_processed.npz
+2025-06-08 15:35:38,164 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:35:38,169 - windows_separate_桃園 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:35:38,169 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:35:38,169 - windows_separate_桃園 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_桃園_20250608_153356_processed.npz
+2025-06-08 15:35:38,213 - windows_separate_桃園 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:35:38,214 - windows_separate_桃園 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:35:38,214 - windows_separate_桃園 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:35:38,223 - windows_separate_桃園 - INFO - 處理 1 個測站的數據
+2025-06-08 15:35:38,327 - windows_separate_桃園 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:35:38,327 - windows_separate_桃園 - INFO - 測站 桃園: 43555 個窗口
+2025-06-08 15:35:38,386 - windows_separate_桃園 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:35:38,399 - windows_separate_桃園 - INFO - 開始分割數據集
+2025-06-08 15:35:38,399 - windows_separate_桃園 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:35:38,399 - windows_separate_桃園 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:35:38,400 - windows_separate_桃園 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:35:38,400 - windows_separate_桃園 - ERROR - 時間窗口生成管道執行失敗: [Errno 2] No such file or directory: 'D:\\pythonWork\\R_datascience\\final\\Train\\data\\sliding_windows\\separate\\separate_桃園_20250608_153356_windows.npz'
+2025-06-08 15:36:09,792 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:36:09,792 - windows_separate_桃園 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:36:09,792 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:36:09,792 - windows_separate_桃園 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_桃園_20250608_153356_processed.npz
+2025-06-08 15:36:09,835 - windows_separate_桃園 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:36:09,835 - windows_separate_桃園 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:36:09,835 - windows_separate_桃園 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:36:09,850 - windows_separate_桃園 - INFO - 處理 1 個測站的數據
+2025-06-08 15:36:09,949 - windows_separate_桃園 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:36:09,949 - windows_separate_桃園 - INFO - 測站 桃園: 43555 個窗口
+2025-06-08 15:36:10,015 - windows_separate_桃園 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:36:10,016 - windows_separate_桃園 - INFO - 開始分割數據集
+2025-06-08 15:36:10,016 - windows_separate_桃園 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:36:10,016 - windows_separate_桃園 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:36:10,016 - windows_separate_桃園 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:36:10,016 - windows_separate_桃園 - ERROR - 時間窗口生成管道執行失敗: [Errno 2] No such file or directory: 'D:\\pythonWork\\R_datascience\\final\\Train\\data\\sliding_windows\\separate\\separate_桃園_20250608_153356_windows.npz'
+2025-06-08 15:36:29,462 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:36:29,462 - windows_separate_桃園 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:36:29,462 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:36:29,462 - windows_separate_桃園 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_桃園_20250608_153356_processed.npz
+2025-06-08 15:36:29,512 - windows_separate_桃園 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:36:29,512 - windows_separate_桃園 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:36:29,512 - windows_separate_桃園 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:36:29,530 - windows_separate_桃園 - INFO - 處理 1 個測站的數據
+2025-06-08 15:36:29,629 - windows_separate_桃園 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:36:29,629 - windows_separate_桃園 - INFO - 測站 桃園: 43555 個窗口
+2025-06-08 15:36:29,704 - windows_separate_桃園 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:36:29,716 - windows_separate_桃園 - INFO - 開始分割數據集
+2025-06-08 15:36:29,716 - windows_separate_桃園 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:36:29,716 - windows_separate_桃園 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:36:29,717 - windows_separate_桃園 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:36:34,613 - windows_separate_桃園 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_桃園_20250608_153356_windows.npz
+2025-06-08 15:36:35,162 - windows_separate_桃園 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_桃園_20250608_153356_windows.pt
+2025-06-08 15:36:35,162 - windows_separate_桃園 - INFO - 時間窗口生成管道執行完成

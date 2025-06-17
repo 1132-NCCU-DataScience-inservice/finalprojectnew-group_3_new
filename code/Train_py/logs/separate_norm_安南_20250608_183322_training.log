@@ -1,0 +1,57 @@
+2025-06-08 18:33:22,903 - preprocessor_separate_norm_安南 - INFO - ==================================================
+2025-06-08 18:33:22,904 - preprocessor_separate_norm_安南 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:33:22,904 - preprocessor_separate_norm_安南 - INFO - ==================================================
+2025-06-08 18:33:22,904 - preprocessor_separate_norm_安南 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:33:22,905 - preprocessor_separate_norm_安南 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_安南_467420_combined.csv
+2025-06-08 18:33:23,011 - preprocessor_separate_norm_安南 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:33:23,042 - preprocessor_separate_norm_安南 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:33:23,044 - preprocessor_separate_norm_安南 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 18:33:23,044 - preprocessor_separate_norm_安南 - INFO - 開始數據預處理
+2025-06-08 18:33:23,044 - preprocessor_separate_norm_安南 - INFO - 處理時間特徵
+2025-06-08 18:33:23,044 - preprocessor_separate_norm_安南 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:33:23,055 - preprocessor_separate_norm_安南 - INFO - 執行特徵工程
+2025-06-08 18:33:23,086 - preprocessor_separate_norm_安南 - INFO - 執行數據清理
+2025-06-08 18:33:23,237 - preprocessor_separate_norm_安南 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:33:23,237 - preprocessor_separate_norm_安南 - INFO - 執行特徵選擇
+2025-06-08 18:33:23,253 - preprocessor_separate_norm_安南 - INFO - 特徵選擇完成: 69 個特徵, 19 個目標
+2025-06-08 18:33:23,253 - preprocessor_separate_norm_安南 - INFO - 數據預處理完成: (43584, 90)
+2025-06-08 18:33:23,780 - preprocessor_separate_norm_安南 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_安南_20250608_183322_processed.npz
+2025-06-08 18:33:23,780 - preprocessor_separate_norm_安南 - INFO - 數據形狀: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:33:23,780 - preprocessor_separate_norm_安南 - INFO - 預處理管道執行完成
+2025-06-08 18:33:23,795 - windows_separate_norm_安南 - INFO - ==================================================
+2025-06-08 18:33:23,795 - windows_separate_norm_安南 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:33:23,795 - windows_separate_norm_安南 - INFO - ==================================================
+2025-06-08 18:33:23,797 - windows_separate_norm_安南 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_安南_20250608_183322_processed.npz
+2025-06-08 18:33:23,880 - windows_separate_norm_安南 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:33:23,880 - windows_separate_norm_安南 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:33:23,881 - windows_separate_norm_安南 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:33:23,889 - windows_separate_norm_安南 - INFO - 處理 1 個測站的數據
+2025-06-08 18:33:23,990 - windows_separate_norm_安南 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:33:23,991 - windows_separate_norm_安南 - INFO - 測站 安南: 43555 個窗口
+2025-06-08 18:33:24,048 - windows_separate_norm_安南 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:33:24,060 - windows_separate_norm_安南 - INFO - 開始分割數據集
+2025-06-08 18:33:24,060 - windows_separate_norm_安南 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 19)
+2025-06-08 18:33:24,060 - windows_separate_norm_安南 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 19)
+2025-06-08 18:33:24,060 - windows_separate_norm_安南 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 19)
+2025-06-08 18:33:28,384 - windows_separate_norm_安南 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_安南_20250608_183322_windows.npz
+2025-06-08 18:33:28,886 - windows_separate_norm_安南 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_安南_20250608_183322_windows.pt
+2025-06-08 18:33:28,889 - windows_separate_norm_安南 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:33:28,902 - trainer_separate_norm_安南 - INFO - 使用設備: cuda
+2025-06-08 18:33:28,902 - trainer_separate_norm_安南 - INFO - ==================================================
+2025-06-08 18:33:28,902 - trainer_separate_norm_安南 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:33:28,902 - trainer_separate_norm_安南 - INFO - ==================================================
+2025-06-08 18:33:28,902 - trainer_separate_norm_安南 - INFO - 載入訓練數據
+2025-06-08 18:33:29,952 - trainer_separate_norm_安南 - INFO - 訓練LightGBM模型...
+2025-06-08 18:33:29,952 - trainer_separate_norm_安南 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:33:29,952 - trainer_separate_norm_安南 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 114)
+2025-06-08 18:33:39,175 - trainer_separate_norm_安南 - INFO - LightGBM訓練完成: 8.63s
+2025-06-08 18:33:39,175 - trainer_separate_norm_安南 - INFO - 驗證集MAE: 0.0620
+2025-06-08 18:33:39,202 - trainer_separate_norm_安南 - INFO - 訓練LSTM模型...
+2025-06-08 18:33:39,202 - trainer_separate_norm_安南 - INFO - 開始訓練LSTM模型
+2025-06-08 18:33:39,287 - trainer_separate_norm_安南 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 18:33:40,034 - trainer_separate_norm_安南 - INFO - Epoch 0: Train Loss=0.213676, Val Loss=0.136595
+2025-06-08 18:33:46,875 - trainer_separate_norm_安南 - INFO - Epoch 10: Train Loss=0.075174, Val Loss=0.150589
+2025-06-08 18:33:48,244 - trainer_separate_norm_安南 - INFO - 早停於 epoch 12
+2025-06-08 18:33:48,420 - trainer_separate_norm_安南 - INFO - LSTM訓練完成: 9.04s
+2025-06-08 18:33:48,420 - trainer_separate_norm_安南 - INFO - 驗證集MAE: 0.2594
+2025-06-08 18:33:48,436 - trainer_separate_norm_安南 - INFO - 模型訓練管道執行完成

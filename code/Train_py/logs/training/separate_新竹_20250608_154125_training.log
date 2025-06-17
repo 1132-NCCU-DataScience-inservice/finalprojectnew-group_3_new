@@ -1,0 +1,49 @@
+2025-06-08 15:41:25,252 - preprocessor_separate_新竹 - INFO - ==================================================
+2025-06-08 15:41:25,252 - preprocessor_separate_新竹 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:41:25,252 - preprocessor_separate_新竹 - INFO - ==================================================
+2025-06-08 15:41:25,252 - preprocessor_separate_新竹 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:41:25,267 - preprocessor_separate_新竹 - INFO - 載入單一文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\新竹_C0D660_combined.csv
+2025-06-08 15:41:25,352 - preprocessor_separate_新竹 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:41:25,352 - preprocessor_separate_新竹 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 15:41:25,352 - preprocessor_separate_新竹 - INFO - 開始數據預處理
+2025-06-08 15:41:25,352 - preprocessor_separate_新竹 - INFO - 處理時間特徵
+2025-06-08 15:41:25,386 - preprocessor_separate_新竹 - INFO - 執行特徵工程
+2025-06-08 15:41:25,419 - preprocessor_separate_新竹 - INFO - 執行數據清理
+2025-06-08 15:41:25,586 - preprocessor_separate_新竹 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:41:25,586 - preprocessor_separate_新竹 - INFO - 執行特徵選擇
+2025-06-08 15:41:25,586 - preprocessor_separate_新竹 - INFO - 特徵選擇完成: 74 個特徵, 21 個目標
+2025-06-08 15:41:25,586 - preprocessor_separate_新竹 - INFO - 執行數據標準化
+2025-06-08 15:41:25,651 - preprocessor_separate_新竹 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:41:25,652 - preprocessor_separate_新竹 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 15:41:26,122 - preprocessor_separate_新竹 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_新竹_20250608_154125_processed.npz
+2025-06-08 15:41:26,122 - preprocessor_separate_新竹 - INFO - 數據形狀: X=(43584, 74), y=(43584, 21)
+2025-06-08 15:41:26,122 - preprocessor_separate_新竹 - INFO - 預處理管道執行完成
+2025-06-08 15:41:26,122 - windows_separate_新竹 - INFO - ==================================================
+2025-06-08 15:41:26,122 - windows_separate_新竹 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:41:26,122 - windows_separate_新竹 - INFO - ==================================================
+2025-06-08 15:41:26,122 - windows_separate_新竹 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_新竹_20250608_154125_processed.npz
+2025-06-08 15:41:26,178 - windows_separate_新竹 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 21)
+2025-06-08 15:41:26,178 - windows_separate_新竹 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:41:26,178 - windows_separate_新竹 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:41:26,291 - windows_separate_新竹 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:41:26,291 - windows_separate_新竹 - INFO - 開始分割數據集
+2025-06-08 15:41:26,291 - windows_separate_新竹 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 21)
+2025-06-08 15:41:26,291 - windows_separate_新竹 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 21)
+2025-06-08 15:41:26,291 - windows_separate_新竹 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 21)
+2025-06-08 15:41:31,501 - windows_separate_新竹 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\windows\separate\separate_新竹_20250608_154125_windows.npz
+2025-06-08 15:41:32,138 - windows_separate_新竹 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\windows\separate\separate_新竹_20250608_154125_windows.pt
+2025-06-08 15:41:32,138 - windows_separate_新竹 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:41:32,160 - trainer_separate_新竹 - INFO - 使用設備: cuda
+2025-06-08 15:41:32,161 - trainer_separate_新竹 - INFO - ==================================================
+2025-06-08 15:41:32,161 - trainer_separate_新竹 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:41:32,161 - trainer_separate_新竹 - INFO - ==================================================
+2025-06-08 15:41:32,161 - trainer_separate_新竹 - INFO - 載入訓練數據
+2025-06-08 15:41:33,171 - trainer_separate_新竹 - INFO - 訓練LightGBM模型...
+2025-06-08 15:41:33,171 - trainer_separate_新竹 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:41:33,171 - trainer_separate_新竹 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 126)
+2025-06-08 15:41:33,171 - trainer_separate_新竹 - ERROR - LightGBM訓練失敗: 'ConfigManager' object has no attribute 'lgbm_config'
+2025-06-08 15:41:33,171 - trainer_separate_新竹 - INFO - 訓練LSTM模型...
+2025-06-08 15:41:33,171 - trainer_separate_新竹 - INFO - 開始訓練LSTM模型
+2025-06-08 15:41:33,223 - trainer_separate_新竹 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 21])
+2025-06-08 15:41:33,224 - trainer_separate_新竹 - ERROR - LSTM訓練失敗: 'ConfigManager' object has no attribute 'lstm_config'
+2025-06-08 15:41:33,225 - trainer_separate_新竹 - INFO - 模型訓練管道執行完成

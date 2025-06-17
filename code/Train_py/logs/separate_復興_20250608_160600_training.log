@@ -1,0 +1,59 @@
+2025-06-08 16:06:00,450 - preprocessor_separate_復興 - INFO - ==================================================
+2025-06-08 16:06:00,451 - preprocessor_separate_復興 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 16:06:00,451 - preprocessor_separate_復興 - INFO - ==================================================
+2025-06-08 16:06:00,451 - preprocessor_separate_復興 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 16:06:00,452 - preprocessor_separate_復興 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\復興_C0V710_combined.csv
+2025-06-08 16:06:00,514 - preprocessor_separate_復興 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 16:06:00,546 - preprocessor_separate_復興 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 16:06:00,546 - preprocessor_separate_復興 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 16:06:00,546 - preprocessor_separate_復興 - INFO - 開始數據預處理
+2025-06-08 16:06:00,547 - preprocessor_separate_復興 - INFO - 處理時間特徵
+2025-06-08 16:06:00,589 - preprocessor_separate_復興 - INFO - 執行特徵工程
+2025-06-08 16:06:00,631 - preprocessor_separate_復興 - INFO - 執行數據清理
+2025-06-08 16:06:00,827 - preprocessor_separate_復興 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 16:06:00,828 - preprocessor_separate_復興 - INFO - 執行特徵選擇
+2025-06-08 16:06:00,832 - preprocessor_separate_復興 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 16:06:00,833 - preprocessor_separate_復興 - INFO - 執行數據標準化
+2025-06-08 16:06:00,878 - preprocessor_separate_復興 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 16:06:00,879 - preprocessor_separate_復興 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 16:06:01,393 - preprocessor_separate_復興 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_復興_20250608_160600_processed.npz
+2025-06-08 16:06:01,394 - preprocessor_separate_復興 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 16:06:01,395 - preprocessor_separate_復興 - INFO - 預處理管道執行完成
+2025-06-08 16:06:01,397 - windows_separate_復興 - INFO - ==================================================
+2025-06-08 16:06:01,397 - windows_separate_復興 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 16:06:01,397 - windows_separate_復興 - INFO - ==================================================
+2025-06-08 16:06:01,398 - windows_separate_復興 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_復興_20250608_160600_processed.npz
+2025-06-08 16:06:01,466 - windows_separate_復興 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 16:06:01,466 - windows_separate_復興 - INFO - 開始創建滑動時間窗口
+2025-06-08 16:06:01,466 - windows_separate_復興 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 16:06:01,475 - windows_separate_復興 - INFO - 處理 1 個測站的數據
+2025-06-08 16:06:01,582 - windows_separate_復興 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 16:06:01,583 - windows_separate_復興 - INFO - 測站 復興: 43555 個窗口
+2025-06-08 16:06:01,647 - windows_separate_復興 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 16:06:01,664 - windows_separate_復興 - INFO - 開始分割數據集
+2025-06-08 16:06:01,664 - windows_separate_復興 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 16:06:01,664 - windows_separate_復興 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 16:06:01,665 - windows_separate_復興 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 16:06:06,617 - windows_separate_復興 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_復興_20250608_160600_windows.npz
+2025-06-08 16:06:07,214 - windows_separate_復興 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_復興_20250608_160600_windows.pt
+2025-06-08 16:06:07,215 - windows_separate_復興 - INFO - 時間窗口生成管道執行完成
+2025-06-08 16:06:07,233 - trainer_separate_復興 - INFO - 使用設備: cuda
+2025-06-08 16:06:07,233 - trainer_separate_復興 - INFO - ==================================================
+2025-06-08 16:06:07,233 - trainer_separate_復興 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 16:06:07,233 - trainer_separate_復興 - INFO - ==================================================
+2025-06-08 16:06:07,233 - trainer_separate_復興 - INFO - 載入訓練數據
+2025-06-08 16:06:08,487 - trainer_separate_復興 - INFO - 訓練LightGBM模型...
+2025-06-08 16:06:08,488 - trainer_separate_復興 - INFO - 開始訓練LightGBM模型
+2025-06-08 16:06:08,488 - trainer_separate_復興 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 16:06:18,981 - trainer_separate_復興 - INFO - LightGBM訓練完成: 10.14s
+2025-06-08 16:06:18,981 - trainer_separate_復興 - INFO - 驗證集MAE: 3.4306
+2025-06-08 16:06:19,012 - trainer_separate_復興 - INFO - 訓練LSTM模型...
+2025-06-08 16:06:19,012 - trainer_separate_復興 - INFO - 開始訓練LSTM模型
+2025-06-08 16:06:19,060 - trainer_separate_復興 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 16:06:19,954 - trainer_separate_復興 - INFO - Epoch 0: Train Loss=326.872895, Val Loss=181.813119
+2025-06-08 16:06:27,679 - trainer_separate_復興 - INFO - Epoch 10: Train Loss=31.383662, Val Loss=45.372612
+2025-06-08 16:06:35,609 - trainer_separate_復興 - INFO - Epoch 20: Train Loss=18.317978, Val Loss=47.887732
+2025-06-08 16:06:37,936 - trainer_separate_復興 - INFO - 早停於 epoch 23
+2025-06-08 16:06:38,134 - trainer_separate_復興 - INFO - LSTM訓練完成: 18.92s
+2025-06-08 16:06:38,134 - trainer_separate_復興 - INFO - 驗證集MAE: 3.4594
+2025-06-08 16:06:38,139 - trainer_separate_復興 - INFO - 模型訓練管道執行完成

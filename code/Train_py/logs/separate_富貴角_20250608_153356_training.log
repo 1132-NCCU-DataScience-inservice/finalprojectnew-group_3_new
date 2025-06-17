@@ -1,0 +1,4 @@
+2025-06-08 15:34:27,728 - windows_separate_富貴角 - INFO - ==================================================
+2025-06-08 15:34:27,729 - windows_separate_富貴角 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:34:27,729 - windows_separate_富貴角 - INFO - ==================================================
+2025-06-08 15:34:27,729 - windows_separate_富貴角 - ERROR - 時間窗口生成管道執行失敗: 預處理數據不存在: D:\pythonWork\R_datascience\final\Train\data\processed\separate_富貴角_20250608_153356_processed.npz

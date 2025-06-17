@@ -1,0 +1,57 @@
+2025-06-08 18:44:04,750 - preprocessor_separate_norm_橋頭 - INFO - ==================================================
+2025-06-08 18:44:04,751 - preprocessor_separate_norm_橋頭 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:44:04,751 - preprocessor_separate_norm_橋頭 - INFO - ==================================================
+2025-06-08 18:44:04,751 - preprocessor_separate_norm_橋頭 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:44:04,751 - preprocessor_separate_norm_橋頭 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_橋頭_C0V760_combined.csv
+2025-06-08 18:44:04,853 - preprocessor_separate_norm_橋頭 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:44:04,886 - preprocessor_separate_norm_橋頭 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:44:04,887 - preprocessor_separate_norm_橋頭 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 18:44:04,887 - preprocessor_separate_norm_橋頭 - INFO - 開始數據預處理
+2025-06-08 18:44:04,887 - preprocessor_separate_norm_橋頭 - INFO - 處理時間特徵
+2025-06-08 18:44:04,887 - preprocessor_separate_norm_橋頭 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:44:04,898 - preprocessor_separate_norm_橋頭 - INFO - 執行特徵工程
+2025-06-08 18:44:04,931 - preprocessor_separate_norm_橋頭 - INFO - 執行數據清理
+2025-06-08 18:44:05,093 - preprocessor_separate_norm_橋頭 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:44:05,093 - preprocessor_separate_norm_橋頭 - INFO - 執行特徵選擇
+2025-06-08 18:44:05,101 - preprocessor_separate_norm_橋頭 - INFO - 特徵選擇完成: 69 個特徵, 19 個目標
+2025-06-08 18:44:05,102 - preprocessor_separate_norm_橋頭 - INFO - 數據預處理完成: (43584, 90)
+2025-06-08 18:44:05,630 - preprocessor_separate_norm_橋頭 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_橋頭_20250608_184404_processed.npz
+2025-06-08 18:44:05,630 - preprocessor_separate_norm_橋頭 - INFO - 數據形狀: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:44:05,630 - preprocessor_separate_norm_橋頭 - INFO - 預處理管道執行完成
+2025-06-08 18:44:05,640 - windows_separate_norm_橋頭 - INFO - ==================================================
+2025-06-08 18:44:05,640 - windows_separate_norm_橋頭 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:44:05,640 - windows_separate_norm_橋頭 - INFO - ==================================================
+2025-06-08 18:44:05,640 - windows_separate_norm_橋頭 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_橋頭_20250608_184404_processed.npz
+2025-06-08 18:44:05,726 - windows_separate_norm_橋頭 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:44:05,727 - windows_separate_norm_橋頭 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:44:05,727 - windows_separate_norm_橋頭 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:44:05,736 - windows_separate_norm_橋頭 - INFO - 處理 1 個測站的數據
+2025-06-08 18:44:05,839 - windows_separate_norm_橋頭 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:44:05,839 - windows_separate_norm_橋頭 - INFO - 測站 橋頭: 43555 個窗口
+2025-06-08 18:44:05,897 - windows_separate_norm_橋頭 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:44:05,912 - windows_separate_norm_橋頭 - INFO - 開始分割數據集
+2025-06-08 18:44:05,912 - windows_separate_norm_橋頭 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 19)
+2025-06-08 18:44:05,912 - windows_separate_norm_橋頭 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 19)
+2025-06-08 18:44:05,913 - windows_separate_norm_橋頭 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 19)
+2025-06-08 18:44:10,252 - windows_separate_norm_橋頭 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_橋頭_20250608_184404_windows.npz
+2025-06-08 18:44:10,940 - windows_separate_norm_橋頭 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_橋頭_20250608_184404_windows.pt
+2025-06-08 18:44:10,940 - windows_separate_norm_橋頭 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:44:10,964 - trainer_separate_norm_橋頭 - INFO - 使用設備: cuda
+2025-06-08 18:44:10,964 - trainer_separate_norm_橋頭 - INFO - ==================================================
+2025-06-08 18:44:10,964 - trainer_separate_norm_橋頭 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:44:10,964 - trainer_separate_norm_橋頭 - INFO - ==================================================
+2025-06-08 18:44:10,965 - trainer_separate_norm_橋頭 - INFO - 載入訓練數據
+2025-06-08 18:44:12,015 - trainer_separate_norm_橋頭 - INFO - 訓練LightGBM模型...
+2025-06-08 18:44:12,015 - trainer_separate_norm_橋頭 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:44:12,015 - trainer_separate_norm_橋頭 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 114)
+2025-06-08 18:44:21,886 - trainer_separate_norm_橋頭 - INFO - LightGBM訓練完成: 9.16s
+2025-06-08 18:44:21,886 - trainer_separate_norm_橋頭 - INFO - 驗證集MAE: 0.0575
+2025-06-08 18:44:21,919 - trainer_separate_norm_橋頭 - INFO - 訓練LSTM模型...
+2025-06-08 18:44:21,919 - trainer_separate_norm_橋頭 - INFO - 開始訓練LSTM模型
+2025-06-08 18:44:22,003 - trainer_separate_norm_橋頭 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 18:44:22,835 - trainer_separate_norm_橋頭 - INFO - Epoch 0: Train Loss=0.224726, Val Loss=0.168353
+2025-06-08 18:44:29,660 - trainer_separate_norm_橋頭 - INFO - Epoch 10: Train Loss=0.088832, Val Loss=0.181048
+2025-06-08 18:44:32,360 - trainer_separate_norm_橋頭 - INFO - 早停於 epoch 14
+2025-06-08 18:44:32,532 - trainer_separate_norm_橋頭 - INFO - LSTM訓練完成: 10.44s
+2025-06-08 18:44:32,532 - trainer_separate_norm_橋頭 - INFO - 驗證集MAE: 0.2632
+2025-06-08 18:44:32,532 - trainer_separate_norm_橋頭 - INFO - 模型訓練管道執行完成

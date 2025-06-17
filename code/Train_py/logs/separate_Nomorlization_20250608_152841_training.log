@@ -1,0 +1,5 @@
+2025-06-08 15:28:41,445 - preprocessor_separate_Nomorlization - INFO - ==================================================
+2025-06-08 15:28:41,446 - preprocessor_separate_Nomorlization - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:28:41,446 - preprocessor_separate_Nomorlization - INFO - ==================================================
+2025-06-08 15:28:41,446 - preprocessor_separate_Nomorlization - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:28:41,446 - preprocessor_separate_Nomorlization - ERROR - 預處理管道執行失敗: 未找到匹配的數據文件: separate, station: Nomorlization

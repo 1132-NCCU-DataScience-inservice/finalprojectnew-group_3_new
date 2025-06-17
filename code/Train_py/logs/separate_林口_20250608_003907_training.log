@@ -1,0 +1,21 @@
+2025-06-08 00:39:07,803 - preprocessor_separate_林口 - INFO - ==================================================
+2025-06-08 00:39:07,803 - preprocessor_separate_林口 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 00:39:07,803 - preprocessor_separate_林口 - INFO - ==================================================
+2025-06-08 00:39:07,803 - preprocessor_separate_林口 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 00:39:07,803 - preprocessor_separate_林口 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\林口_C0AH50_combined.csv
+2025-06-08 00:39:07,876 - preprocessor_separate_林口 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 00:39:07,906 - preprocessor_separate_林口 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 00:39:07,906 - preprocessor_separate_林口 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 00:39:07,907 - preprocessor_separate_林口 - INFO - 開始數據預處理
+2025-06-08 00:39:07,907 - preprocessor_separate_林口 - INFO - 處理時間特徵
+2025-06-08 00:39:07,937 - preprocessor_separate_林口 - INFO - 執行特徵工程
+2025-06-08 00:39:07,974 - preprocessor_separate_林口 - INFO - 執行數據清理
+2025-06-08 00:39:08,116 - preprocessor_separate_林口 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 00:39:08,116 - preprocessor_separate_林口 - INFO - 執行特徵選擇
+2025-06-08 00:39:08,131 - preprocessor_separate_林口 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 00:39:08,135 - preprocessor_separate_林口 - INFO - 執行數據標準化
+2025-06-08 00:39:08,175 - preprocessor_separate_林口 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_scaler.pkl
+2025-06-08 00:39:08,176 - preprocessor_separate_林口 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 00:39:08,646 - preprocessor_separate_林口 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_林口_20250608_003907_processed.npz
+2025-06-08 00:39:08,646 - preprocessor_separate_林口 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 00:39:08,646 - preprocessor_separate_林口 - INFO - 預處理管道執行完成

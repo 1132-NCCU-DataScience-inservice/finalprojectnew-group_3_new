@@ -1,0 +1,50 @@
+2025-06-08 15:10:23,309 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-08 15:10:23,309 - preprocessor_separate_桃園 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:10:23,309 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-08 15:10:23,309 - preprocessor_separate_桃園 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:10:23,309 - preprocessor_separate_桃園 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\桃園_C0C480_combined.csv
+2025-06-08 15:10:23,375 - preprocessor_separate_桃園 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:10:23,408 - preprocessor_separate_桃園 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:10:23,408 - preprocessor_separate_桃園 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 15:10:23,409 - preprocessor_separate_桃園 - INFO - 開始數據預處理
+2025-06-08 15:10:23,409 - preprocessor_separate_桃園 - INFO - 處理時間特徵
+2025-06-08 15:10:23,448 - preprocessor_separate_桃園 - INFO - 執行特徵工程
+2025-06-08 15:10:23,481 - preprocessor_separate_桃園 - INFO - 執行數據清理
+2025-06-08 15:10:23,660 - preprocessor_separate_桃園 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:10:23,660 - preprocessor_separate_桃園 - INFO - 執行特徵選擇
+2025-06-08 15:10:23,660 - preprocessor_separate_桃園 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 15:10:23,660 - preprocessor_separate_桃園 - INFO - 執行數據標準化
+2025-06-08 15:10:23,716 - preprocessor_separate_桃園 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_scaler.pkl
+2025-06-08 15:10:23,717 - preprocessor_separate_桃園 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 15:10:24,175 - preprocessor_separate_桃園 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_桃園_150853_processed_processed.npz
+2025-06-08 15:10:24,175 - preprocessor_separate_桃園 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:10:24,191 - preprocessor_separate_桃園 - INFO - 預處理管道執行完成
+2025-06-08 15:10:24,191 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:10:24,191 - windows_separate_桃園 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:10:24,191 - windows_separate_桃園 - INFO - ==================================================
+2025-06-08 15:10:24,191 - windows_separate_桃園 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_桃園_150853_processed_processed.npz
+2025-06-08 15:10:24,247 - windows_separate_桃園 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:10:24,247 - windows_separate_桃園 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:10:24,247 - windows_separate_桃園 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:10:24,257 - windows_separate_桃園 - INFO - 處理 1 個測站的數據
+2025-06-08 15:10:24,359 - windows_separate_桃園 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:10:24,359 - windows_separate_桃園 - INFO - 測站 桃園: 43555 個窗口
+2025-06-08 15:10:24,424 - windows_separate_桃園 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:10:24,427 - windows_separate_桃園 - INFO - 開始分割數據集
+2025-06-08 15:10:24,427 - windows_separate_桃園 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:10:24,427 - windows_separate_桃園 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:10:24,427 - windows_separate_桃園 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:10:29,275 - windows_separate_桃園 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_桃園_150853_processed_windows.npz
+2025-06-08 15:10:29,844 - windows_separate_桃園 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_桃園_150853_processed_windows.pt
+2025-06-08 15:10:29,844 - windows_separate_桃園 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:10:29,860 - trainer_separate_桃園 - INFO - 使用設備: cuda
+2025-06-08 15:10:29,860 - trainer_separate_桃園 - INFO - ==================================================
+2025-06-08 15:10:29,860 - trainer_separate_桃園 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:10:29,860 - trainer_separate_桃園 - INFO - ==================================================
+2025-06-08 15:10:29,860 - trainer_separate_桃園 - INFO - 載入訓練數據
+2025-06-08 15:10:30,816 - trainer_separate_桃園 - ERROR - 訓練管道執行失敗: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL pathlib.WindowsPath was not an allowed global by default. Please use `torch.serialization.add_safe_globals([WindowsPath])` or the `torch.serialization.safe_globals([WindowsPath])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.

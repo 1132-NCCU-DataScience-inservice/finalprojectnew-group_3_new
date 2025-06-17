@@ -1,0 +1,59 @@
+2025-06-08 15:49:54,444 - preprocessor_separate_中壢 - INFO - ==================================================
+2025-06-08 15:49:54,444 - preprocessor_separate_中壢 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:49:54,445 - preprocessor_separate_中壢 - INFO - ==================================================
+2025-06-08 15:49:54,445 - preprocessor_separate_中壢 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:49:54,446 - preprocessor_separate_中壢 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\中壢_A2C560_combined.csv
+2025-06-08 15:49:54,497 - preprocessor_separate_中壢 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:49:54,530 - preprocessor_separate_中壢 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:49:54,530 - preprocessor_separate_中壢 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 15:49:54,530 - preprocessor_separate_中壢 - INFO - 開始數據預處理
+2025-06-08 15:49:54,530 - preprocessor_separate_中壢 - INFO - 處理時間特徵
+2025-06-08 15:49:54,568 - preprocessor_separate_中壢 - INFO - 執行特徵工程
+2025-06-08 15:49:54,597 - preprocessor_separate_中壢 - INFO - 執行數據清理
+2025-06-08 15:49:54,779 - preprocessor_separate_中壢 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:49:54,793 - preprocessor_separate_中壢 - INFO - 執行特徵選擇
+2025-06-08 15:49:54,793 - preprocessor_separate_中壢 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 15:49:54,798 - preprocessor_separate_中壢 - INFO - 執行數據標準化
+2025-06-08 15:49:54,841 - preprocessor_separate_中壢 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:49:54,842 - preprocessor_separate_中壢 - INFO - 數據預處理完成: (43584, 95)
+2025-06-08 15:49:55,351 - preprocessor_separate_中壢 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_中壢_20250608_154954_processed.npz
+2025-06-08 15:49:55,351 - preprocessor_separate_中壢 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:49:55,351 - preprocessor_separate_中壢 - INFO - 預處理管道執行完成
+2025-06-08 15:49:55,351 - windows_separate_中壢 - INFO - ==================================================
+2025-06-08 15:49:55,351 - windows_separate_中壢 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:49:55,358 - windows_separate_中壢 - INFO - ==================================================
+2025-06-08 15:49:55,358 - windows_separate_中壢 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_中壢_20250608_154954_processed.npz
+2025-06-08 15:49:55,413 - windows_separate_中壢 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:49:55,413 - windows_separate_中壢 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:49:55,413 - windows_separate_中壢 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:49:55,424 - windows_separate_中壢 - INFO - 處理 1 個測站的數據
+2025-06-08 15:49:55,530 - windows_separate_中壢 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:49:55,530 - windows_separate_中壢 - INFO - 測站 中壢: 43555 個窗口
+2025-06-08 15:49:55,593 - windows_separate_中壢 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:49:55,610 - windows_separate_中壢 - INFO - 開始分割數據集
+2025-06-08 15:49:55,610 - windows_separate_中壢 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 15:49:55,610 - windows_separate_中壢 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 15:49:55,611 - windows_separate_中壢 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)
+2025-06-08 15:50:00,548 - windows_separate_中壢 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_中壢_20250608_154954_windows.npz
+2025-06-08 15:50:01,140 - windows_separate_中壢 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_中壢_20250608_154954_windows.pt
+2025-06-08 15:50:01,140 - windows_separate_中壢 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:50:01,158 - trainer_separate_中壢 - INFO - 使用設備: cuda
+2025-06-08 15:50:01,160 - trainer_separate_中壢 - INFO - ==================================================
+2025-06-08 15:50:01,160 - trainer_separate_中壢 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:50:01,160 - trainer_separate_中壢 - INFO - ==================================================
+2025-06-08 15:50:01,160 - trainer_separate_中壢 - INFO - 載入訓練數據
+2025-06-08 15:50:02,120 - trainer_separate_中壢 - INFO - 訓練LightGBM模型...
+2025-06-08 15:50:02,120 - trainer_separate_中壢 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:50:02,121 - trainer_separate_中壢 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 114)
+2025-06-08 15:50:09,945 - trainer_separate_中壢 - INFO - LightGBM訓練完成: 7.73s
+2025-06-08 15:50:09,945 - trainer_separate_中壢 - INFO - 驗證集MAE: 3.2648
+2025-06-08 15:50:09,963 - trainer_separate_中壢 - INFO - 訓練LSTM模型...
+2025-06-08 15:50:09,963 - trainer_separate_中壢 - INFO - 開始訓練LSTM模型
+2025-06-08 15:50:10,054 - trainer_separate_中壢 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 15:50:10,873 - trainer_separate_中壢 - INFO - Epoch 0: Train Loss=226.531491, Val Loss=141.531723
+2025-06-08 15:50:18,406 - trainer_separate_中壢 - INFO - Epoch 10: Train Loss=34.641582, Val Loss=61.125787
+2025-06-08 15:50:26,175 - trainer_separate_中壢 - INFO - Epoch 20: Train Loss=19.820431, Val Loss=67.331120
+2025-06-08 15:50:27,675 - trainer_separate_中壢 - INFO - 早停於 epoch 22
+2025-06-08 15:50:27,856 - trainer_separate_中壢 - INFO - LSTM訓練完成: 17.71s
+2025-06-08 15:50:27,856 - trainer_separate_中壢 - INFO - 驗證集MAE: 4.2490
+2025-06-08 15:50:27,861 - trainer_separate_中壢 - INFO - 模型訓練管道執行完成

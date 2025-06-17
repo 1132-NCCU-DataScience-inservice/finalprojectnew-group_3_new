@@ -1,0 +1,8 @@
+{
+  "lightgbm": {
+    "error": "'ConfigManager' object has no attribute 'lgbm_config'"
+  },
+  "lstm": {
+    "error": "'ConfigManager' object has no attribute 'lstm_config'"
+  }
+}

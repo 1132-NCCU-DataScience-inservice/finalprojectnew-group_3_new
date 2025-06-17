@@ -1,0 +1,58 @@
+2025-06-08 15:52:16,489 - preprocessor_separate_冬山 - INFO - ==================================================
+2025-06-08 15:52:16,489 - preprocessor_separate_冬山 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:52:16,490 - preprocessor_separate_冬山 - INFO - ==================================================
+2025-06-08 15:52:16,490 - preprocessor_separate_冬山 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:52:16,491 - preprocessor_separate_冬山 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\冬山_C0U910_combined.csv
+2025-06-08 15:52:16,553 - preprocessor_separate_冬山 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:52:16,585 - preprocessor_separate_冬山 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:52:16,585 - preprocessor_separate_冬山 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 15:52:16,585 - preprocessor_separate_冬山 - INFO - 開始數據預處理
+2025-06-08 15:52:16,585 - preprocessor_separate_冬山 - INFO - 處理時間特徵
+2025-06-08 15:52:16,629 - preprocessor_separate_冬山 - INFO - 執行特徵工程
+2025-06-08 15:52:16,667 - preprocessor_separate_冬山 - INFO - 執行數據清理
+2025-06-08 15:52:16,844 - preprocessor_separate_冬山 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:52:16,845 - preprocessor_separate_冬山 - INFO - 執行特徵選擇
+2025-06-08 15:52:16,849 - preprocessor_separate_冬山 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 15:52:16,849 - preprocessor_separate_冬山 - INFO - 執行數據標準化
+2025-06-08 15:52:16,894 - preprocessor_separate_冬山 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:52:16,895 - preprocessor_separate_冬山 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 15:52:17,370 - preprocessor_separate_冬山 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_冬山_20250608_155216_processed.npz
+2025-06-08 15:52:17,370 - preprocessor_separate_冬山 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:52:17,371 - preprocessor_separate_冬山 - INFO - 預處理管道執行完成
+2025-06-08 15:52:17,373 - windows_separate_冬山 - INFO - ==================================================
+2025-06-08 15:52:17,373 - windows_separate_冬山 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:52:17,374 - windows_separate_冬山 - INFO - ==================================================
+2025-06-08 15:52:17,374 - windows_separate_冬山 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_冬山_20250608_155216_processed.npz
+2025-06-08 15:52:17,433 - windows_separate_冬山 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:52:17,433 - windows_separate_冬山 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:52:17,433 - windows_separate_冬山 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:52:17,443 - windows_separate_冬山 - INFO - 處理 1 個測站的數據
+2025-06-08 15:52:17,549 - windows_separate_冬山 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:52:17,549 - windows_separate_冬山 - INFO - 測站 冬山: 43555 個窗口
+2025-06-08 15:52:17,601 - windows_separate_冬山 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:52:17,622 - windows_separate_冬山 - INFO - 開始分割數據集
+2025-06-08 15:52:17,622 - windows_separate_冬山 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:52:17,622 - windows_separate_冬山 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:52:17,622 - windows_separate_冬山 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:52:22,504 - windows_separate_冬山 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_冬山_20250608_155216_windows.npz
+2025-06-08 15:52:23,096 - windows_separate_冬山 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_冬山_20250608_155216_windows.pt
+2025-06-08 15:52:23,097 - windows_separate_冬山 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:52:23,117 - trainer_separate_冬山 - INFO - 使用設備: cuda
+2025-06-08 15:52:23,118 - trainer_separate_冬山 - INFO - ==================================================
+2025-06-08 15:52:23,118 - trainer_separate_冬山 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:52:23,118 - trainer_separate_冬山 - INFO - ==================================================
+2025-06-08 15:52:23,118 - trainer_separate_冬山 - INFO - 載入訓練數據
+2025-06-08 15:52:24,152 - trainer_separate_冬山 - INFO - 訓練LightGBM模型...
+2025-06-08 15:52:24,152 - trainer_separate_冬山 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:52:24,152 - trainer_separate_冬山 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 15:52:30,397 - trainer_separate_冬山 - INFO - LightGBM訓練完成: 6.15s
+2025-06-08 15:52:30,397 - trainer_separate_冬山 - INFO - 驗證集MAE: 2.0414
+2025-06-08 15:52:30,420 - trainer_separate_冬山 - INFO - 訓練LSTM模型...
+2025-06-08 15:52:30,420 - trainer_separate_冬山 - INFO - 開始訓練LSTM模型
+2025-06-08 15:52:30,513 - trainer_separate_冬山 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 15:52:31,381 - trainer_separate_冬山 - INFO - Epoch 0: Train Loss=84.052879, Val Loss=61.402907
+2025-06-08 15:52:38,715 - trainer_separate_冬山 - INFO - Epoch 10: Train Loss=9.527757, Val Loss=20.275503
+2025-06-08 15:52:43,797 - trainer_separate_冬山 - INFO - 早停於 epoch 17
+2025-06-08 15:52:43,997 - trainer_separate_冬山 - INFO - LSTM訓練完成: 13.38s
+2025-06-08 15:52:43,997 - trainer_separate_冬山 - INFO - 驗證集MAE: 2.3868
+2025-06-08 15:52:43,998 - trainer_separate_冬山 - INFO - 模型訓練管道執行完成

@@ -1,0 +1,58 @@
+2025-06-08 16:07:13,245 - preprocessor_separate_恆春 - INFO - ==================================================
+2025-06-08 16:07:13,245 - preprocessor_separate_恆春 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 16:07:13,245 - preprocessor_separate_恆春 - INFO - ==================================================
+2025-06-08 16:07:13,245 - preprocessor_separate_恆春 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 16:07:13,246 - preprocessor_separate_恆春 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\恆春_B2Q810_combined.csv
+2025-06-08 16:07:13,305 - preprocessor_separate_恆春 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 16:07:13,337 - preprocessor_separate_恆春 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 16:07:13,337 - preprocessor_separate_恆春 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 16:07:13,337 - preprocessor_separate_恆春 - INFO - 開始數據預處理
+2025-06-08 16:07:13,337 - preprocessor_separate_恆春 - INFO - 處理時間特徵
+2025-06-08 16:07:13,386 - preprocessor_separate_恆春 - INFO - 執行特徵工程
+2025-06-08 16:07:13,430 - preprocessor_separate_恆春 - INFO - 執行數據清理
+2025-06-08 16:07:13,625 - preprocessor_separate_恆春 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 16:07:13,625 - preprocessor_separate_恆春 - INFO - 執行特徵選擇
+2025-06-08 16:07:13,632 - preprocessor_separate_恆春 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 16:07:13,633 - preprocessor_separate_恆春 - INFO - 執行數據標準化
+2025-06-08 16:07:13,675 - preprocessor_separate_恆春 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 16:07:13,675 - preprocessor_separate_恆春 - INFO - 數據預處理完成: (43584, 95)
+2025-06-08 16:07:14,075 - preprocessor_separate_恆春 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_恆春_20250608_160713_processed.npz
+2025-06-08 16:07:14,075 - preprocessor_separate_恆春 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 16:07:14,080 - preprocessor_separate_恆春 - INFO - 預處理管道執行完成
+2025-06-08 16:07:14,083 - windows_separate_恆春 - INFO - ==================================================
+2025-06-08 16:07:14,083 - windows_separate_恆春 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 16:07:14,083 - windows_separate_恆春 - INFO - ==================================================
+2025-06-08 16:07:14,083 - windows_separate_恆春 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_恆春_20250608_160713_processed.npz
+2025-06-08 16:07:14,146 - windows_separate_恆春 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 16:07:14,146 - windows_separate_恆春 - INFO - 開始創建滑動時間窗口
+2025-06-08 16:07:14,146 - windows_separate_恆春 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 16:07:14,156 - windows_separate_恆春 - INFO - 處理 1 個測站的數據
+2025-06-08 16:07:14,260 - windows_separate_恆春 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 16:07:14,260 - windows_separate_恆春 - INFO - 測站 恆春: 43555 個窗口
+2025-06-08 16:07:14,329 - windows_separate_恆春 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 16:07:14,346 - windows_separate_恆春 - INFO - 開始分割數據集
+2025-06-08 16:07:14,346 - windows_separate_恆春 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 16:07:14,346 - windows_separate_恆春 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 16:07:14,346 - windows_separate_恆春 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)
+2025-06-08 16:07:19,185 - windows_separate_恆春 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_恆春_20250608_160713_windows.npz
+2025-06-08 16:07:19,786 - windows_separate_恆春 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_恆春_20250608_160713_windows.pt
+2025-06-08 16:07:19,786 - windows_separate_恆春 - INFO - 時間窗口生成管道執行完成
+2025-06-08 16:07:19,811 - trainer_separate_恆春 - INFO - 使用設備: cuda
+2025-06-08 16:07:19,812 - trainer_separate_恆春 - INFO - ==================================================
+2025-06-08 16:07:19,812 - trainer_separate_恆春 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 16:07:19,812 - trainer_separate_恆春 - INFO - ==================================================
+2025-06-08 16:07:19,812 - trainer_separate_恆春 - INFO - 載入訓練數據
+2025-06-08 16:07:21,022 - trainer_separate_恆春 - INFO - 訓練LightGBM模型...
+2025-06-08 16:07:21,022 - trainer_separate_恆春 - INFO - 開始訓練LightGBM模型
+2025-06-08 16:07:21,022 - trainer_separate_恆春 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 114)
+2025-06-08 16:07:24,867 - trainer_separate_恆春 - INFO - LightGBM訓練完成: 3.73s
+2025-06-08 16:07:24,867 - trainer_separate_恆春 - INFO - 驗證集MAE: 1.3143
+2025-06-08 16:07:24,944 - trainer_separate_恆春 - INFO - 訓練LSTM模型...
+2025-06-08 16:07:24,944 - trainer_separate_恆春 - INFO - 開始訓練LSTM模型
+2025-06-08 16:07:24,959 - trainer_separate_恆春 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 16:07:25,879 - trainer_separate_恆春 - INFO - Epoch 0: Train Loss=109.411921, Val Loss=53.915974
+2025-06-08 16:07:33,892 - trainer_separate_恆春 - INFO - Epoch 10: Train Loss=5.687201, Val Loss=9.934959
+2025-06-08 16:07:39,277 - trainer_separate_恆春 - INFO - 早停於 epoch 17
+2025-06-08 16:07:39,485 - trainer_separate_恆春 - INFO - LSTM訓練完成: 14.33s
+2025-06-08 16:07:39,485 - trainer_separate_恆春 - INFO - 驗證集MAE: 1.4882
+2025-06-08 16:07:39,487 - trainer_separate_恆春 - INFO - 模型訓練管道執行完成

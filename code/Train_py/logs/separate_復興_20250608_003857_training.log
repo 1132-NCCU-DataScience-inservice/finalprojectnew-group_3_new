@@ -1,0 +1,21 @@
+2025-06-08 00:38:57,592 - preprocessor_separate_復興 - INFO - ==================================================
+2025-06-08 00:38:57,592 - preprocessor_separate_復興 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 00:38:57,592 - preprocessor_separate_復興 - INFO - ==================================================
+2025-06-08 00:38:57,592 - preprocessor_separate_復興 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 00:38:57,592 - preprocessor_separate_復興 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\復興_C0V710_combined.csv
+2025-06-08 00:38:57,658 - preprocessor_separate_復興 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 00:38:57,693 - preprocessor_separate_復興 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 00:38:57,693 - preprocessor_separate_復興 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 00:38:57,693 - preprocessor_separate_復興 - INFO - 開始數據預處理
+2025-06-08 00:38:57,693 - preprocessor_separate_復興 - INFO - 處理時間特徵
+2025-06-08 00:38:57,737 - preprocessor_separate_復興 - INFO - 執行特徵工程
+2025-06-08 00:38:57,767 - preprocessor_separate_復興 - INFO - 執行數據清理
+2025-06-08 00:38:57,919 - preprocessor_separate_復興 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 00:38:57,919 - preprocessor_separate_復興 - INFO - 執行特徵選擇
+2025-06-08 00:38:57,919 - preprocessor_separate_復興 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 00:38:57,933 - preprocessor_separate_復興 - INFO - 執行數據標準化
+2025-06-08 00:38:57,971 - preprocessor_separate_復興 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_scaler.pkl
+2025-06-08 00:38:57,971 - preprocessor_separate_復興 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 00:38:58,457 - preprocessor_separate_復興 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_復興_20250608_003857_processed.npz
+2025-06-08 00:38:58,457 - preprocessor_separate_復興 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 00:38:58,458 - preprocessor_separate_復興 - INFO - 預處理管道執行完成

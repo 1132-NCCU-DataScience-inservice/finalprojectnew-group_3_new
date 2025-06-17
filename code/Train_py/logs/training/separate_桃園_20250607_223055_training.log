@@ -1,0 +1,6 @@
+2025-06-07 22:30:55,491 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-07 22:30:55,491 - preprocessor_separate_桃園 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-07 22:30:55,491 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-07 22:30:55,491 - preprocessor_separate_桃園 - INFO - 開始載入 separate 模式的原始數據
+2025-06-07 22:30:55,491 - preprocessor_separate_桃園 - INFO - 載入單一文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\桃園_combined.csv
+2025-06-07 22:30:55,492 - preprocessor_separate_桃園 - ERROR - 預處理管道執行失敗: [Errno 2] No such file or directory: 'D:\\pythonWork\\R_datascience\\final\\Train\\data\\raw\\Separate\\桃園_combined.csv'

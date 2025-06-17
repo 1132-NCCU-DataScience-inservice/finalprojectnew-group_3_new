@@ -1,0 +1,58 @@
+2025-06-08 16:01:22,046 - preprocessor_separate_宜蘭 - INFO - ==================================================
+2025-06-08 16:01:22,046 - preprocessor_separate_宜蘭 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 16:01:22,046 - preprocessor_separate_宜蘭 - INFO - ==================================================
+2025-06-08 16:01:22,046 - preprocessor_separate_宜蘭 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 16:01:22,047 - preprocessor_separate_宜蘭 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\宜蘭_467080_combined.csv
+2025-06-08 16:01:22,109 - preprocessor_separate_宜蘭 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 16:01:22,145 - preprocessor_separate_宜蘭 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 16:01:22,145 - preprocessor_separate_宜蘭 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 16:01:22,146 - preprocessor_separate_宜蘭 - INFO - 開始數據預處理
+2025-06-08 16:01:22,146 - preprocessor_separate_宜蘭 - INFO - 處理時間特徵
+2025-06-08 16:01:22,185 - preprocessor_separate_宜蘭 - INFO - 執行特徵工程
+2025-06-08 16:01:22,229 - preprocessor_separate_宜蘭 - INFO - 執行數據清理
+2025-06-08 16:01:22,415 - preprocessor_separate_宜蘭 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 16:01:22,415 - preprocessor_separate_宜蘭 - INFO - 執行特徵選擇
+2025-06-08 16:01:22,420 - preprocessor_separate_宜蘭 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 16:01:22,425 - preprocessor_separate_宜蘭 - INFO - 執行數據標準化
+2025-06-08 16:01:22,466 - preprocessor_separate_宜蘭 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 16:01:22,466 - preprocessor_separate_宜蘭 - INFO - 數據預處理完成: (43584, 95)
+2025-06-08 16:01:22,939 - preprocessor_separate_宜蘭 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_宜蘭_20250608_160122_processed.npz
+2025-06-08 16:01:22,939 - preprocessor_separate_宜蘭 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 16:01:22,941 - preprocessor_separate_宜蘭 - INFO - 預處理管道執行完成
+2025-06-08 16:01:22,944 - windows_separate_宜蘭 - INFO - ==================================================
+2025-06-08 16:01:22,944 - windows_separate_宜蘭 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 16:01:22,944 - windows_separate_宜蘭 - INFO - ==================================================
+2025-06-08 16:01:22,944 - windows_separate_宜蘭 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_宜蘭_20250608_160122_processed.npz
+2025-06-08 16:01:23,005 - windows_separate_宜蘭 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 16:01:23,005 - windows_separate_宜蘭 - INFO - 開始創建滑動時間窗口
+2025-06-08 16:01:23,005 - windows_separate_宜蘭 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 16:01:23,015 - windows_separate_宜蘭 - INFO - 處理 1 個測站的數據
+2025-06-08 16:01:23,125 - windows_separate_宜蘭 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 16:01:23,125 - windows_separate_宜蘭 - INFO - 測站 宜蘭: 43555 個窗口
+2025-06-08 16:01:23,185 - windows_separate_宜蘭 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 16:01:23,204 - windows_separate_宜蘭 - INFO - 開始分割數據集
+2025-06-08 16:01:23,204 - windows_separate_宜蘭 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 16:01:23,204 - windows_separate_宜蘭 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 16:01:23,204 - windows_separate_宜蘭 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)
+2025-06-08 16:01:28,155 - windows_separate_宜蘭 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_宜蘭_20250608_160122_windows.npz
+2025-06-08 16:01:28,711 - windows_separate_宜蘭 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_宜蘭_20250608_160122_windows.pt
+2025-06-08 16:01:28,712 - windows_separate_宜蘭 - INFO - 時間窗口生成管道執行完成
+2025-06-08 16:01:28,729 - trainer_separate_宜蘭 - INFO - 使用設備: cuda
+2025-06-08 16:01:28,729 - trainer_separate_宜蘭 - INFO - ==================================================
+2025-06-08 16:01:28,730 - trainer_separate_宜蘭 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 16:01:28,730 - trainer_separate_宜蘭 - INFO - ==================================================
+2025-06-08 16:01:28,730 - trainer_separate_宜蘭 - INFO - 載入訓練數據
+2025-06-08 16:01:29,915 - trainer_separate_宜蘭 - INFO - 訓練LightGBM模型...
+2025-06-08 16:01:29,915 - trainer_separate_宜蘭 - INFO - 開始訓練LightGBM模型
+2025-06-08 16:01:29,915 - trainer_separate_宜蘭 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 114)
+2025-06-08 16:01:38,431 - trainer_separate_宜蘭 - INFO - LightGBM訓練完成: 8.15s
+2025-06-08 16:01:38,431 - trainer_separate_宜蘭 - INFO - 驗證集MAE: 2.0252
+2025-06-08 16:01:38,464 - trainer_separate_宜蘭 - INFO - 訓練LSTM模型...
+2025-06-08 16:01:38,465 - trainer_separate_宜蘭 - INFO - 開始訓練LSTM模型
+2025-06-08 16:01:38,561 - trainer_separate_宜蘭 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 16:01:39,431 - trainer_separate_宜蘭 - INFO - Epoch 0: Train Loss=93.211288, Val Loss=52.495938
+2025-06-08 16:01:46,915 - trainer_separate_宜蘭 - INFO - Epoch 10: Train Loss=7.416513, Val Loss=15.110826
+2025-06-08 16:01:52,845 - trainer_separate_宜蘭 - INFO - 早停於 epoch 18
+2025-06-08 16:01:53,032 - trainer_separate_宜蘭 - INFO - LSTM訓練完成: 14.38s
+2025-06-08 16:01:53,032 - trainer_separate_宜蘭 - INFO - 驗證集MAE: 2.0360
+2025-06-08 16:01:53,035 - trainer_separate_宜蘭 - INFO - 模型訓練管道執行完成

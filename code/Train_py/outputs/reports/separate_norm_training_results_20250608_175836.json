@@ -1,0 +1,17 @@
+{
+  "pipeline_mode": "separate_norm",
+  "total_runs": 1,
+  "successful_runs": 0,
+  "failed_runs": 1,
+  "success_rate": 0.0,
+  "results": [
+    {
+      "pipeline_mode": "separate_norm",
+      "station": "桃園",
+      "success": false,
+      "error": "'UnifiedConfig' object has no attribute 'is_normalized'",
+      "timestamp": "20250608_175836"
+    }
+  ],
+  "timestamp": "20250608_175836"
+}

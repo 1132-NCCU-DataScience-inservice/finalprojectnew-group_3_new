@@ -1,0 +1,58 @@
+2025-06-08 15:57:21,091 - preprocessor_separate_基隆 - INFO - ==================================================
+2025-06-08 15:57:21,091 - preprocessor_separate_基隆 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:57:21,091 - preprocessor_separate_基隆 - INFO - ==================================================
+2025-06-08 15:57:21,091 - preprocessor_separate_基隆 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:57:21,092 - preprocessor_separate_基隆 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\基隆_466940_combined.csv
+2025-06-08 15:57:21,154 - preprocessor_separate_基隆 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:57:21,185 - preprocessor_separate_基隆 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:57:21,185 - preprocessor_separate_基隆 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 15:57:21,185 - preprocessor_separate_基隆 - INFO - 開始數據預處理
+2025-06-08 15:57:21,185 - preprocessor_separate_基隆 - INFO - 處理時間特徵
+2025-06-08 15:57:21,224 - preprocessor_separate_基隆 - INFO - 執行特徵工程
+2025-06-08 15:57:21,257 - preprocessor_separate_基隆 - INFO - 執行數據清理
+2025-06-08 15:57:21,439 - preprocessor_separate_基隆 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:57:21,439 - preprocessor_separate_基隆 - INFO - 執行特徵選擇
+2025-06-08 15:57:21,453 - preprocessor_separate_基隆 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 15:57:21,455 - preprocessor_separate_基隆 - INFO - 執行數據標準化
+2025-06-08 15:57:21,500 - preprocessor_separate_基隆 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:57:21,501 - preprocessor_separate_基隆 - INFO - 數據預處理完成: (43584, 95)
+2025-06-08 15:57:21,973 - preprocessor_separate_基隆 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_基隆_20250608_155721_processed.npz
+2025-06-08 15:57:21,973 - preprocessor_separate_基隆 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:57:21,973 - preprocessor_separate_基隆 - INFO - 預處理管道執行完成
+2025-06-08 15:57:21,973 - windows_separate_基隆 - INFO - ==================================================
+2025-06-08 15:57:21,973 - windows_separate_基隆 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:57:21,973 - windows_separate_基隆 - INFO - ==================================================
+2025-06-08 15:57:21,973 - windows_separate_基隆 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_基隆_20250608_155721_processed.npz
+2025-06-08 15:57:22,041 - windows_separate_基隆 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:57:22,041 - windows_separate_基隆 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:57:22,041 - windows_separate_基隆 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:57:22,057 - windows_separate_基隆 - INFO - 處理 1 個測站的數據
+2025-06-08 15:57:22,166 - windows_separate_基隆 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:57:22,166 - windows_separate_基隆 - INFO - 測站 基隆: 43555 個窗口
+2025-06-08 15:57:22,231 - windows_separate_基隆 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:57:22,250 - windows_separate_基隆 - INFO - 開始分割數據集
+2025-06-08 15:57:22,250 - windows_separate_基隆 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 15:57:22,250 - windows_separate_基隆 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 15:57:22,250 - windows_separate_基隆 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)
+2025-06-08 15:57:27,297 - windows_separate_基隆 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_基隆_20250608_155721_windows.npz
+2025-06-08 15:57:27,873 - windows_separate_基隆 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_基隆_20250608_155721_windows.pt
+2025-06-08 15:57:27,873 - windows_separate_基隆 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:57:27,889 - trainer_separate_基隆 - INFO - 使用設備: cuda
+2025-06-08 15:57:27,889 - trainer_separate_基隆 - INFO - ==================================================
+2025-06-08 15:57:27,889 - trainer_separate_基隆 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:57:27,890 - trainer_separate_基隆 - INFO - ==================================================
+2025-06-08 15:57:27,890 - trainer_separate_基隆 - INFO - 載入訓練數據
+2025-06-08 15:57:29,039 - trainer_separate_基隆 - INFO - 訓練LightGBM模型...
+2025-06-08 15:57:29,039 - trainer_separate_基隆 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:57:29,039 - trainer_separate_基隆 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 114)
+2025-06-08 15:57:36,008 - trainer_separate_基隆 - INFO - LightGBM訓練完成: 6.67s
+2025-06-08 15:57:36,008 - trainer_separate_基隆 - INFO - 驗證集MAE: 2.6249
+2025-06-08 15:57:36,065 - trainer_separate_基隆 - INFO - 訓練LSTM模型...
+2025-06-08 15:57:36,065 - trainer_separate_基隆 - INFO - 開始訓練LSTM模型
+2025-06-08 15:57:36,156 - trainer_separate_基隆 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 15:57:37,010 - trainer_separate_基隆 - INFO - Epoch 0: Train Loss=139.779171, Val Loss=84.886905
+2025-06-08 15:57:44,424 - trainer_separate_基隆 - INFO - Epoch 10: Train Loss=14.823921, Val Loss=31.314628
+2025-06-08 15:57:48,898 - trainer_separate_基隆 - INFO - 早停於 epoch 16
+2025-06-08 15:57:49,091 - trainer_separate_基隆 - INFO - LSTM訓練完成: 12.83s
+2025-06-08 15:57:49,091 - trainer_separate_基隆 - INFO - 驗證集MAE: 2.9884
+2025-06-08 15:57:49,096 - trainer_separate_基隆 - INFO - 模型訓練管道執行完成

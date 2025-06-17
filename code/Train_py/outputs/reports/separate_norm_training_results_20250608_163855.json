@@ -1,0 +1,17 @@
+{
+  "pipeline_mode": "separate_norm",
+  "total_runs": 1,
+  "successful_runs": 0,
+  "failed_runs": 1,
+  "success_rate": 0.0,
+  "results": [
+    {
+      "pipeline_mode": "separate_norm",
+      "station": "桃園",
+      "success": false,
+      "error": "[Errno 2] No such file or directory: 'D:\\\\pythonWork\\\\R_datascience\\\\final\\\\Train\\\\data\\\\sliding_windows\\\\separate_norm\\\\separate_norm_桃園_20250608_163854_windows.npz'",
+      "timestamp": "20250608_163855"
+    }
+  ],
+  "timestamp": "20250608_163855"
+}

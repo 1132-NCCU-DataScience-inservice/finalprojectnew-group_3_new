@@ -1,0 +1,49 @@
+2025-06-08 15:42:28,361 - preprocessor_separate_楠梓 - INFO - ==================================================
+2025-06-08 15:42:28,361 - preprocessor_separate_楠梓 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:42:28,361 - preprocessor_separate_楠梓 - INFO - ==================================================
+2025-06-08 15:42:28,361 - preprocessor_separate_楠梓 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:42:28,363 - preprocessor_separate_楠梓 - INFO - 載入單一文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\楠梓_C0V770_combined.csv
+2025-06-08 15:42:28,454 - preprocessor_separate_楠梓 - INFO - 數據驗證通過: (43584, 27), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:42:28,454 - preprocessor_separate_楠梓 - INFO - 原始數據載入完成: (43584, 27)
+2025-06-08 15:42:28,454 - preprocessor_separate_楠梓 - INFO - 開始數據預處理
+2025-06-08 15:42:28,454 - preprocessor_separate_楠梓 - INFO - 處理時間特徵
+2025-06-08 15:42:28,493 - preprocessor_separate_楠梓 - INFO - 執行特徵工程
+2025-06-08 15:42:28,525 - preprocessor_separate_楠梓 - INFO - 執行數據清理
+2025-06-08 15:42:28,705 - preprocessor_separate_楠梓 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:42:28,711 - preprocessor_separate_楠梓 - INFO - 執行特徵選擇
+2025-06-08 15:42:28,716 - preprocessor_separate_楠梓 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 15:42:28,717 - preprocessor_separate_楠梓 - INFO - 執行數據標準化
+2025-06-08 15:42:28,761 - preprocessor_separate_楠梓 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:42:28,761 - preprocessor_separate_楠梓 - INFO - 數據預處理完成: (43584, 94)
+2025-06-08 15:42:29,267 - preprocessor_separate_楠梓 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_楠梓_20250608_154228_processed.npz
+2025-06-08 15:42:29,267 - preprocessor_separate_楠梓 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:42:29,269 - preprocessor_separate_楠梓 - INFO - 預處理管道執行完成
+2025-06-08 15:42:29,270 - windows_separate_楠梓 - INFO - ==================================================
+2025-06-08 15:42:29,270 - windows_separate_楠梓 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:42:29,270 - windows_separate_楠梓 - INFO - ==================================================
+2025-06-08 15:42:29,272 - windows_separate_楠梓 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_楠梓_20250608_154228_processed.npz
+2025-06-08 15:42:29,332 - windows_separate_楠梓 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 15:42:29,332 - windows_separate_楠梓 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:42:29,333 - windows_separate_楠梓 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:42:29,446 - windows_separate_楠梓 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:42:29,447 - windows_separate_楠梓 - INFO - 開始分割數據集
+2025-06-08 15:42:29,447 - windows_separate_楠梓 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 15:42:29,447 - windows_separate_楠梓 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 15:42:29,447 - windows_separate_楠梓 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)
+2025-06-08 15:42:34,492 - windows_separate_楠梓 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\windows\separate\separate_楠梓_20250608_154228_windows.npz
+2025-06-08 15:42:35,052 - windows_separate_楠梓 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\windows\separate\separate_楠梓_20250608_154228_windows.pt
+2025-06-08 15:42:35,053 - windows_separate_楠梓 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:42:35,069 - trainer_separate_楠梓 - INFO - 使用設備: cuda
+2025-06-08 15:42:35,069 - trainer_separate_楠梓 - INFO - ==================================================
+2025-06-08 15:42:35,069 - trainer_separate_楠梓 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:42:35,070 - trainer_separate_楠梓 - INFO - ==================================================
+2025-06-08 15:42:35,070 - trainer_separate_楠梓 - INFO - 載入訓練數據
+2025-06-08 15:42:36,002 - trainer_separate_楠梓 - INFO - 訓練LightGBM模型...
+2025-06-08 15:42:36,002 - trainer_separate_楠梓 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:42:36,002 - trainer_separate_楠梓 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 114)
+2025-06-08 15:42:36,002 - trainer_separate_楠梓 - ERROR - LightGBM訓練失敗: 'ConfigManager' object has no attribute 'lgbm_config'
+2025-06-08 15:42:36,002 - trainer_separate_楠梓 - INFO - 訓練LSTM模型...
+2025-06-08 15:42:36,002 - trainer_separate_楠梓 - INFO - 開始訓練LSTM模型
+2025-06-08 15:42:36,106 - trainer_separate_楠梓 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 15:42:36,106 - trainer_separate_楠梓 - ERROR - LSTM訓練失敗: 'ConfigManager' object has no attribute 'lstm_config'
+2025-06-08 15:42:36,107 - trainer_separate_楠梓 - INFO - 模型訓練管道執行完成

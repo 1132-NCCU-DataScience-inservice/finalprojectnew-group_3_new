@@ -1,0 +1,179 @@
+# 測站列表和配置
+# Station List and Configuration
+
+# 測站基本信息
+stations:
+  # 主要都市測站
+  major_cities:
+    - name: "桃園"
+      code: "C0C480"
+      region: "北部"
+      type: "urban"
+      population: "high"
+      priority: 1
+      
+    - name: "台北"
+      code: "C0AI30"
+      region: "北部"
+      type: "urban"
+      population: "high"
+      priority: 1
+      
+    - name: "新北"
+      code: "C0AH10"
+      region: "北部"
+      type: "urban"
+      population: "high"
+      priority: 1
+      
+    - name: "台中"
+      code: "C0F9U0"
+      region: "中部"
+      type: "urban"
+      population: "high"
+      priority: 1
+      
+    - name: "台南"
+      code: "467410"
+      region: "南部"
+      type: "urban"
+      population: "high"
+      priority: 1
+      
+    - name: "高雄"
+      code: "C0V810"
+      region: "南部"
+      type: "urban"
+      population: "high"
+      priority: 1
+
+  # 工業區測站
+  industrial:
+    - name: "麥寮"
+      code: "A2K360"
+      region: "中部"
+      type: "industrial"
+      population: "medium"
+      priority: 2
+      
+    - name: "林園"
+      code: "C0R640"
+      region: "南部"
+      type: "industrial"
+      population: "medium"
+      priority: 2
+
+  # 郊區測站
+  suburban:
+    - name: "陽明"
+      code: "466910"
+      region: "北部"
+      type: "suburban"
+      population: "low"
+      priority: 3
+      
+    - name: "恆春"
+      code: "B2Q810"
+      region: "南部"
+      type: "suburban"
+      population: "low"
+      priority: 3
+
+  # 離島測站
+  islands:
+    - name: "金門"
+      code: "C0W150"
+      region: "離島"
+      type: "island"
+      population: "low"
+      priority: 3
+      
+    - name: "馬祖"
+      code: "467990"
+      region: "離島"
+      type: "island"
+      population: "low"
+      priority: 3
+
+# 地理分組
+geographic_groups:
+  north:
+    - "桃園"
+    - "台北"
+    - "新北"
+    - "基隆"
+    - "新竹"
+    
+  central:
+    - "台中"
+    - "彰化"
+    - "南投"
+    - "雲林"
+    - "嘉義"
+    
+  south:
+    - "台南"
+    - "高雄"
+    - "屏東"
+    
+  east:
+    - "宜蘭"
+    - "花蓮"
+    - "台東"
+    
+  islands:
+    - "金門"
+    - "馬祖"
+    - "澎湖"
+
+# 測站特殊配置
+station_configs:
+  # 高污染測站（需要特殊處理）
+  high_pollution:
+    stations: ["麥寮", "林園", "大寮"]
+    special_features: ["industrial_index", "wind_direction"]
+    threshold_adjustment: 1.2
+    
+  # 交通熱點測站
+  traffic_hotspots:
+    stations: ["台北", "台中", "高雄"]
+    special_features: ["traffic_volume", "vehicle_count"]
+    peak_hours: [7, 8, 17, 18, 19]
+    
+  # 海邊測站
+  coastal:
+    stations: ["基隆", "高雄", "台南"]
+    special_features: ["sea_breeze", "humidity_high"]
+    salt_adjustment: true
+    
+  # 山區測站
+  mountainous:
+    stations: ["陽明", "日月潭"]
+    special_features: ["altitude", "mountain_breeze"]
+    temperature_adjustment: true
+
+# 訓練優先級
+training_priority:
+  priority_1:  # 高優先級：主要都市
+    - "桃園"
+    - "台北"
+    - "台中"
+    - "台南"
+    - "高雄"
+    
+  priority_2:  # 中優先級：工業區和重要郊區
+    - "麥寮"
+    - "林園"
+    - "新竹"
+    - "嘉義"
+    
+  priority_3:  # 低優先級：其他測站
+    - "金門"
+    - "馬祖"
+    - "恆春"
+
+# 預設測站（用於快速測試）
+default_stations:
+  development: ["桃園"]  # 開發測試用
+  validation: ["桃園", "台北", "台中"]  # 驗證用
+  production: "all"  # 生產環境使用全部測站 

@@ -1,0 +1,54 @@
+# station_specific模式配置
+# Pipeline Configuration for Station Specific Mode
+
+pipeline:
+  name: "station_specific"
+  description: "靈活指定特定測站進行定制化訓練"
+  type: "station_specific"
+  
+# 數據源配置
+data_source:
+  raw_dir: "data/raw"  # 支援多個來源目錄
+  file_pattern: "*_combined.csv"
+  station_pattern: "^([^_]+)_"  # 從檔名提取測站名稱的正則表達式
+  source_priority: ["Separate", "Separate_Nomorlization"]  # 數據源優先順序
+  
+# 預處理配置
+preprocessing:
+  normalization: "auto"  # auto, true, false - 自動檢測數據是否已標準化
+  station_specific: true
+  feature_selection:
+    method: "adaptive"  # adaptive, correlation, importance, variance
+    threshold: 0.01
+    
+# 輸出路徑配置
+output_paths:
+  processed_data: "data/processed/station_specific"
+  windows_data: "data/windows/station_specific"
+  models:
+    lightgbm: "models/lightgbm/station_specific"
+    lstm: "models/lstm/station_specific"
+  reports: "outputs/reports/station_specific"
+  predictions: "outputs/predictions"
+  evaluations: "outputs/evaluations"
+
+# 訓練配置
+training:
+  cross_validation: "optional"  # 可選擇是否使用交叉驗證
+  validation_strategy: "adaptive"  # adaptive, holdout, time_series_split
+  test_size: 0.1
+  
+# 特殊參數
+special_config:
+  station_isolation: true
+  local_features: true
+  meteorological_priority: true
+  seasonal_adjustment: true
+  custom_features: true
+  dynamic_window: false  # 是否支援動態時間窗口
+  
+# 批量處理配置
+batch_processing:
+  parallel: true
+  max_workers: 2
+  station_groups: "manual"  # manual - 手動指定測站 

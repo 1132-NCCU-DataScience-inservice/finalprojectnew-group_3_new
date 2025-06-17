@@ -1,0 +1,57 @@
+2025-06-08 18:35:30,554 - preprocessor_separate_norm_崙背 - INFO - ==================================================
+2025-06-08 18:35:30,554 - preprocessor_separate_norm_崙背 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:35:30,554 - preprocessor_separate_norm_崙背 - INFO - ==================================================
+2025-06-08 18:35:30,554 - preprocessor_separate_norm_崙背 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:35:30,555 - preprocessor_separate_norm_崙背 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_崙背_C0K250_combined.csv
+2025-06-08 18:35:30,662 - preprocessor_separate_norm_崙背 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:35:30,693 - preprocessor_separate_norm_崙背 - INFO - 數據驗證通過: (43584, 27), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:35:30,693 - preprocessor_separate_norm_崙背 - INFO - 原始數據載入完成: (43584, 27)
+2025-06-08 18:35:30,693 - preprocessor_separate_norm_崙背 - INFO - 開始數據預處理
+2025-06-08 18:35:30,693 - preprocessor_separate_norm_崙背 - INFO - 處理時間特徵
+2025-06-08 18:35:30,693 - preprocessor_separate_norm_崙背 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:35:30,705 - preprocessor_separate_norm_崙背 - INFO - 執行特徵工程
+2025-06-08 18:35:30,738 - preprocessor_separate_norm_崙背 - INFO - 執行數據清理
+2025-06-08 18:35:30,887 - preprocessor_separate_norm_崙背 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:35:30,887 - preprocessor_separate_norm_崙背 - INFO - 執行特徵選擇
+2025-06-08 18:35:30,902 - preprocessor_separate_norm_崙背 - INFO - 特徵選擇完成: 69 個特徵, 18 個目標
+2025-06-08 18:35:30,906 - preprocessor_separate_norm_崙背 - INFO - 數據預處理完成: (43584, 89)
+2025-06-08 18:35:31,446 - preprocessor_separate_norm_崙背 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_崙背_20250608_183530_processed.npz
+2025-06-08 18:35:31,446 - preprocessor_separate_norm_崙背 - INFO - 數據形狀: X=(43584, 69), y=(43584, 18)
+2025-06-08 18:35:31,446 - preprocessor_separate_norm_崙背 - INFO - 預處理管道執行完成
+2025-06-08 18:35:31,453 - windows_separate_norm_崙背 - INFO - ==================================================
+2025-06-08 18:35:31,453 - windows_separate_norm_崙背 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:35:31,453 - windows_separate_norm_崙背 - INFO - ==================================================
+2025-06-08 18:35:31,453 - windows_separate_norm_崙背 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_崙背_20250608_183530_processed.npz
+2025-06-08 18:35:31,535 - windows_separate_norm_崙背 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 18)
+2025-06-08 18:35:31,535 - windows_separate_norm_崙背 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:35:31,535 - windows_separate_norm_崙背 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:35:31,545 - windows_separate_norm_崙背 - INFO - 處理 1 個測站的數據
+2025-06-08 18:35:31,647 - windows_separate_norm_崙背 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:35:31,647 - windows_separate_norm_崙背 - INFO - 測站 崙背: 43555 個窗口
+2025-06-08 18:35:31,705 - windows_separate_norm_崙背 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:35:31,717 - windows_separate_norm_崙背 - INFO - 開始分割數據集
+2025-06-08 18:35:31,717 - windows_separate_norm_崙背 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 18)
+2025-06-08 18:35:31,717 - windows_separate_norm_崙背 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 18)
+2025-06-08 18:35:31,718 - windows_separate_norm_崙背 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 18)
+2025-06-08 18:35:36,126 - windows_separate_norm_崙背 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_崙背_20250608_183530_windows.npz
+2025-06-08 18:35:36,655 - windows_separate_norm_崙背 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_崙背_20250608_183530_windows.pt
+2025-06-08 18:35:36,655 - windows_separate_norm_崙背 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:35:36,669 - trainer_separate_norm_崙背 - INFO - 使用設備: cuda
+2025-06-08 18:35:36,670 - trainer_separate_norm_崙背 - INFO - ==================================================
+2025-06-08 18:35:36,670 - trainer_separate_norm_崙背 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:35:36,670 - trainer_separate_norm_崙背 - INFO - ==================================================
+2025-06-08 18:35:36,670 - trainer_separate_norm_崙背 - INFO - 載入訓練數據
+2025-06-08 18:35:37,732 - trainer_separate_norm_崙背 - INFO - 訓練LightGBM模型...
+2025-06-08 18:35:37,732 - trainer_separate_norm_崙背 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:35:37,732 - trainer_separate_norm_崙背 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 108)
+2025-06-08 18:35:46,802 - trainer_separate_norm_崙背 - INFO - LightGBM訓練完成: 8.57s
+2025-06-08 18:35:46,802 - trainer_separate_norm_崙背 - INFO - 驗證集MAE: 0.0728
+2025-06-08 18:35:46,833 - trainer_separate_norm_崙背 - INFO - 訓練LSTM模型...
+2025-06-08 18:35:46,834 - trainer_separate_norm_崙背 - INFO - 開始訓練LSTM模型
+2025-06-08 18:35:46,918 - trainer_separate_norm_崙背 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 18])
+2025-06-08 18:35:47,726 - trainer_separate_norm_崙背 - INFO - Epoch 0: Train Loss=0.251338, Val Loss=0.183439
+2025-06-08 18:35:54,546 - trainer_separate_norm_崙背 - INFO - Epoch 10: Train Loss=0.094025, Val Loss=0.204978
+2025-06-08 18:35:56,549 - trainer_separate_norm_崙背 - INFO - 早停於 epoch 13
+2025-06-08 18:35:56,722 - trainer_separate_norm_崙背 - INFO - LSTM訓練完成: 9.71s
+2025-06-08 18:35:56,722 - trainer_separate_norm_崙背 - INFO - 驗證集MAE: 0.3073
+2025-06-08 18:35:56,739 - trainer_separate_norm_崙背 - INFO - 模型訓練管道執行完成

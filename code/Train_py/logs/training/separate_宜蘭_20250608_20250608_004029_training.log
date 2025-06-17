@@ -1,0 +1,4 @@
+2025-06-08 00:40:29,972 - windows_separate_宜蘭_20250608 - INFO - ==================================================
+2025-06-08 00:40:29,972 - windows_separate_宜蘭_20250608 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 00:40:29,972 - windows_separate_宜蘭_20250608 - INFO - ==================================================
+2025-06-08 00:40:29,972 - windows_separate_宜蘭_20250608 - ERROR - 時間窗口生成管道執行失敗: 預處理數據不存在: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_宜蘭_20250608_20250608_004029_processed.npz

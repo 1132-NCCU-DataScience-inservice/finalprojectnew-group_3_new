@@ -1,0 +1,6 @@
+2025-06-08 15:29:45,888 - trainer_separate_土城 - INFO - 使用設備: cuda
+2025-06-08 15:29:45,888 - trainer_separate_土城 - INFO - ==================================================
+2025-06-08 15:29:45,888 - trainer_separate_土城 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:29:45,888 - trainer_separate_土城 - INFO - ==================================================
+2025-06-08 15:29:45,888 - trainer_separate_土城 - INFO - 載入訓練數據
+2025-06-08 15:29:45,888 - trainer_separate_土城 - ERROR - 訓練管道執行失敗: NumPy數據文件不存在: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_土城_20250608_152945_windows.npz

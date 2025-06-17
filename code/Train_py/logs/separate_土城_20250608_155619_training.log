@@ -1,0 +1,58 @@
+2025-06-08 15:56:19,159 - preprocessor_separate_土城 - INFO - ==================================================
+2025-06-08 15:56:19,160 - preprocessor_separate_土城 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:56:19,160 - preprocessor_separate_土城 - INFO - ==================================================
+2025-06-08 15:56:19,160 - preprocessor_separate_土城 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:56:19,161 - preprocessor_separate_土城 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\土城_C0AD40_combined.csv
+2025-06-08 15:56:19,223 - preprocessor_separate_土城 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:56:19,258 - preprocessor_separate_土城 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:56:19,258 - preprocessor_separate_土城 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 15:56:19,258 - preprocessor_separate_土城 - INFO - 開始數據預處理
+2025-06-08 15:56:19,258 - preprocessor_separate_土城 - INFO - 處理時間特徵
+2025-06-08 15:56:19,296 - preprocessor_separate_土城 - INFO - 執行特徵工程
+2025-06-08 15:56:19,343 - preprocessor_separate_土城 - INFO - 執行數據清理
+2025-06-08 15:56:19,533 - preprocessor_separate_土城 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:56:19,533 - preprocessor_separate_土城 - INFO - 執行特徵選擇
+2025-06-08 15:56:19,538 - preprocessor_separate_土城 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 15:56:19,539 - preprocessor_separate_土城 - INFO - 執行數據標準化
+2025-06-08 15:56:19,579 - preprocessor_separate_土城 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:56:19,579 - preprocessor_separate_土城 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 15:56:20,076 - preprocessor_separate_土城 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_土城_20250608_155619_processed.npz
+2025-06-08 15:56:20,077 - preprocessor_separate_土城 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:56:20,078 - preprocessor_separate_土城 - INFO - 預處理管道執行完成
+2025-06-08 15:56:20,080 - windows_separate_土城 - INFO - ==================================================
+2025-06-08 15:56:20,081 - windows_separate_土城 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:56:20,081 - windows_separate_土城 - INFO - ==================================================
+2025-06-08 15:56:20,081 - windows_separate_土城 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_土城_20250608_155619_processed.npz
+2025-06-08 15:56:20,144 - windows_separate_土城 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:56:20,145 - windows_separate_土城 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:56:20,145 - windows_separate_土城 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:56:20,153 - windows_separate_土城 - INFO - 處理 1 個測站的數據
+2025-06-08 15:56:20,262 - windows_separate_土城 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:56:20,262 - windows_separate_土城 - INFO - 測站 土城: 43555 個窗口
+2025-06-08 15:56:20,326 - windows_separate_土城 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:56:20,343 - windows_separate_土城 - INFO - 開始分割數據集
+2025-06-08 15:56:20,343 - windows_separate_土城 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:56:20,343 - windows_separate_土城 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:56:20,343 - windows_separate_土城 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:56:25,276 - windows_separate_土城 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_土城_20250608_155619_windows.npz
+2025-06-08 15:56:25,873 - windows_separate_土城 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_土城_20250608_155619_windows.pt
+2025-06-08 15:56:25,873 - windows_separate_土城 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:56:25,888 - trainer_separate_土城 - INFO - 使用設備: cuda
+2025-06-08 15:56:25,888 - trainer_separate_土城 - INFO - ==================================================
+2025-06-08 15:56:25,888 - trainer_separate_土城 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:56:25,888 - trainer_separate_土城 - INFO - ==================================================
+2025-06-08 15:56:25,888 - trainer_separate_土城 - INFO - 載入訓練數據
+2025-06-08 15:56:27,314 - trainer_separate_土城 - INFO - 訓練LightGBM模型...
+2025-06-08 15:56:27,314 - trainer_separate_土城 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:56:27,314 - trainer_separate_土城 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 15:56:33,970 - trainer_separate_土城 - INFO - LightGBM訓練完成: 6.39s
+2025-06-08 15:56:33,970 - trainer_separate_土城 - INFO - 驗證集MAE: 2.7773
+2025-06-08 15:56:33,997 - trainer_separate_土城 - INFO - 訓練LSTM模型...
+2025-06-08 15:56:33,997 - trainer_separate_土城 - INFO - 開始訓練LSTM模型
+2025-06-08 15:56:34,090 - trainer_separate_土城 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 15:56:34,918 - trainer_separate_土城 - INFO - Epoch 0: Train Loss=151.800156, Val Loss=109.519093
+2025-06-08 15:56:42,388 - trainer_separate_土城 - INFO - Epoch 10: Train Loss=19.566305, Val Loss=38.576207
+2025-06-08 15:56:47,553 - trainer_separate_土城 - INFO - 早停於 epoch 17
+2025-06-08 15:56:47,749 - trainer_separate_土城 - INFO - LSTM訓練完成: 13.56s
+2025-06-08 15:56:47,750 - trainer_separate_土城 - INFO - 驗證集MAE: 3.2502
+2025-06-08 15:56:47,755 - trainer_separate_土城 - INFO - 模型訓練管道執行完成

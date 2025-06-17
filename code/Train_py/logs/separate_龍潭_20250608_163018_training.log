@@ -1,0 +1,58 @@
+2025-06-08 16:30:18,038 - preprocessor_separate_龍潭 - INFO - ==================================================
+2025-06-08 16:30:18,038 - preprocessor_separate_龍潭 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 16:30:18,038 - preprocessor_separate_龍潭 - INFO - ==================================================
+2025-06-08 16:30:18,038 - preprocessor_separate_龍潭 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 16:30:18,038 - preprocessor_separate_龍潭 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\龍潭_C0C670_combined.csv
+2025-06-08 16:30:18,100 - preprocessor_separate_龍潭 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 16:30:18,133 - preprocessor_separate_龍潭 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 16:30:18,133 - preprocessor_separate_龍潭 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 16:30:18,133 - preprocessor_separate_龍潭 - INFO - 開始數據預處理
+2025-06-08 16:30:18,133 - preprocessor_separate_龍潭 - INFO - 處理時間特徵
+2025-06-08 16:30:18,172 - preprocessor_separate_龍潭 - INFO - 執行特徵工程
+2025-06-08 16:30:18,216 - preprocessor_separate_龍潭 - INFO - 執行數據清理
+2025-06-08 16:30:18,394 - preprocessor_separate_龍潭 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 16:30:18,394 - preprocessor_separate_龍潭 - INFO - 執行特徵選擇
+2025-06-08 16:30:18,411 - preprocessor_separate_龍潭 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 16:30:18,412 - preprocessor_separate_龍潭 - INFO - 執行數據標準化
+2025-06-08 16:30:18,450 - preprocessor_separate_龍潭 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 16:30:18,450 - preprocessor_separate_龍潭 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 16:30:18,918 - preprocessor_separate_龍潭 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_龍潭_20250608_163018_processed.npz
+2025-06-08 16:30:18,918 - preprocessor_separate_龍潭 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 16:30:18,918 - preprocessor_separate_龍潭 - INFO - 預處理管道執行完成
+2025-06-08 16:30:18,918 - windows_separate_龍潭 - INFO - ==================================================
+2025-06-08 16:30:18,918 - windows_separate_龍潭 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 16:30:18,918 - windows_separate_龍潭 - INFO - ==================================================
+2025-06-08 16:30:18,918 - windows_separate_龍潭 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_龍潭_20250608_163018_processed.npz
+2025-06-08 16:30:18,983 - windows_separate_龍潭 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 16:30:18,983 - windows_separate_龍潭 - INFO - 開始創建滑動時間窗口
+2025-06-08 16:30:18,983 - windows_separate_龍潭 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 16:30:19,002 - windows_separate_龍潭 - INFO - 處理 1 個測站的數據
+2025-06-08 16:30:19,108 - windows_separate_龍潭 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 16:30:19,109 - windows_separate_龍潭 - INFO - 測站 龍潭: 43555 個窗口
+2025-06-08 16:30:19,167 - windows_separate_龍潭 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 16:30:19,188 - windows_separate_龍潭 - INFO - 開始分割數據集
+2025-06-08 16:30:19,189 - windows_separate_龍潭 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 16:30:19,189 - windows_separate_龍潭 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 16:30:19,189 - windows_separate_龍潭 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 16:30:23,987 - windows_separate_龍潭 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_龍潭_20250608_163018_windows.npz
+2025-06-08 16:30:24,714 - windows_separate_龍潭 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_龍潭_20250608_163018_windows.pt
+2025-06-08 16:30:24,714 - windows_separate_龍潭 - INFO - 時間窗口生成管道執行完成
+2025-06-08 16:30:24,732 - trainer_separate_龍潭 - INFO - 使用設備: cuda
+2025-06-08 16:30:24,733 - trainer_separate_龍潭 - INFO - ==================================================
+2025-06-08 16:30:24,733 - trainer_separate_龍潭 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 16:30:24,733 - trainer_separate_龍潭 - INFO - ==================================================
+2025-06-08 16:30:24,733 - trainer_separate_龍潭 - INFO - 載入訓練數據
+2025-06-08 16:30:25,919 - trainer_separate_龍潭 - INFO - 訓練LightGBM模型...
+2025-06-08 16:30:25,920 - trainer_separate_龍潭 - INFO - 開始訓練LightGBM模型
+2025-06-08 16:30:25,920 - trainer_separate_龍潭 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 16:30:34,561 - trainer_separate_龍潭 - INFO - LightGBM訓練完成: 8.43s
+2025-06-08 16:30:34,561 - trainer_separate_龍潭 - INFO - 驗證集MAE: 2.8385
+2025-06-08 16:30:34,595 - trainer_separate_龍潭 - INFO - 訓練LSTM模型...
+2025-06-08 16:30:34,595 - trainer_separate_龍潭 - INFO - 開始訓練LSTM模型
+2025-06-08 16:30:34,684 - trainer_separate_龍潭 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 16:30:35,518 - trainer_separate_龍潭 - INFO - Epoch 0: Train Loss=148.330496, Val Loss=93.786355
+2025-06-08 16:30:42,625 - trainer_separate_龍潭 - INFO - Epoch 10: Train Loss=16.116077, Val Loss=33.274857
+2025-06-08 16:30:48,879 - trainer_separate_龍潭 - INFO - 早停於 epoch 19
+2025-06-08 16:30:49,062 - trainer_separate_龍潭 - INFO - LSTM訓練完成: 14.28s
+2025-06-08 16:30:49,062 - trainer_separate_龍潭 - INFO - 驗證集MAE: 2.9959
+2025-06-08 16:30:49,062 - trainer_separate_龍潭 - INFO - 模型訓練管道執行完成

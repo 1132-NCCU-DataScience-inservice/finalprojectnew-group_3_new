@@ -1,0 +1,21 @@
+2025-06-08 00:39:12,965 - preprocessor_separate_汐止 - INFO - ==================================================
+2025-06-08 00:39:12,965 - preprocessor_separate_汐止 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 00:39:12,965 - preprocessor_separate_汐止 - INFO - ==================================================
+2025-06-08 00:39:12,965 - preprocessor_separate_汐止 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 00:39:12,966 - preprocessor_separate_汐止 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\汐止_C0AH00_combined.csv
+2025-06-08 00:39:13,021 - preprocessor_separate_汐止 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 00:39:13,058 - preprocessor_separate_汐止 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 00:39:13,058 - preprocessor_separate_汐止 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 00:39:13,058 - preprocessor_separate_汐止 - INFO - 開始數據預處理
+2025-06-08 00:39:13,058 - preprocessor_separate_汐止 - INFO - 處理時間特徵
+2025-06-08 00:39:13,104 - preprocessor_separate_汐止 - INFO - 執行特徵工程
+2025-06-08 00:39:13,138 - preprocessor_separate_汐止 - INFO - 執行數據清理
+2025-06-08 00:39:13,292 - preprocessor_separate_汐止 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 00:39:13,293 - preprocessor_separate_汐止 - INFO - 執行特徵選擇
+2025-06-08 00:39:13,295 - preprocessor_separate_汐止 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 00:39:13,297 - preprocessor_separate_汐止 - INFO - 執行數據標準化
+2025-06-08 00:39:13,340 - preprocessor_separate_汐止 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_scaler.pkl
+2025-06-08 00:39:13,340 - preprocessor_separate_汐止 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 00:39:13,813 - preprocessor_separate_汐止 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_汐止_20250608_003912_processed.npz
+2025-06-08 00:39:13,813 - preprocessor_separate_汐止 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 00:39:13,813 - preprocessor_separate_汐止 - INFO - 預處理管道執行完成

@@ -1,0 +1,15 @@
+2025-06-07 22:31:39,802 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-07 22:31:39,802 - preprocessor_separate_桃園 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-07 22:31:39,803 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-07 22:31:39,803 - preprocessor_separate_桃園 - INFO - 開始載入 separate 模式的原始數據
+2025-06-07 22:31:39,803 - preprocessor_separate_桃園 - INFO - 載入單一文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\桃園_C0C480_combined.csv
+2025-06-07 22:31:39,887 - preprocessor_separate_桃園 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-07 22:31:39,890 - preprocessor_separate_桃園 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-07 22:31:39,890 - preprocessor_separate_桃園 - INFO - 開始數據預處理
+2025-06-07 22:31:39,890 - preprocessor_separate_桃園 - INFO - 處理時間特徵
+2025-06-07 22:31:39,930 - preprocessor_separate_桃園 - INFO - 執行特徵工程
+2025-06-07 22:31:39,954 - preprocessor_separate_桃園 - INFO - 執行數據清理
+2025-06-07 22:31:40,137 - preprocessor_separate_桃園 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-07 22:31:40,137 - preprocessor_separate_桃園 - INFO - 執行特徵選擇
+2025-06-07 22:31:40,137 - preprocessor_separate_桃園 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-07 22:31:40,137 - preprocessor_separate_桃園 - ERROR - 預處理管道執行失敗: 'dict' object has no attribute 'is_normalized'

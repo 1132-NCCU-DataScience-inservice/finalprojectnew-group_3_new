@@ -1,0 +1,59 @@
+2025-06-08 15:53:22,207 - preprocessor_separate_前鎮 - INFO - ==================================================
+2025-06-08 15:53:22,207 - preprocessor_separate_前鎮 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:53:22,207 - preprocessor_separate_前鎮 - INFO - ==================================================
+2025-06-08 15:53:22,207 - preprocessor_separate_前鎮 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:53:22,208 - preprocessor_separate_前鎮 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\前鎮_C0V490_combined.csv
+2025-06-08 15:53:22,272 - preprocessor_separate_前鎮 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:53:22,303 - preprocessor_separate_前鎮 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:53:22,303 - preprocessor_separate_前鎮 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 15:53:22,304 - preprocessor_separate_前鎮 - INFO - 開始數據預處理
+2025-06-08 15:53:22,304 - preprocessor_separate_前鎮 - INFO - 處理時間特徵
+2025-06-08 15:53:22,349 - preprocessor_separate_前鎮 - INFO - 執行特徵工程
+2025-06-08 15:53:22,386 - preprocessor_separate_前鎮 - INFO - 執行數據清理
+2025-06-08 15:53:22,562 - preprocessor_separate_前鎮 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:53:22,563 - preprocessor_separate_前鎮 - INFO - 執行特徵選擇
+2025-06-08 15:53:22,567 - preprocessor_separate_前鎮 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 15:53:22,569 - preprocessor_separate_前鎮 - INFO - 執行數據標準化
+2025-06-08 15:53:22,611 - preprocessor_separate_前鎮 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:53:22,611 - preprocessor_separate_前鎮 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 15:53:23,101 - preprocessor_separate_前鎮 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_前鎮_20250608_155322_processed.npz
+2025-06-08 15:53:23,101 - preprocessor_separate_前鎮 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:53:23,101 - preprocessor_separate_前鎮 - INFO - 預處理管道執行完成
+2025-06-08 15:53:23,101 - windows_separate_前鎮 - INFO - ==================================================
+2025-06-08 15:53:23,101 - windows_separate_前鎮 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:53:23,101 - windows_separate_前鎮 - INFO - ==================================================
+2025-06-08 15:53:23,101 - windows_separate_前鎮 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_前鎮_20250608_155322_processed.npz
+2025-06-08 15:53:23,172 - windows_separate_前鎮 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:53:23,172 - windows_separate_前鎮 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:53:23,173 - windows_separate_前鎮 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:53:23,183 - windows_separate_前鎮 - INFO - 處理 1 個測站的數據
+2025-06-08 15:53:23,292 - windows_separate_前鎮 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:53:23,292 - windows_separate_前鎮 - INFO - 測站 前鎮: 43555 個窗口
+2025-06-08 15:53:23,355 - windows_separate_前鎮 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:53:23,371 - windows_separate_前鎮 - INFO - 開始分割數據集
+2025-06-08 15:53:23,372 - windows_separate_前鎮 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:53:23,372 - windows_separate_前鎮 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:53:23,372 - windows_separate_前鎮 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:53:28,534 - windows_separate_前鎮 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_前鎮_20250608_155322_windows.npz
+2025-06-08 15:53:29,119 - windows_separate_前鎮 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_前鎮_20250608_155322_windows.pt
+2025-06-08 15:53:29,119 - windows_separate_前鎮 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:53:29,136 - trainer_separate_前鎮 - INFO - 使用設備: cuda
+2025-06-08 15:53:29,136 - trainer_separate_前鎮 - INFO - ==================================================
+2025-06-08 15:53:29,136 - trainer_separate_前鎮 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:53:29,136 - trainer_separate_前鎮 - INFO - ==================================================
+2025-06-08 15:53:29,136 - trainer_separate_前鎮 - INFO - 載入訓練數據
+2025-06-08 15:53:30,201 - trainer_separate_前鎮 - INFO - 訓練LightGBM模型...
+2025-06-08 15:53:30,201 - trainer_separate_前鎮 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:53:30,201 - trainer_separate_前鎮 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 15:53:39,306 - trainer_separate_前鎮 - INFO - LightGBM訓練完成: 8.92s
+2025-06-08 15:53:39,306 - trainer_separate_前鎮 - INFO - 驗證集MAE: 3.3105
+2025-06-08 15:53:39,333 - trainer_separate_前鎮 - INFO - 訓練LSTM模型...
+2025-06-08 15:53:39,333 - trainer_separate_前鎮 - INFO - 開始訓練LSTM模型
+2025-06-08 15:53:39,425 - trainer_separate_前鎮 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 15:53:40,250 - trainer_separate_前鎮 - INFO - Epoch 0: Train Loss=341.745782, Val Loss=183.623939
+2025-06-08 15:53:47,640 - trainer_separate_前鎮 - INFO - Epoch 10: Train Loss=35.197410, Val Loss=49.241280
+2025-06-08 15:53:55,314 - trainer_separate_前鎮 - INFO - Epoch 20: Train Loss=21.034709, Val Loss=50.388556
+2025-06-08 15:53:58,296 - trainer_separate_前鎮 - INFO - 早停於 epoch 24
+2025-06-08 15:53:58,485 - trainer_separate_前鎮 - INFO - LSTM訓練完成: 18.96s
+2025-06-08 15:53:58,485 - trainer_separate_前鎮 - INFO - 驗證集MAE: 3.5625
+2025-06-08 15:53:58,491 - trainer_separate_前鎮 - INFO - 模型訓練管道執行完成

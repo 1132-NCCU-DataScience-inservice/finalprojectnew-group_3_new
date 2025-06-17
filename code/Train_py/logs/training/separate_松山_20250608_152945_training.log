@@ -1,0 +1,4 @@
+2025-06-08 15:29:45,179 - windows_separate_松山 - INFO - ==================================================
+2025-06-08 15:29:45,179 - windows_separate_松山 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:29:45,179 - windows_separate_松山 - INFO - ==================================================
+2025-06-08 15:29:45,179 - windows_separate_松山 - ERROR - 時間窗口生成管道執行失敗: 預處理數據不存在: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_松山_20250608_152945_processed.npz

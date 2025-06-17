@@ -1,0 +1,57 @@
+2025-06-08 18:47:05,014 - preprocessor_separate_norm_竹山 - INFO - ==================================================
+2025-06-08 18:47:05,014 - preprocessor_separate_norm_竹山 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:47:05,014 - preprocessor_separate_norm_竹山 - INFO - ==================================================
+2025-06-08 18:47:05,014 - preprocessor_separate_norm_竹山 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:47:05,015 - preprocessor_separate_norm_竹山 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_竹山_U2HA50_combined.csv
+2025-06-08 18:47:05,117 - preprocessor_separate_norm_竹山 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:47:05,154 - preprocessor_separate_norm_竹山 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:47:05,155 - preprocessor_separate_norm_竹山 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 18:47:05,155 - preprocessor_separate_norm_竹山 - INFO - 開始數據預處理
+2025-06-08 18:47:05,155 - preprocessor_separate_norm_竹山 - INFO - 處理時間特徵
+2025-06-08 18:47:05,155 - preprocessor_separate_norm_竹山 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:47:05,167 - preprocessor_separate_norm_竹山 - INFO - 執行特徵工程
+2025-06-08 18:47:05,199 - preprocessor_separate_norm_竹山 - INFO - 執行數據清理
+2025-06-08 18:47:05,363 - preprocessor_separate_norm_竹山 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:47:05,364 - preprocessor_separate_norm_竹山 - INFO - 執行特徵選擇
+2025-06-08 18:47:05,369 - preprocessor_separate_norm_竹山 - INFO - 特徵選擇完成: 69 個特徵, 19 個目標
+2025-06-08 18:47:05,370 - preprocessor_separate_norm_竹山 - INFO - 數據預處理完成: (43584, 90)
+2025-06-08 18:47:05,897 - preprocessor_separate_norm_竹山 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_竹山_20250608_184705_processed.npz
+2025-06-08 18:47:05,897 - preprocessor_separate_norm_竹山 - INFO - 數據形狀: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:47:05,901 - preprocessor_separate_norm_竹山 - INFO - 預處理管道執行完成
+2025-06-08 18:47:05,903 - windows_separate_norm_竹山 - INFO - ==================================================
+2025-06-08 18:47:05,903 - windows_separate_norm_竹山 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:47:05,903 - windows_separate_norm_竹山 - INFO - ==================================================
+2025-06-08 18:47:05,903 - windows_separate_norm_竹山 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_竹山_20250608_184705_processed.npz
+2025-06-08 18:47:05,987 - windows_separate_norm_竹山 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:47:05,987 - windows_separate_norm_竹山 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:47:05,987 - windows_separate_norm_竹山 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:47:05,996 - windows_separate_norm_竹山 - INFO - 處理 1 個測站的數據
+2025-06-08 18:47:06,102 - windows_separate_norm_竹山 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:47:06,102 - windows_separate_norm_竹山 - INFO - 測站 竹山: 43555 個窗口
+2025-06-08 18:47:06,161 - windows_separate_norm_竹山 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:47:06,177 - windows_separate_norm_竹山 - INFO - 開始分割數據集
+2025-06-08 18:47:06,177 - windows_separate_norm_竹山 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 19)
+2025-06-08 18:47:06,178 - windows_separate_norm_竹山 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 19)
+2025-06-08 18:47:06,178 - windows_separate_norm_竹山 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 19)
+2025-06-08 18:47:10,496 - windows_separate_norm_竹山 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_竹山_20250608_184705_windows.npz
+2025-06-08 18:47:10,969 - windows_separate_norm_竹山 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_竹山_20250608_184705_windows.pt
+2025-06-08 18:47:10,969 - windows_separate_norm_竹山 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:47:10,996 - trainer_separate_norm_竹山 - INFO - 使用設備: cuda
+2025-06-08 18:47:10,996 - trainer_separate_norm_竹山 - INFO - ==================================================
+2025-06-08 18:47:10,997 - trainer_separate_norm_竹山 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:47:10,997 - trainer_separate_norm_竹山 - INFO - ==================================================
+2025-06-08 18:47:10,997 - trainer_separate_norm_竹山 - INFO - 載入訓練數據
+2025-06-08 18:47:12,018 - trainer_separate_norm_竹山 - INFO - 訓練LightGBM模型...
+2025-06-08 18:47:12,018 - trainer_separate_norm_竹山 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:47:12,034 - trainer_separate_norm_竹山 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 114)
+2025-06-08 18:47:24,183 - trainer_separate_norm_竹山 - INFO - LightGBM訓練完成: 11.56s
+2025-06-08 18:47:24,183 - trainer_separate_norm_竹山 - INFO - 驗證集MAE: 0.0538
+2025-06-08 18:47:24,214 - trainer_separate_norm_竹山 - INFO - 訓練LSTM模型...
+2025-06-08 18:47:24,214 - trainer_separate_norm_竹山 - INFO - 開始訓練LSTM模型
+2025-06-08 18:47:24,299 - trainer_separate_norm_竹山 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 18:47:25,067 - trainer_separate_norm_竹山 - INFO - Epoch 0: Train Loss=0.205025, Val Loss=0.147473
+2025-06-08 18:47:31,840 - trainer_separate_norm_竹山 - INFO - Epoch 10: Train Loss=0.078202, Val Loss=0.144732
+2025-06-08 18:47:34,577 - trainer_separate_norm_竹山 - INFO - 早停於 epoch 14
+2025-06-08 18:47:34,769 - trainer_separate_norm_竹山 - INFO - LSTM訓練完成: 10.36s
+2025-06-08 18:47:34,769 - trainer_separate_norm_竹山 - INFO - 驗證集MAE: 0.2451
+2025-06-08 18:47:34,772 - trainer_separate_norm_竹山 - INFO - 模型訓練管道執行完成

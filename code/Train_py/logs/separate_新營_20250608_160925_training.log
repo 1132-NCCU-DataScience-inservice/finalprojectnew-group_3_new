@@ -1,0 +1,58 @@
+2025-06-08 16:09:25,288 - preprocessor_separate_新營 - INFO - ==================================================
+2025-06-08 16:09:25,288 - preprocessor_separate_新營 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 16:09:25,289 - preprocessor_separate_新營 - INFO - ==================================================
+2025-06-08 16:09:25,289 - preprocessor_separate_新營 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 16:09:25,290 - preprocessor_separate_新營 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\新營_C0X250_combined.csv
+2025-06-08 16:09:25,358 - preprocessor_separate_新營 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 16:09:25,394 - preprocessor_separate_新營 - INFO - 數據驗證通過: (43584, 27), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 16:09:25,394 - preprocessor_separate_新營 - INFO - 原始數據載入完成: (43584, 27)
+2025-06-08 16:09:25,394 - preprocessor_separate_新營 - INFO - 開始數據預處理
+2025-06-08 16:09:25,394 - preprocessor_separate_新營 - INFO - 處理時間特徵
+2025-06-08 16:09:25,437 - preprocessor_separate_新營 - INFO - 執行特徵工程
+2025-06-08 16:09:25,479 - preprocessor_separate_新營 - INFO - 執行數據清理
+2025-06-08 16:09:25,667 - preprocessor_separate_新營 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 16:09:25,668 - preprocessor_separate_新營 - INFO - 執行特徵選擇
+2025-06-08 16:09:25,673 - preprocessor_separate_新營 - INFO - 特徵選擇完成: 74 個特徵, 18 個目標
+2025-06-08 16:09:25,674 - preprocessor_separate_新營 - INFO - 執行數據標準化
+2025-06-08 16:09:25,720 - preprocessor_separate_新營 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 16:09:25,721 - preprocessor_separate_新營 - INFO - 數據預處理完成: (43584, 94)
+2025-06-08 16:09:26,200 - preprocessor_separate_新營 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_新營_20250608_160925_processed.npz
+2025-06-08 16:09:26,200 - preprocessor_separate_新營 - INFO - 數據形狀: X=(43584, 74), y=(43584, 18)
+2025-06-08 16:09:26,201 - preprocessor_separate_新營 - INFO - 預處理管道執行完成
+2025-06-08 16:09:26,204 - windows_separate_新營 - INFO - ==================================================
+2025-06-08 16:09:26,204 - windows_separate_新營 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 16:09:26,204 - windows_separate_新營 - INFO - ==================================================
+2025-06-08 16:09:26,204 - windows_separate_新營 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_新營_20250608_160925_processed.npz
+2025-06-08 16:09:26,272 - windows_separate_新營 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 18)
+2025-06-08 16:09:26,272 - windows_separate_新營 - INFO - 開始創建滑動時間窗口
+2025-06-08 16:09:26,272 - windows_separate_新營 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 16:09:26,282 - windows_separate_新營 - INFO - 處理 1 個測站的數據
+2025-06-08 16:09:26,392 - windows_separate_新營 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 16:09:26,393 - windows_separate_新營 - INFO - 測站 新營: 43555 個窗口
+2025-06-08 16:09:26,455 - windows_separate_新營 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 16:09:26,473 - windows_separate_新營 - INFO - 開始分割數據集
+2025-06-08 16:09:26,473 - windows_separate_新營 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 18)
+2025-06-08 16:09:26,473 - windows_separate_新營 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 18)
+2025-06-08 16:09:26,473 - windows_separate_新營 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 18)
+2025-06-08 16:09:31,606 - windows_separate_新營 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_新營_20250608_160925_windows.npz
+2025-06-08 16:09:32,199 - windows_separate_新營 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_新營_20250608_160925_windows.pt
+2025-06-08 16:09:32,199 - windows_separate_新營 - INFO - 時間窗口生成管道執行完成
+2025-06-08 16:09:32,220 - trainer_separate_新營 - INFO - 使用設備: cuda
+2025-06-08 16:09:32,220 - trainer_separate_新營 - INFO - ==================================================
+2025-06-08 16:09:32,220 - trainer_separate_新營 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 16:09:32,220 - trainer_separate_新營 - INFO - ==================================================
+2025-06-08 16:09:32,220 - trainer_separate_新營 - INFO - 載入訓練數據
+2025-06-08 16:09:33,457 - trainer_separate_新營 - INFO - 訓練LightGBM模型...
+2025-06-08 16:09:33,458 - trainer_separate_新營 - INFO - 開始訓練LightGBM模型
+2025-06-08 16:09:33,458 - trainer_separate_新營 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 108)
+2025-06-08 16:09:47,879 - trainer_separate_新營 - INFO - LightGBM訓練完成: 14.07s
+2025-06-08 16:09:47,880 - trainer_separate_新營 - INFO - 驗證集MAE: 2.9292
+2025-06-08 16:09:47,911 - trainer_separate_新營 - INFO - 訓練LSTM模型...
+2025-06-08 16:09:47,911 - trainer_separate_新營 - INFO - 開始訓練LSTM模型
+2025-06-08 16:09:47,995 - trainer_separate_新營 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 18])
+2025-06-08 16:09:48,833 - trainer_separate_新營 - INFO - Epoch 0: Train Loss=328.453617, Val Loss=169.932970
+2025-06-08 16:09:56,501 - trainer_separate_新營 - INFO - Epoch 10: Train Loss=30.487321, Val Loss=44.878016
+2025-06-08 16:10:02,730 - trainer_separate_新營 - INFO - 早停於 epoch 18
+2025-06-08 16:10:02,927 - trainer_separate_新營 - INFO - LSTM訓練完成: 14.82s
+2025-06-08 16:10:02,927 - trainer_separate_新營 - INFO - 驗證集MAE: 3.4996
+2025-06-08 16:10:02,950 - trainer_separate_新營 - INFO - 模型訓練管道執行完成

@@ -1,0 +1,21 @@
+2025-06-08 00:39:00,086 - preprocessor_separate_斗六 - INFO - ==================================================
+2025-06-08 00:39:00,086 - preprocessor_separate_斗六 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 00:39:00,086 - preprocessor_separate_斗六 - INFO - ==================================================
+2025-06-08 00:39:00,086 - preprocessor_separate_斗六 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 00:39:00,086 - preprocessor_separate_斗六 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\斗六_C0K400_combined.csv
+2025-06-08 00:39:00,144 - preprocessor_separate_斗六 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 00:39:00,187 - preprocessor_separate_斗六 - INFO - 數據驗證通過: (43584, 27), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 00:39:00,187 - preprocessor_separate_斗六 - INFO - 原始數據載入完成: (43584, 27)
+2025-06-08 00:39:00,187 - preprocessor_separate_斗六 - INFO - 開始數據預處理
+2025-06-08 00:39:00,187 - preprocessor_separate_斗六 - INFO - 處理時間特徵
+2025-06-08 00:39:00,228 - preprocessor_separate_斗六 - INFO - 執行特徵工程
+2025-06-08 00:39:00,254 - preprocessor_separate_斗六 - INFO - 執行數據清理
+2025-06-08 00:39:00,428 - preprocessor_separate_斗六 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 00:39:00,431 - preprocessor_separate_斗六 - INFO - 執行特徵選擇
+2025-06-08 00:39:00,435 - preprocessor_separate_斗六 - INFO - 特徵選擇完成: 74 個特徵, 18 個目標
+2025-06-08 00:39:00,437 - preprocessor_separate_斗六 - INFO - 執行數據標準化
+2025-06-08 00:39:00,483 - preprocessor_separate_斗六 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_scaler.pkl
+2025-06-08 00:39:00,484 - preprocessor_separate_斗六 - INFO - 數據預處理完成: (43584, 94)
+2025-06-08 00:39:00,947 - preprocessor_separate_斗六 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_斗六_20250608_003900_processed.npz
+2025-06-08 00:39:00,947 - preprocessor_separate_斗六 - INFO - 數據形狀: X=(43584, 74), y=(43584, 18)
+2025-06-08 00:39:00,962 - preprocessor_separate_斗六 - INFO - 預處理管道執行完成

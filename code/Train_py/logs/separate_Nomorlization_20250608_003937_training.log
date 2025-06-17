@@ -1,0 +1,6 @@
+2025-06-08 00:39:37,133 - trainer_separate_Nomorlization - INFO - 使用設備: cuda
+2025-06-08 00:39:37,133 - trainer_separate_Nomorlization - INFO - ==================================================
+2025-06-08 00:39:37,133 - trainer_separate_Nomorlization - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 00:39:37,133 - trainer_separate_Nomorlization - INFO - ==================================================
+2025-06-08 00:39:37,133 - trainer_separate_Nomorlization - INFO - 載入訓練數據
+2025-06-08 00:39:37,133 - trainer_separate_Nomorlization - ERROR - 訓練管道執行失敗: NumPy數據文件不存在: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_Nomorlization_20250608_003937_windows.npz

@@ -1,0 +1,58 @@
+2025-06-08 16:26:45,750 - preprocessor_separate_豐原 - INFO - ==================================================
+2025-06-08 16:26:45,750 - preprocessor_separate_豐原 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 16:26:45,750 - preprocessor_separate_豐原 - INFO - ==================================================
+2025-06-08 16:26:45,750 - preprocessor_separate_豐原 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 16:26:45,750 - preprocessor_separate_豐原 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\豐原_C0F9M0_combined.csv
+2025-06-08 16:26:45,813 - preprocessor_separate_豐原 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 16:26:45,833 - preprocessor_separate_豐原 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 16:26:45,833 - preprocessor_separate_豐原 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 16:26:45,833 - preprocessor_separate_豐原 - INFO - 開始數據預處理
+2025-06-08 16:26:45,833 - preprocessor_separate_豐原 - INFO - 處理時間特徵
+2025-06-08 16:26:45,878 - preprocessor_separate_豐原 - INFO - 執行特徵工程
+2025-06-08 16:26:45,912 - preprocessor_separate_豐原 - INFO - 執行數據清理
+2025-06-08 16:26:46,106 - preprocessor_separate_豐原 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 16:26:46,123 - preprocessor_separate_豐原 - INFO - 執行特徵選擇
+2025-06-08 16:26:46,128 - preprocessor_separate_豐原 - INFO - 特徵選擇完成: 74 個特徵, 19 個目標
+2025-06-08 16:26:46,129 - preprocessor_separate_豐原 - INFO - 執行數據標準化
+2025-06-08 16:26:46,168 - preprocessor_separate_豐原 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 16:26:46,168 - preprocessor_separate_豐原 - INFO - 數據預處理完成: (43584, 95)
+2025-06-08 16:26:46,632 - preprocessor_separate_豐原 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_豐原_20250608_162645_processed.npz
+2025-06-08 16:26:46,632 - preprocessor_separate_豐原 - INFO - 數據形狀: X=(43584, 74), y=(43584, 19)
+2025-06-08 16:26:46,632 - preprocessor_separate_豐原 - INFO - 預處理管道執行完成
+2025-06-08 16:26:46,647 - windows_separate_豐原 - INFO - ==================================================
+2025-06-08 16:26:46,647 - windows_separate_豐原 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 16:26:46,647 - windows_separate_豐原 - INFO - ==================================================
+2025-06-08 16:26:46,647 - windows_separate_豐原 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_豐原_20250608_162645_processed.npz
+2025-06-08 16:26:46,711 - windows_separate_豐原 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 19)
+2025-06-08 16:26:46,712 - windows_separate_豐原 - INFO - 開始創建滑動時間窗口
+2025-06-08 16:26:46,712 - windows_separate_豐原 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 16:26:46,712 - windows_separate_豐原 - INFO - 處理 1 個測站的數據
+2025-06-08 16:26:46,825 - windows_separate_豐原 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 16:26:46,825 - windows_separate_豐原 - INFO - 測站 豐原: 43555 個窗口
+2025-06-08 16:26:46,879 - windows_separate_豐原 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 16:26:46,901 - windows_separate_豐原 - INFO - 開始分割數據集
+2025-06-08 16:26:46,901 - windows_separate_豐原 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 19)
+2025-06-08 16:26:46,901 - windows_separate_豐原 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 19)
+2025-06-08 16:26:46,901 - windows_separate_豐原 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 19)
+2025-06-08 16:26:51,737 - windows_separate_豐原 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_豐原_20250608_162645_windows.npz
+2025-06-08 16:26:52,302 - windows_separate_豐原 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_豐原_20250608_162645_windows.pt
+2025-06-08 16:26:52,302 - windows_separate_豐原 - INFO - 時間窗口生成管道執行完成
+2025-06-08 16:26:52,323 - trainer_separate_豐原 - INFO - 使用設備: cuda
+2025-06-08 16:26:52,323 - trainer_separate_豐原 - INFO - ==================================================
+2025-06-08 16:26:52,323 - trainer_separate_豐原 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 16:26:52,323 - trainer_separate_豐原 - INFO - ==================================================
+2025-06-08 16:26:52,323 - trainer_separate_豐原 - INFO - 載入訓練數據
+2025-06-08 16:26:53,509 - trainer_separate_豐原 - INFO - 訓練LightGBM模型...
+2025-06-08 16:26:53,509 - trainer_separate_豐原 - INFO - 開始訓練LightGBM模型
+2025-06-08 16:26:53,509 - trainer_separate_豐原 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 114)
+2025-06-08 16:27:01,502 - trainer_separate_豐原 - INFO - LightGBM訓練完成: 7.77s
+2025-06-08 16:27:01,504 - trainer_separate_豐原 - INFO - 驗證集MAE: 2.5142
+2025-06-08 16:27:01,591 - trainer_separate_豐原 - INFO - 訓練LSTM模型...
+2025-06-08 16:27:01,591 - trainer_separate_豐原 - INFO - 開始訓練LSTM模型
+2025-06-08 16:27:01,677 - trainer_separate_豐原 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 16:27:02,491 - trainer_separate_豐原 - INFO - Epoch 0: Train Loss=184.647003, Val Loss=92.935094
+2025-06-08 16:27:09,372 - trainer_separate_豐原 - INFO - Epoch 10: Train Loss=16.853315, Val Loss=31.380978
+2025-06-08 16:27:14,193 - trainer_separate_豐原 - INFO - 早停於 epoch 17
+2025-06-08 16:27:14,376 - trainer_separate_豐原 - INFO - LSTM訓練完成: 12.60s
+2025-06-08 16:27:14,376 - trainer_separate_豐原 - INFO - 驗證集MAE: 3.1031
+2025-06-08 16:27:14,380 - trainer_separate_豐原 - INFO - 模型訓練管道執行完成

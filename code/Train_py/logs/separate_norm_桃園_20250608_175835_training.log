@@ -1,0 +1,11 @@
+2025-06-08 17:58:35,945 - preprocessor_separate_norm_桃園 - INFO - ==================================================
+2025-06-08 17:58:35,945 - preprocessor_separate_norm_桃園 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 17:58:35,945 - preprocessor_separate_norm_桃園 - INFO - ==================================================
+2025-06-08 17:58:35,945 - preprocessor_separate_norm_桃園 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 17:58:35,945 - preprocessor_separate_norm_桃園 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_桃園_C0C480_combined.csv
+2025-06-08 17:58:36,056 - preprocessor_separate_norm_桃園 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 17:58:36,089 - preprocessor_separate_norm_桃園 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 17:58:36,089 - preprocessor_separate_norm_桃園 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 17:58:36,089 - preprocessor_separate_norm_桃園 - INFO - 開始數據預處理
+2025-06-08 17:58:36,089 - preprocessor_separate_norm_桃園 - INFO - 處理時間特徵
+2025-06-08 17:58:36,089 - preprocessor_separate_norm_桃園 - ERROR - 預處理管道執行失敗: 'UnifiedConfig' object has no attribute 'is_normalized'

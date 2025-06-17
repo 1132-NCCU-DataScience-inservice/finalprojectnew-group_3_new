@@ -1,0 +1,21 @@
+2025-06-08 15:29:15,473 - preprocessor_separate_松山 - INFO - ==================================================
+2025-06-08 15:29:15,473 - preprocessor_separate_松山 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:29:15,473 - preprocessor_separate_松山 - INFO - ==================================================
+2025-06-08 15:29:15,474 - preprocessor_separate_松山 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:29:15,474 - preprocessor_separate_松山 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\松山_C0AC70_combined.csv
+2025-06-08 15:29:15,529 - preprocessor_separate_松山 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:29:15,558 - preprocessor_separate_松山 - INFO - 數據驗證通過: (43584, 30), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:29:15,559 - preprocessor_separate_松山 - INFO - 原始數據載入完成: (43584, 30)
+2025-06-08 15:29:15,559 - preprocessor_separate_松山 - INFO - 開始數據預處理
+2025-06-08 15:29:15,559 - preprocessor_separate_松山 - INFO - 處理時間特徵
+2025-06-08 15:29:15,599 - preprocessor_separate_松山 - INFO - 執行特徵工程
+2025-06-08 15:29:15,630 - preprocessor_separate_松山 - INFO - 執行數據清理
+2025-06-08 15:29:15,788 - preprocessor_separate_松山 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:29:15,788 - preprocessor_separate_松山 - INFO - 執行特徵選擇
+2025-06-08 15:29:15,793 - preprocessor_separate_松山 - INFO - 特徵選擇完成: 74 個特徵, 21 個目標
+2025-06-08 15:29:15,794 - preprocessor_separate_松山 - INFO - 執行數據標準化
+2025-06-08 15:29:15,834 - preprocessor_separate_松山 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_scaler.pkl
+2025-06-08 15:29:15,835 - preprocessor_separate_松山 - INFO - 數據預處理完成: (43584, 97)
+2025-06-08 15:29:16,323 - preprocessor_separate_松山 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_松山_20250608_152915_processed.npz
+2025-06-08 15:29:16,323 - preprocessor_separate_松山 - INFO - 數據形狀: X=(43584, 74), y=(43584, 21)
+2025-06-08 15:29:16,324 - preprocessor_separate_松山 - INFO - 預處理管道執行完成

@@ -1,0 +1,57 @@
+2025-06-08 18:43:37,366 - preprocessor_separate_norm_楠梓 - INFO - ==================================================
+2025-06-08 18:43:37,366 - preprocessor_separate_norm_楠梓 - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 18:43:37,366 - preprocessor_separate_norm_楠梓 - INFO - ==================================================
+2025-06-08 18:43:37,366 - preprocessor_separate_norm_楠梓 - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 18:43:37,367 - preprocessor_separate_norm_楠梓 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_楠梓_C0V770_combined.csv
+2025-06-08 18:43:37,464 - preprocessor_separate_norm_楠梓 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 18:43:37,502 - preprocessor_separate_norm_楠梓 - INFO - 數據驗證通過: (43584, 28), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 18:43:37,503 - preprocessor_separate_norm_楠梓 - INFO - 原始數據載入完成: (43584, 28)
+2025-06-08 18:43:37,503 - preprocessor_separate_norm_楠梓 - INFO - 開始數據預處理
+2025-06-08 18:43:37,503 - preprocessor_separate_norm_楠梓 - INFO - 處理時間特徵
+2025-06-08 18:43:37,503 - preprocessor_separate_norm_楠梓 - INFO - 數據已包含時間特徵，跳過時間特徵處理
+2025-06-08 18:43:37,515 - preprocessor_separate_norm_楠梓 - INFO - 執行特徵工程
+2025-06-08 18:43:37,546 - preprocessor_separate_norm_楠梓 - INFO - 執行數據清理
+2025-06-08 18:43:37,703 - preprocessor_separate_norm_楠梓 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 18:43:37,703 - preprocessor_separate_norm_楠梓 - INFO - 執行特徵選擇
+2025-06-08 18:43:37,703 - preprocessor_separate_norm_楠梓 - INFO - 特徵選擇完成: 69 個特徵, 19 個目標
+2025-06-08 18:43:37,718 - preprocessor_separate_norm_楠梓 - INFO - 數據預處理完成: (43584, 90)
+2025-06-08 18:43:38,248 - preprocessor_separate_norm_楠梓 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_楠梓_20250608_184337_processed.npz
+2025-06-08 18:43:38,248 - preprocessor_separate_norm_楠梓 - INFO - 數據形狀: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:43:38,248 - preprocessor_separate_norm_楠梓 - INFO - 預處理管道執行完成
+2025-06-08 18:43:38,263 - windows_separate_norm_楠梓 - INFO - ==================================================
+2025-06-08 18:43:38,263 - windows_separate_norm_楠梓 - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 18:43:38,263 - windows_separate_norm_楠梓 - INFO - ==================================================
+2025-06-08 18:43:38,263 - windows_separate_norm_楠梓 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_楠梓_20250608_184337_processed.npz
+2025-06-08 18:43:38,351 - windows_separate_norm_楠梓 - INFO - 數據載入完成: X=(43584, 69), y=(43584, 19)
+2025-06-08 18:43:38,351 - windows_separate_norm_楠梓 - INFO - 開始創建滑動時間窗口
+2025-06-08 18:43:38,351 - windows_separate_norm_楠梓 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 18:43:38,359 - windows_separate_norm_楠梓 - INFO - 處理 1 個測站的數據
+2025-06-08 18:43:38,460 - windows_separate_norm_楠梓 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 18:43:38,460 - windows_separate_norm_楠梓 - INFO - 測站 楠梓: 43555 個窗口
+2025-06-08 18:43:38,521 - windows_separate_norm_楠梓 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 18:43:38,535 - windows_separate_norm_楠梓 - INFO - 開始分割數據集
+2025-06-08 18:43:38,535 - windows_separate_norm_楠梓 - INFO - train: X=(34844, 24, 69), y=(34844, 6, 19)
+2025-06-08 18:43:38,536 - windows_separate_norm_楠梓 - INFO - val: X=(4355, 24, 69), y=(4355, 6, 19)
+2025-06-08 18:43:38,536 - windows_separate_norm_楠梓 - INFO - test: X=(4356, 24, 69), y=(4356, 6, 19)
+2025-06-08 18:43:42,824 - windows_separate_norm_楠梓 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_楠梓_20250608_184337_windows.npz
+2025-06-08 18:43:43,492 - windows_separate_norm_楠梓 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate_norm\separate_norm_楠梓_20250608_184337_windows.pt
+2025-06-08 18:43:43,492 - windows_separate_norm_楠梓 - INFO - 時間窗口生成管道執行完成
+2025-06-08 18:43:43,510 - trainer_separate_norm_楠梓 - INFO - 使用設備: cuda
+2025-06-08 18:43:43,510 - trainer_separate_norm_楠梓 - INFO - ==================================================
+2025-06-08 18:43:43,510 - trainer_separate_norm_楠梓 - INFO - 開始執行 separate_norm 模式的模型訓練
+2025-06-08 18:43:43,511 - trainer_separate_norm_楠梓 - INFO - ==================================================
+2025-06-08 18:43:43,511 - trainer_separate_norm_楠梓 - INFO - 載入訓練數據
+2025-06-08 18:43:44,592 - trainer_separate_norm_楠梓 - INFO - 訓練LightGBM模型...
+2025-06-08 18:43:44,592 - trainer_separate_norm_楠梓 - INFO - 開始訓練LightGBM模型
+2025-06-08 18:43:44,592 - trainer_separate_norm_楠梓 - INFO - LightGBM數據形狀: X_train=(34844, 1656), y_train=(34844, 114)
+2025-06-08 18:43:55,497 - trainer_separate_norm_楠梓 - INFO - LightGBM訓練完成: 10.20s
+2025-06-08 18:43:55,497 - trainer_separate_norm_楠梓 - INFO - 驗證集MAE: 0.0666
+2025-06-08 18:43:55,566 - trainer_separate_norm_楠梓 - INFO - 訓練LSTM模型...
+2025-06-08 18:43:55,566 - trainer_separate_norm_楠梓 - INFO - 開始訓練LSTM模型
+2025-06-08 18:43:55,651 - trainer_separate_norm_楠梓 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 69]), y_train=torch.Size([34844, 6, 19])
+2025-06-08 18:43:56,394 - trainer_separate_norm_楠梓 - INFO - Epoch 0: Train Loss=0.210547, Val Loss=0.152208
+2025-06-08 18:44:03,166 - trainer_separate_norm_楠梓 - INFO - Epoch 10: Train Loss=0.079600, Val Loss=0.168745
+2025-06-08 18:44:04,526 - trainer_separate_norm_楠梓 - INFO - 早停於 epoch 12
+2025-06-08 18:44:04,697 - trainer_separate_norm_楠梓 - INFO - LSTM訓練完成: 8.96s
+2025-06-08 18:44:04,697 - trainer_separate_norm_楠梓 - INFO - 驗證集MAE: 0.2572
+2025-06-08 18:44:04,718 - trainer_separate_norm_楠梓 - INFO - 模型訓練管道執行完成

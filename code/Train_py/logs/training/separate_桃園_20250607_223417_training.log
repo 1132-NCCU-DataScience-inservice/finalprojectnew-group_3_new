@@ -1,0 +1,5 @@
+2025-06-07 22:34:17,796 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-07 22:34:17,796 - preprocessor_separate_桃園 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-07 22:34:17,796 - preprocessor_separate_桃園 - INFO - ==================================================
+2025-06-07 22:34:17,796 - preprocessor_separate_桃園 - INFO - 開始載入 separate 模式的原始數據
+2025-06-07 22:34:17,796 - preprocessor_separate_桃園 - ERROR - 預處理管道執行失敗: 'PipelineConfig' object has no attribute 'get'

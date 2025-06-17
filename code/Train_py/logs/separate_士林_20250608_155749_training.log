@@ -1,0 +1,58 @@
+2025-06-08 15:57:49,132 - preprocessor_separate_士林 - INFO - ==================================================
+2025-06-08 15:57:49,132 - preprocessor_separate_士林 - INFO - 開始執行 separate 模式的完整預處理管道
+2025-06-08 15:57:49,132 - preprocessor_separate_士林 - INFO - ==================================================
+2025-06-08 15:57:49,132 - preprocessor_separate_士林 - INFO - 開始載入 separate 模式的原始數據
+2025-06-08 15:57:49,132 - preprocessor_separate_士林 - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate\士林_C0AI40_combined.csv
+2025-06-08 15:57:49,195 - preprocessor_separate_士林 - INFO - 合併 1 個文件，總記錄數: 43584
+2025-06-08 15:57:49,224 - preprocessor_separate_士林 - INFO - 數據驗證通過: (43584, 29), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 15:57:49,224 - preprocessor_separate_士林 - INFO - 原始數據載入完成: (43584, 29)
+2025-06-08 15:57:49,224 - preprocessor_separate_士林 - INFO - 開始數據預處理
+2025-06-08 15:57:49,224 - preprocessor_separate_士林 - INFO - 處理時間特徵
+2025-06-08 15:57:49,270 - preprocessor_separate_士林 - INFO - 執行特徵工程
+2025-06-08 15:57:49,311 - preprocessor_separate_士林 - INFO - 執行數據清理
+2025-06-08 15:57:49,494 - preprocessor_separate_士林 - INFO - 數據清理完成: 43584 -> 43584 行
+2025-06-08 15:57:49,495 - preprocessor_separate_士林 - INFO - 執行特徵選擇
+2025-06-08 15:57:49,500 - preprocessor_separate_士林 - INFO - 特徵選擇完成: 74 個特徵, 20 個目標
+2025-06-08 15:57:49,502 - preprocessor_separate_士林 - INFO - 執行數據標準化
+2025-06-08 15:57:49,547 - preprocessor_separate_士林 - INFO - 標準化器已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_scaler.pkl
+2025-06-08 15:57:49,547 - preprocessor_separate_士林 - INFO - 數據預處理完成: (43584, 96)
+2025-06-08 15:57:50,017 - preprocessor_separate_士林 - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_士林_20250608_155749_processed.npz
+2025-06-08 15:57:50,022 - preprocessor_separate_士林 - INFO - 數據形狀: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:57:50,023 - preprocessor_separate_士林 - INFO - 預處理管道執行完成
+2025-06-08 15:57:50,023 - windows_separate_士林 - INFO - ==================================================
+2025-06-08 15:57:50,023 - windows_separate_士林 - INFO - 開始執行 separate 模式的時間窗口生成
+2025-06-08 15:57:50,023 - windows_separate_士林 - INFO - ==================================================
+2025-06-08 15:57:50,023 - windows_separate_士林 - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate\separate_士林_20250608_155749_processed.npz
+2025-06-08 15:57:50,091 - windows_separate_士林 - INFO - 數據載入完成: X=(43584, 74), y=(43584, 20)
+2025-06-08 15:57:50,091 - windows_separate_士林 - INFO - 開始創建滑動時間窗口
+2025-06-08 15:57:50,091 - windows_separate_士林 - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 15:57:50,100 - windows_separate_士林 - INFO - 處理 1 個測站的數據
+2025-06-08 15:57:50,207 - windows_separate_士林 - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 15:57:50,207 - windows_separate_士林 - INFO - 測站 士林: 43555 個窗口
+2025-06-08 15:57:50,271 - windows_separate_士林 - INFO - 多測站窗口創建完成: 總計 43555 個窗口
+2025-06-08 15:57:50,290 - windows_separate_士林 - INFO - 開始分割數據集
+2025-06-08 15:57:50,292 - windows_separate_士林 - INFO - train: X=(34844, 24, 74), y=(34844, 6, 20)
+2025-06-08 15:57:50,292 - windows_separate_士林 - INFO - val: X=(4355, 24, 74), y=(4355, 6, 20)
+2025-06-08 15:57:50,292 - windows_separate_士林 - INFO - test: X=(4356, 24, 74), y=(4356, 6, 20)
+2025-06-08 15:57:55,200 - windows_separate_士林 - INFO - NumPy格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_士林_20250608_155749_windows.npz
+2025-06-08 15:57:55,803 - windows_separate_士林 - INFO - PyTorch格式數據已保存: D:\pythonWork\R_datascience\final\Train\data\sliding_windows\separate\separate_士林_20250608_155749_windows.pt
+2025-06-08 15:57:55,804 - windows_separate_士林 - INFO - 時間窗口生成管道執行完成
+2025-06-08 15:57:55,823 - trainer_separate_士林 - INFO - 使用設備: cuda
+2025-06-08 15:57:55,823 - trainer_separate_士林 - INFO - ==================================================
+2025-06-08 15:57:55,823 - trainer_separate_士林 - INFO - 開始執行 separate 模式的模型訓練
+2025-06-08 15:57:55,824 - trainer_separate_士林 - INFO - ==================================================
+2025-06-08 15:57:55,824 - trainer_separate_士林 - INFO - 載入訓練數據
+2025-06-08 15:57:57,004 - trainer_separate_士林 - INFO - 訓練LightGBM模型...
+2025-06-08 15:57:57,004 - trainer_separate_士林 - INFO - 開始訓練LightGBM模型
+2025-06-08 15:57:57,004 - trainer_separate_士林 - INFO - LightGBM數據形狀: X_train=(34844, 1776), y_train=(34844, 120)
+2025-06-08 15:58:04,950 - trainer_separate_士林 - INFO - LightGBM訓練完成: 7.59s
+2025-06-08 15:58:04,950 - trainer_separate_士林 - INFO - 驗證集MAE: 2.7562
+2025-06-08 15:58:04,977 - trainer_separate_士林 - INFO - 訓練LSTM模型...
+2025-06-08 15:58:04,977 - trainer_separate_士林 - INFO - 開始訓練LSTM模型
+2025-06-08 15:58:05,069 - trainer_separate_士林 - INFO - LSTM數據形狀: X_train=torch.Size([34844, 24, 74]), y_train=torch.Size([34844, 6, 20])
+2025-06-08 15:58:05,887 - trainer_separate_士林 - INFO - Epoch 0: Train Loss=142.482080, Val Loss=82.962919
+2025-06-08 15:58:13,406 - trainer_separate_士林 - INFO - Epoch 10: Train Loss=17.227122, Val Loss=31.163867
+2025-06-08 15:58:18,607 - trainer_separate_士林 - INFO - 早停於 epoch 17
+2025-06-08 15:58:18,802 - trainer_separate_士林 - INFO - LSTM訓練完成: 13.63s
+2025-06-08 15:58:18,802 - trainer_separate_士林 - INFO - 驗證集MAE: 3.0208
+2025-06-08 15:58:18,802 - trainer_separate_士林 - INFO - 模型訓練管道執行完成

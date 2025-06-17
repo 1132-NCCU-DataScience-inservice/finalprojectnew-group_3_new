@@ -1,0 +1,256 @@
+2025-06-08 17:42:42,227 - preprocessor_separate_norm_Nomorlization - INFO - ==================================================
+2025-06-08 17:42:42,227 - preprocessor_separate_norm_Nomorlization - INFO - 開始執行 separate_norm 模式的完整預處理管道
+2025-06-08 17:42:42,227 - preprocessor_separate_norm_Nomorlization - INFO - ==================================================
+2025-06-08 17:42:42,227 - preprocessor_separate_norm_Nomorlization - INFO - 開始載入 separate_norm 模式的原始數據
+2025-06-08 17:42:42,227 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_三義_C0F9Q0_combined.csv
+2025-06-08 17:42:42,449 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_三重_C0AI30_combined.csv
+2025-06-08 17:42:42,583 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_中壢_A2C560_combined.csv
+2025-06-08 17:42:42,705 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_中山_C0AH70_combined.csv
+2025-06-08 17:42:42,820 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_二林_C0G730_combined.csv
+2025-06-08 17:42:42,946 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_仁武_C0V680_combined.csv
+2025-06-08 17:42:43,059 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_冬山_C0U910_combined.csv
+2025-06-08 17:42:43,174 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_前金_C0V690_combined.csv
+2025-06-08 17:42:43,293 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_前鎮_C0V490_combined.csv
+2025-06-08 17:42:44,686 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_南投_C0I460_combined.csv
+2025-06-08 17:42:44,864 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_古亭_C0AH10_combined.csv
+2025-06-08 17:42:44,981 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_善化_C0O900_combined.csv
+2025-06-08 17:42:45,088 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_嘉義_C0M730_combined.csv
+2025-06-08 17:42:45,204 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_土城_C0AD40_combined.csv
+2025-06-08 17:42:45,321 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_埔里_C0H890_combined.csv
+2025-06-08 17:42:45,437 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_基隆_466940_combined.csv
+2025-06-08 17:42:45,548 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_士林_C0AI40_combined.csv
+2025-06-08 17:42:45,663 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_大同_C0AI30_combined.csv
+2025-06-08 17:42:45,778 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_大園_C0C590_combined.csv
+2025-06-08 17:42:45,901 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_大寮_C0V450_combined.csv
+2025-06-08 17:42:46,013 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_大里_C0F9N0_combined.csv
+2025-06-08 17:42:46,124 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_安南_467420_combined.csv
+2025-06-08 17:42:46,233 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_宜蘭_467080_combined.csv
+2025-06-08 17:42:46,346 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_富貴角_C0AI20_combined.csv
+2025-06-08 17:42:46,451 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_小港_C0V450_combined.csv
+2025-06-08 17:42:46,572 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_屏東_C0R570_combined.csv
+2025-06-08 17:42:46,672 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_崙背_C0K250_combined.csv
+2025-06-08 17:42:46,789 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_左營_C0V810_combined.csv
+2025-06-08 17:42:46,905 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_平鎮_A2C560_combined.csv
+2025-06-08 17:42:47,018 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_彰化_C0G910_combined.csv
+2025-06-08 17:42:47,129 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_復興_C0V710_combined.csv
+2025-06-08 17:42:47,243 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_忠明_C0F9U0_combined.csv
+2025-06-08 17:42:47,356 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_恆春_B2Q810_combined.csv
+2025-06-08 17:42:47,455 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_斗六_C0K400_combined.csv
+2025-06-08 17:42:47,570 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_新店_C0AC80_combined.csv
+2025-06-08 17:42:47,681 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_新港_C0M790_combined.csv
+2025-06-08 17:42:47,793 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_新營_C0X250_combined.csv
+2025-06-08 17:42:47,888 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_新竹_C0D660_combined.csv
+2025-06-08 17:42:48,005 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_新莊_C0ACA0_combined.csv
+2025-06-08 17:42:48,114 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_朴子_C0M650_combined.csv
+2025-06-08 17:42:48,205 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_松山_C0AC70_combined.csv
+2025-06-08 17:42:48,321 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_板橋_C0ACA0_combined.csv
+2025-06-08 17:42:48,420 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_林口_C0AH50_combined.csv
+2025-06-08 17:42:48,537 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_林園_C0R640_combined.csv
+2025-06-08 17:42:48,638 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_桃園_C0C480_combined.csv
+2025-06-08 17:42:48,753 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_楠梓_C0V770_combined.csv
+2025-06-08 17:42:48,854 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_橋頭_C0V760_combined.csv
+2025-06-08 17:42:48,955 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_永和_C0AH10_combined.csv
+2025-06-08 17:42:49,070 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_汐止_C0AH00_combined.csv
+2025-06-08 17:42:49,177 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_沙鹿_C0F9X0_combined.csv
+2025-06-08 17:42:49,272 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_淡水_466900_combined.csv
+2025-06-08 17:42:49,388 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_湖口_C0D650_combined.csv
+2025-06-08 17:42:49,487 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_潮州_C0R220_combined.csv
+2025-06-08 17:42:49,596 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_竹山_U2HA50_combined.csv
+2025-06-08 17:42:49,687 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_竹東_C0D560_combined.csv
+2025-06-08 17:42:49,788 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_線西_C0G890_combined.csv
+2025-06-08 17:42:49,905 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_美濃_72V140_combined.csv
+2025-06-08 17:42:50,007 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_臺南_467410_combined.csv
+2025-06-08 17:42:50,123 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_臺東_C0SA10_combined.csv
+2025-06-08 17:42:50,222 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_臺西_C0K530_combined.csv
+2025-06-08 17:42:50,322 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_花蓮_466990_combined.csv
+2025-06-08 17:42:50,421 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_苗栗_C0E750_combined.csv
+2025-06-08 17:42:50,527 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_菜寮_C0AD30_combined.csv
+2025-06-08 17:42:50,632 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_萬華_466920_combined.csv
+2025-06-08 17:42:50,738 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_萬里_C0A940_combined.csv
+2025-06-08 17:42:50,841 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_西屯_C0F9T0_combined.csv
+2025-06-08 17:42:50,947 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_觀音_467050_combined.csv
+2025-06-08 17:42:51,039 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_豐原_C0F9M0_combined.csv
+2025-06-08 17:42:51,151 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_金門_C0W150_combined.csv
+2025-06-08 17:42:51,254 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_陽明_466910_combined.csv
+2025-06-08 17:42:51,355 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_頭份_C0E420_combined.csv
+2025-06-08 17:42:51,455 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_馬公_467350_combined.csv
+2025-06-08 17:42:51,554 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_馬祖_467990_combined.csv
+2025-06-08 17:42:51,655 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_麥寮_A2K360_combined.csv
+2025-06-08 17:42:51,772 - preprocessor_separate_norm_Nomorlization - INFO - 載入文件: D:\pythonWork\R_datascience\final\Train\data\raw\Separate_Nomorlization\Nomorlization_龍潭_C0C670_combined.csv
+2025-06-08 17:42:52,360 - preprocessor_separate_norm_Nomorlization - INFO - 合併 75 個文件，總記錄數: 3268800
+2025-06-08 17:42:54,511 - preprocessor_separate_norm_Nomorlization - INFO - 數據驗證通過: (3268800, 30), 時間範圍: 2020-01-01T00:00:00Z 到 2024-12-20T23:00:00Z
+2025-06-08 17:42:54,513 - preprocessor_separate_norm_Nomorlization - INFO - 原始數據載入完成: (3268800, 30)
+2025-06-08 17:42:54,541 - preprocessor_separate_norm_Nomorlization - INFO - 開始數據預處理
+2025-06-08 17:42:54,541 - preprocessor_separate_norm_Nomorlization - INFO - 處理時間特徵
+2025-06-08 17:42:57,625 - preprocessor_separate_norm_Nomorlization - INFO - 執行特徵工程
+2025-06-08 17:42:59,932 - preprocessor_separate_norm_Nomorlization - INFO - 執行數據清理
+2025-06-08 17:43:09,689 - preprocessor_separate_norm_Nomorlization - INFO - 數據清理完成: 3268800 -> 3268800 行
+2025-06-08 17:43:09,771 - preprocessor_separate_norm_Nomorlization - INFO - 執行特徵選擇
+2025-06-08 17:43:10,032 - preprocessor_separate_norm_Nomorlization - INFO - 特徵選擇完成: 74 個特徵, 21 個目標
+2025-06-08 17:43:10,084 - preprocessor_separate_norm_Nomorlization - INFO - 數據預處理完成: (3268800, 97)
+2025-06-08 17:43:50,642 - preprocessor_separate_norm_Nomorlization - INFO - 處理後數據已保存: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_Nomorlization_20250608_174242_processed.npz
+2025-06-08 17:43:50,642 - preprocessor_separate_norm_Nomorlization - INFO - 數據形狀: X=(3268800, 74), y=(3268800, 21)
+2025-06-08 17:43:50,691 - preprocessor_separate_norm_Nomorlization - INFO - 預處理管道執行完成
+2025-06-08 17:43:50,761 - windows_separate_norm_Nomorlization - INFO - ==================================================
+2025-06-08 17:43:50,761 - windows_separate_norm_Nomorlization - INFO - 開始執行 separate_norm 模式的時間窗口生成
+2025-06-08 17:43:50,761 - windows_separate_norm_Nomorlization - INFO - ==================================================
+2025-06-08 17:43:50,761 - windows_separate_norm_Nomorlization - INFO - 載入預處理數據: D:\pythonWork\R_datascience\final\Train\data\processed\separate_norm\separate_norm_Nomorlization_20250608_174242_processed.npz
+2025-06-08 17:43:55,436 - windows_separate_norm_Nomorlization - INFO - 數據載入完成: X=(3268800, 74), y=(3268800, 21)
+2025-06-08 17:43:55,436 - windows_separate_norm_Nomorlization - INFO - 開始創建滑動時間窗口
+2025-06-08 17:43:55,436 - windows_separate_norm_Nomorlization - INFO - 窗口參數: window_size=24, horizon=6, stride=1
+2025-06-08 17:43:56,417 - windows_separate_norm_Nomorlization - INFO - 處理 75 個測站的數據
+2025-06-08 17:43:56,588 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:56,588 - windows_separate_norm_Nomorlization - INFO - 測站 三義: 43555 個窗口
+2025-06-08 17:43:56,754 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:56,754 - windows_separate_norm_Nomorlization - INFO - 測站 三重: 43555 個窗口
+2025-06-08 17:43:56,922 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:56,922 - windows_separate_norm_Nomorlization - INFO - 測站 中壢: 43555 個窗口
+2025-06-08 17:43:57,103 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:57,103 - windows_separate_norm_Nomorlization - INFO - 測站 中山: 43555 個窗口
+2025-06-08 17:43:57,255 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:57,255 - windows_separate_norm_Nomorlization - INFO - 測站 二林: 43555 個窗口
+2025-06-08 17:43:57,437 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:57,437 - windows_separate_norm_Nomorlization - INFO - 測站 仁武: 43555 個窗口
+2025-06-08 17:43:57,604 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:57,604 - windows_separate_norm_Nomorlization - INFO - 測站 冬山: 43555 個窗口
+2025-06-08 17:43:57,771 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:57,771 - windows_separate_norm_Nomorlization - INFO - 測站 前金: 43555 個窗口
+2025-06-08 17:43:57,955 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:57,955 - windows_separate_norm_Nomorlization - INFO - 測站 前鎮: 43555 個窗口
+2025-06-08 17:43:58,156 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:58,156 - windows_separate_norm_Nomorlization - INFO - 測站 南投: 43555 個窗口
+2025-06-08 17:43:58,324 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:58,324 - windows_separate_norm_Nomorlization - INFO - 測站 古亭: 43555 個窗口
+2025-06-08 17:43:58,542 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:58,543 - windows_separate_norm_Nomorlization - INFO - 測站 善化: 43555 個窗口
+2025-06-08 17:43:58,740 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:58,740 - windows_separate_norm_Nomorlization - INFO - 測站 嘉義: 43555 個窗口
+2025-06-08 17:43:58,940 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:58,940 - windows_separate_norm_Nomorlization - INFO - 測站 土城: 43555 個窗口
+2025-06-08 17:43:59,137 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:59,137 - windows_separate_norm_Nomorlization - INFO - 測站 埔里: 43555 個窗口
+2025-06-08 17:43:59,304 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:59,304 - windows_separate_norm_Nomorlization - INFO - 測站 基隆: 43555 個窗口
+2025-06-08 17:43:59,471 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:59,471 - windows_separate_norm_Nomorlization - INFO - 測站 士林: 43555 個窗口
+2025-06-08 17:43:59,637 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:59,637 - windows_separate_norm_Nomorlization - INFO - 測站 大同: 43555 個窗口
+2025-06-08 17:43:59,804 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:59,804 - windows_separate_norm_Nomorlization - INFO - 測站 大園: 43555 個窗口
+2025-06-08 17:43:59,971 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:43:59,971 - windows_separate_norm_Nomorlization - INFO - 測站 大寮: 43555 個窗口
+2025-06-08 17:44:00,153 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:00,153 - windows_separate_norm_Nomorlization - INFO - 測站 大里: 43555 個窗口
+2025-06-08 17:44:00,305 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:00,305 - windows_separate_norm_Nomorlization - INFO - 測站 安南: 43555 個窗口
+2025-06-08 17:44:00,472 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:00,472 - windows_separate_norm_Nomorlization - INFO - 測站 宜蘭: 43555 個窗口
+2025-06-08 17:44:00,638 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:00,638 - windows_separate_norm_Nomorlization - INFO - 測站 富貴角: 43555 個窗口
+2025-06-08 17:44:00,804 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:00,804 - windows_separate_norm_Nomorlization - INFO - 測站 小港: 43555 個窗口
+2025-06-08 17:44:01,002 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:01,002 - windows_separate_norm_Nomorlization - INFO - 測站 屏東: 43555 個窗口
+2025-06-08 17:44:01,219 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:01,226 - windows_separate_norm_Nomorlization - INFO - 測站 崙背: 43555 個窗口
+2025-06-08 17:44:01,387 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:01,387 - windows_separate_norm_Nomorlization - INFO - 測站 左營: 43555 個窗口
+2025-06-08 17:44:01,557 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:01,557 - windows_separate_norm_Nomorlization - INFO - 測站 平鎮: 43555 個窗口
+2025-06-08 17:44:01,721 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:01,721 - windows_separate_norm_Nomorlization - INFO - 測站 彰化: 43555 個窗口
+2025-06-08 17:44:01,888 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:01,888 - windows_separate_norm_Nomorlization - INFO - 測站 復興: 43555 個窗口
+2025-06-08 17:44:02,087 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:02,087 - windows_separate_norm_Nomorlization - INFO - 測站 忠明: 43555 個窗口
+2025-06-08 17:44:02,286 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:02,286 - windows_separate_norm_Nomorlization - INFO - 測站 恆春: 43555 個窗口
+2025-06-08 17:44:02,455 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:02,455 - windows_separate_norm_Nomorlization - INFO - 測站 斗六: 43555 個窗口
+2025-06-08 17:44:02,621 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:02,621 - windows_separate_norm_Nomorlization - INFO - 測站 新店: 43555 個窗口
+2025-06-08 17:44:02,788 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:02,788 - windows_separate_norm_Nomorlization - INFO - 測站 新港: 43555 個窗口
+2025-06-08 17:44:02,954 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:02,954 - windows_separate_norm_Nomorlization - INFO - 測站 新營: 43555 個窗口
+2025-06-08 17:44:03,138 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:03,138 - windows_separate_norm_Nomorlization - INFO - 測站 新竹: 43555 個窗口
+2025-06-08 17:44:03,304 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:03,304 - windows_separate_norm_Nomorlization - INFO - 測站 新莊: 43555 個窗口
+2025-06-08 17:44:03,472 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:03,472 - windows_separate_norm_Nomorlization - INFO - 測站 朴子: 43555 個窗口
+2025-06-08 17:44:03,637 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:03,637 - windows_separate_norm_Nomorlization - INFO - 測站 松山: 43555 個窗口
+2025-06-08 17:44:03,816 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:03,816 - windows_separate_norm_Nomorlization - INFO - 測站 板橋: 43555 個窗口
+2025-06-08 17:44:04,003 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:04,003 - windows_separate_norm_Nomorlization - INFO - 測站 林口: 43555 個窗口
+2025-06-08 17:44:04,219 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:04,219 - windows_separate_norm_Nomorlization - INFO - 測站 林園: 43555 個窗口
+2025-06-08 17:44:04,387 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:04,387 - windows_separate_norm_Nomorlization - INFO - 測站 桃園: 43555 個窗口
+2025-06-08 17:44:04,569 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:04,569 - windows_separate_norm_Nomorlization - INFO - 測站 楠梓: 43555 個窗口
+2025-06-08 17:44:04,743 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:04,743 - windows_separate_norm_Nomorlization - INFO - 測站 橋頭: 43555 個窗口
+2025-06-08 17:44:04,968 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:04,970 - windows_separate_norm_Nomorlization - INFO - 測站 永和: 43555 個窗口
+2025-06-08 17:44:05,169 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:05,169 - windows_separate_norm_Nomorlization - INFO - 測站 汐止: 43555 個窗口
+2025-06-08 17:44:05,386 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:05,386 - windows_separate_norm_Nomorlization - INFO - 測站 沙鹿: 43555 個窗口
+2025-06-08 17:44:05,602 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:05,602 - windows_separate_norm_Nomorlization - INFO - 測站 淡水: 43555 個窗口
+2025-06-08 17:44:05,835 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:05,835 - windows_separate_norm_Nomorlization - INFO - 測站 湖口: 43555 個窗口
+2025-06-08 17:44:06,067 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:06,067 - windows_separate_norm_Nomorlization - INFO - 測站 潮州: 43555 個窗口
+2025-06-08 17:44:06,301 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:06,301 - windows_separate_norm_Nomorlization - INFO - 測站 竹山: 43555 個窗口
+2025-06-08 17:44:06,565 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:06,565 - windows_separate_norm_Nomorlization - INFO - 測站 竹東: 43555 個窗口
+2025-06-08 17:44:06,786 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:06,786 - windows_separate_norm_Nomorlization - INFO - 測站 線西: 43555 個窗口
+2025-06-08 17:44:06,986 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:06,986 - windows_separate_norm_Nomorlization - INFO - 測站 美濃: 43555 個窗口
+2025-06-08 17:44:07,250 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:07,250 - windows_separate_norm_Nomorlization - INFO - 測站 臺南: 43555 個窗口
+2025-06-08 17:44:07,468 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:07,468 - windows_separate_norm_Nomorlization - INFO - 測站 臺東: 43555 個窗口
+2025-06-08 17:44:07,686 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:07,686 - windows_separate_norm_Nomorlization - INFO - 測站 臺西: 43555 個窗口
+2025-06-08 17:44:07,901 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:07,901 - windows_separate_norm_Nomorlization - INFO - 測站 花蓮: 43555 個窗口
+2025-06-08 17:44:08,133 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:08,133 - windows_separate_norm_Nomorlization - INFO - 測站 苗栗: 43555 個窗口
+2025-06-08 17:44:08,352 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:08,352 - windows_separate_norm_Nomorlization - INFO - 測站 菜寮: 43555 個窗口
+2025-06-08 17:44:08,584 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:08,584 - windows_separate_norm_Nomorlization - INFO - 測站 萬華: 43555 個窗口
+2025-06-08 17:44:08,818 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:08,818 - windows_separate_norm_Nomorlization - INFO - 測站 萬里: 43555 個窗口
+2025-06-08 17:44:09,067 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:09,067 - windows_separate_norm_Nomorlization - INFO - 測站 西屯: 43555 個窗口
+2025-06-08 17:44:09,361 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:09,361 - windows_separate_norm_Nomorlization - INFO - 測站 觀音: 43555 個窗口
+2025-06-08 17:44:09,584 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:09,584 - windows_separate_norm_Nomorlization - INFO - 測站 豐原: 43555 個窗口
+2025-06-08 17:44:09,833 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:09,833 - windows_separate_norm_Nomorlization - INFO - 測站 金門: 43555 個窗口
+2025-06-08 17:44:10,052 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:10,052 - windows_separate_norm_Nomorlization - INFO - 測站 陽明: 43555 個窗口
+2025-06-08 17:44:10,301 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:10,301 - windows_separate_norm_Nomorlization - INFO - 測站 頭份: 43555 個窗口
+2025-06-08 17:44:10,598 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:10,598 - windows_separate_norm_Nomorlization - INFO - 測站 馬公: 43555 個窗口
+2025-06-08 17:44:10,832 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:10,832 - windows_separate_norm_Nomorlization - INFO - 測站 馬祖: 43555 個窗口
+2025-06-08 17:44:11,083 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:11,083 - windows_separate_norm_Nomorlization - INFO - 測站 麥寮: 43555 個窗口
+2025-06-08 17:44:11,350 - windows_separate_norm_Nomorlization - INFO - 單序列窗口創建完成: 43555 個窗口
+2025-06-08 17:44:11,350 - windows_separate_norm_Nomorlization - INFO - 測站 龍潭: 43555 個窗口
+2025-06-08 17:46:59,417 - windows_separate_norm_Nomorlization - INFO - 多測站窗口創建完成: 總計 3266625 個窗口
+2025-06-08 17:47:00,924 - windows_separate_norm_Nomorlization - INFO - 開始分割數據集
+2025-06-08 17:47:00,933 - windows_separate_norm_Nomorlization - INFO - train: X=(2613300, 24, 74), y=(2613300, 6, 21)
+2025-06-08 17:47:00,933 - windows_separate_norm_Nomorlization - INFO - val: X=(326662, 24, 74), y=(326662, 6, 21)
+2025-06-08 17:47:00,933 - windows_separate_norm_Nomorlization - INFO - test: X=(326663, 24, 74), y=(326663, 6, 21)

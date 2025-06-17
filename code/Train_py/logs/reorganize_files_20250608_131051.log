@@ -1,0 +1,277 @@
+2025-06-08 13:10:51,535 - INFO - ============================================================
+2025-06-08 13:10:51,535 - INFO - 🗂️  開始重新組織 processed 文件
+2025-06-08 13:10:51,536 - INFO - ============================================================
+2025-06-08 13:10:51,536 - INFO - 🚀 開始重新組織 processed 文件
+2025-06-08 13:10:51,538 - INFO - 找到 88 個需要重新組織的文件
+2025-06-08 13:10:51,538 - INFO - 處理文件: separate_norm_桃園_20250607_215758_processed.npz
+2025-06-08 13:10:51,555 - INFO - 備份文件: separate_norm_桃園_20250607_215758_processed.npz -> data\backup_processed\separate_norm_桃園_20250607_215758_processed.npz
+2025-06-08 13:10:51,556 - INFO - 移動文件: separate_norm_桃園_20250607_215758_processed.npz -> separate_norm/
+2025-06-08 13:10:51,556 - INFO - 處理文件: separate_三義_20250608_003831_processed.npz
+2025-06-08 13:10:51,568 - INFO - 備份文件: separate_三義_20250608_003831_processed.npz -> data\backup_processed\separate_三義_20250608_003831_processed.npz
+2025-06-08 13:10:51,569 - INFO - 移動文件: separate_三義_20250608_003831_processed.npz -> separate/
+2025-06-08 13:10:51,569 - INFO - 處理文件: separate_三重_20250608_003832_processed.npz
+2025-06-08 13:10:51,577 - INFO - 備份文件: separate_三重_20250608_003832_processed.npz -> data\backup_processed\separate_三重_20250608_003832_processed.npz
+2025-06-08 13:10:51,577 - INFO - 移動文件: separate_三重_20250608_003832_processed.npz -> separate/
+2025-06-08 13:10:51,577 - INFO - 處理文件: separate_中壢_20250608_003833_processed.npz
+2025-06-08 13:10:51,592 - INFO - 備份文件: separate_中壢_20250608_003833_processed.npz -> data\backup_processed\separate_中壢_20250608_003833_processed.npz
+2025-06-08 13:10:51,592 - INFO - 移動文件: separate_中壢_20250608_003833_processed.npz -> separate/
+2025-06-08 13:10:51,592 - INFO - 處理文件: separate_中山_20250608_003834_processed.npz
+2025-06-08 13:10:51,607 - INFO - 備份文件: separate_中山_20250608_003834_processed.npz -> data\backup_processed\separate_中山_20250608_003834_processed.npz
+2025-06-08 13:10:51,607 - INFO - 移動文件: separate_中山_20250608_003834_processed.npz -> separate/
+2025-06-08 13:10:51,607 - INFO - 處理文件: separate_二林_20250608_003835_processed.npz
+2025-06-08 13:10:51,622 - INFO - 備份文件: separate_二林_20250608_003835_processed.npz -> data\backup_processed\separate_二林_20250608_003835_processed.npz
+2025-06-08 13:10:51,622 - INFO - 移動文件: separate_二林_20250608_003835_processed.npz -> separate/
+2025-06-08 13:10:51,622 - INFO - 處理文件: separate_仁武_20250608_003836_processed.npz
+2025-06-08 13:10:51,627 - INFO - 備份文件: separate_仁武_20250608_003836_processed.npz -> data\backup_processed\separate_仁武_20250608_003836_processed.npz
+2025-06-08 13:10:51,627 - INFO - 移動文件: separate_仁武_20250608_003836_processed.npz -> separate/
+2025-06-08 13:10:51,635 - INFO - 處理文件: separate_冬山_20250608_003836_processed.npz
+2025-06-08 13:10:51,641 - INFO - 備份文件: separate_冬山_20250608_003836_processed.npz -> data\backup_processed\separate_冬山_20250608_003836_processed.npz
+2025-06-08 13:10:51,641 - INFO - 移動文件: separate_冬山_20250608_003836_processed.npz -> separate/
+2025-06-08 13:10:51,648 - INFO - 處理文件: separate_前金_20250608_003837_processed.npz
+2025-06-08 13:10:51,660 - INFO - 備份文件: separate_前金_20250608_003837_processed.npz -> data\backup_processed\separate_前金_20250608_003837_processed.npz
+2025-06-08 13:10:51,660 - INFO - 移動文件: separate_前金_20250608_003837_processed.npz -> separate/
+2025-06-08 13:10:51,661 - INFO - 處理文件: separate_前鎮_20250608_003838_processed.npz
+2025-06-08 13:10:51,672 - INFO - 備份文件: separate_前鎮_20250608_003838_processed.npz -> data\backup_processed\separate_前鎮_20250608_003838_processed.npz
+2025-06-08 13:10:51,672 - INFO - 移動文件: separate_前鎮_20250608_003838_processed.npz -> separate/
+2025-06-08 13:10:51,672 - INFO - 處理文件: separate_南投_20250608_003839_processed.npz
+2025-06-08 13:10:51,683 - INFO - 備份文件: separate_南投_20250608_003839_processed.npz -> data\backup_processed\separate_南投_20250608_003839_processed.npz
+2025-06-08 13:10:51,683 - INFO - 移動文件: separate_南投_20250608_003839_processed.npz -> separate/
+2025-06-08 13:10:51,683 - INFO - 處理文件: separate_古亭_20250608_003840_processed.npz
+2025-06-08 13:10:51,688 - INFO - 備份文件: separate_古亭_20250608_003840_processed.npz -> data\backup_processed\separate_古亭_20250608_003840_processed.npz
+2025-06-08 13:10:51,688 - INFO - 移動文件: separate_古亭_20250608_003840_processed.npz -> separate/
+2025-06-08 13:10:51,699 - INFO - 處理文件: separate_善化_20250608_003841_processed.npz
+2025-06-08 13:10:51,705 - INFO - 備份文件: separate_善化_20250608_003841_processed.npz -> data\backup_processed\separate_善化_20250608_003841_processed.npz
+2025-06-08 13:10:51,705 - INFO - 移動文件: separate_善化_20250608_003841_processed.npz -> separate/
+2025-06-08 13:10:51,710 - INFO - 處理文件: separate_嘉義_20250608_003842_processed.npz
+2025-06-08 13:10:51,715 - INFO - 備份文件: separate_嘉義_20250608_003842_processed.npz -> data\backup_processed\separate_嘉義_20250608_003842_processed.npz
+2025-06-08 13:10:51,721 - INFO - 移動文件: separate_嘉義_20250608_003842_processed.npz -> separate/
+2025-06-08 13:10:51,721 - INFO - 處理文件: separate_土城_20250608_003843_processed.npz
+2025-06-08 13:10:51,727 - INFO - 備份文件: separate_土城_20250608_003843_processed.npz -> data\backup_processed\separate_土城_20250608_003843_processed.npz
+2025-06-08 13:10:51,727 - INFO - 移動文件: separate_土城_20250608_003843_processed.npz -> separate/
+2025-06-08 13:10:51,733 - INFO - 處理文件: separate_埔里_20250608_003843_processed.npz
+2025-06-08 13:10:51,739 - INFO - 備份文件: separate_埔里_20250608_003843_processed.npz -> data\backup_processed\separate_埔里_20250608_003843_processed.npz
+2025-06-08 13:10:51,745 - INFO - 移動文件: separate_埔里_20250608_003843_processed.npz -> separate/
+2025-06-08 13:10:51,745 - INFO - 處理文件: separate_基隆_20250608_003844_processed.npz
+2025-06-08 13:10:51,756 - INFO - 備份文件: separate_基隆_20250608_003844_processed.npz -> data\backup_processed\separate_基隆_20250608_003844_processed.npz
+2025-06-08 13:10:51,757 - INFO - 移動文件: separate_基隆_20250608_003844_processed.npz -> separate/
+2025-06-08 13:10:51,757 - INFO - 處理文件: separate_士林_20250608_003845_processed.npz
+2025-06-08 13:10:51,766 - INFO - 備份文件: separate_士林_20250608_003845_processed.npz -> data\backup_processed\separate_士林_20250608_003845_processed.npz
+2025-06-08 13:10:51,771 - INFO - 移動文件: separate_士林_20250608_003845_processed.npz -> separate/
+2025-06-08 13:10:51,771 - INFO - 處理文件: separate_大同_20250608_003846_processed.npz
+2025-06-08 13:10:51,778 - INFO - 備份文件: separate_大同_20250608_003846_processed.npz -> data\backup_processed\separate_大同_20250608_003846_processed.npz
+2025-06-08 13:10:51,778 - INFO - 移動文件: separate_大同_20250608_003846_processed.npz -> separate/
+2025-06-08 13:10:51,783 - INFO - 處理文件: separate_大園_20250608_003847_processed.npz
+2025-06-08 13:10:51,789 - INFO - 備份文件: separate_大園_20250608_003847_processed.npz -> data\backup_processed\separate_大園_20250608_003847_processed.npz
+2025-06-08 13:10:51,789 - INFO - 移動文件: separate_大園_20250608_003847_processed.npz -> separate/
+2025-06-08 13:10:51,789 - INFO - 處理文件: separate_大寮_20250608_003848_processed.npz
+2025-06-08 13:10:51,805 - INFO - 備份文件: separate_大寮_20250608_003848_processed.npz -> data\backup_processed\separate_大寮_20250608_003848_processed.npz
+2025-06-08 13:10:51,806 - INFO - 移動文件: separate_大寮_20250608_003848_processed.npz -> separate/
+2025-06-08 13:10:51,806 - INFO - 處理文件: separate_大里_20250608_003849_processed.npz
+2025-06-08 13:10:51,810 - INFO - 備份文件: separate_大里_20250608_003849_processed.npz -> data\backup_processed\separate_大里_20250608_003849_processed.npz
+2025-06-08 13:10:51,810 - INFO - 移動文件: separate_大里_20250608_003849_processed.npz -> separate/
+2025-06-08 13:10:51,818 - INFO - 處理文件: separate_安南_20250608_003849_processed.npz
+2025-06-08 13:10:51,823 - INFO - 備份文件: separate_安南_20250608_003849_processed.npz -> data\backup_processed\separate_安南_20250608_003849_processed.npz
+2025-06-08 13:10:51,823 - INFO - 移動文件: separate_安南_20250608_003849_processed.npz -> separate/
+2025-06-08 13:10:51,829 - INFO - 處理文件: separate_宜蘭_20250608_003850_processed.npz
+2025-06-08 13:10:51,839 - INFO - 備份文件: separate_宜蘭_20250608_003850_processed.npz -> data\backup_processed\separate_宜蘭_20250608_003850_processed.npz
+2025-06-08 13:10:51,839 - INFO - 移動文件: separate_宜蘭_20250608_003850_processed.npz -> separate/
+2025-06-08 13:10:51,840 - INFO - 處理文件: separate_富貴角_20250608_003851_processed.npz
+2025-06-08 13:10:51,843 - INFO - 備份文件: separate_富貴角_20250608_003851_processed.npz -> data\backup_processed\separate_富貴角_20250608_003851_processed.npz
+2025-06-08 13:10:51,843 - INFO - 移動文件: separate_富貴角_20250608_003851_processed.npz -> separate/
+2025-06-08 13:10:51,843 - INFO - 處理文件: separate_小港_20250608_003852_processed.npz
+2025-06-08 13:10:51,863 - INFO - 備份文件: separate_小港_20250608_003852_processed.npz -> data\backup_processed\separate_小港_20250608_003852_processed.npz
+2025-06-08 13:10:51,864 - INFO - 移動文件: separate_小港_20250608_003852_processed.npz -> separate/
+2025-06-08 13:10:51,864 - INFO - 處理文件: separate_屏東_20250608_003853_processed.npz
+2025-06-08 13:10:51,875 - INFO - 備份文件: separate_屏東_20250608_003853_processed.npz -> data\backup_processed\separate_屏東_20250608_003853_processed.npz
+2025-06-08 13:10:51,876 - INFO - 移動文件: separate_屏東_20250608_003853_processed.npz -> separate/
+2025-06-08 13:10:51,877 - INFO - 處理文件: separate_崙背_20250608_003854_processed.npz
+2025-06-08 13:10:51,888 - INFO - 備份文件: separate_崙背_20250608_003854_processed.npz -> data\backup_processed\separate_崙背_20250608_003854_processed.npz
+2025-06-08 13:10:51,889 - INFO - 移動文件: separate_崙背_20250608_003854_processed.npz -> separate/
+2025-06-08 13:10:51,889 - INFO - 處理文件: separate_左營_20250608_003855_processed.npz
+2025-06-08 13:10:51,894 - INFO - 備份文件: separate_左營_20250608_003855_processed.npz -> data\backup_processed\separate_左營_20250608_003855_processed.npz
+2025-06-08 13:10:51,894 - INFO - 移動文件: separate_左營_20250608_003855_processed.npz -> separate/
+2025-06-08 13:10:51,901 - INFO - 處理文件: separate_平鎮_20250608_003855_processed.npz
+2025-06-08 13:10:51,907 - INFO - 備份文件: separate_平鎮_20250608_003855_processed.npz -> data\backup_processed\separate_平鎮_20250608_003855_processed.npz
+2025-06-08 13:10:51,907 - INFO - 移動文件: separate_平鎮_20250608_003855_processed.npz -> separate/
+2025-06-08 13:10:51,907 - INFO - 處理文件: separate_彰化_20250608_003856_processed.npz
+2025-06-08 13:10:51,924 - INFO - 備份文件: separate_彰化_20250608_003856_processed.npz -> data\backup_processed\separate_彰化_20250608_003856_processed.npz
+2025-06-08 13:10:51,924 - INFO - 移動文件: separate_彰化_20250608_003856_processed.npz -> separate/
+2025-06-08 13:10:51,925 - INFO - 處理文件: separate_復興_20250608_003857_processed.npz
+2025-06-08 13:10:51,938 - INFO - 備份文件: separate_復興_20250608_003857_processed.npz -> data\backup_processed\separate_復興_20250608_003857_processed.npz
+2025-06-08 13:10:51,938 - INFO - 移動文件: separate_復興_20250608_003857_processed.npz -> separate/
+2025-06-08 13:10:51,938 - INFO - 處理文件: separate_忠明_20250608_003858_processed.npz
+2025-06-08 13:10:51,945 - INFO - 備份文件: separate_忠明_20250608_003858_processed.npz -> data\backup_processed\separate_忠明_20250608_003858_processed.npz
+2025-06-08 13:10:51,945 - INFO - 移動文件: separate_忠明_20250608_003858_processed.npz -> separate/
+2025-06-08 13:10:51,945 - INFO - 處理文件: separate_恆春_20250608_003859_processed.npz
+2025-06-08 13:10:51,961 - INFO - 備份文件: separate_恆春_20250608_003859_processed.npz -> data\backup_processed\separate_恆春_20250608_003859_processed.npz
+2025-06-08 13:10:51,961 - INFO - 移動文件: separate_恆春_20250608_003859_processed.npz -> separate/
+2025-06-08 13:10:51,961 - INFO - 處理文件: separate_斗六_20250608_003900_processed.npz
+2025-06-08 13:10:51,973 - INFO - 備份文件: separate_斗六_20250608_003900_processed.npz -> data\backup_processed\separate_斗六_20250608_003900_processed.npz
+2025-06-08 13:10:51,973 - INFO - 移動文件: separate_斗六_20250608_003900_processed.npz -> separate/
+2025-06-08 13:10:51,973 - INFO - 處理文件: separate_新店_20250608_003900_processed.npz
+2025-06-08 13:10:51,978 - INFO - 備份文件: separate_新店_20250608_003900_processed.npz -> data\backup_processed\separate_新店_20250608_003900_processed.npz
+2025-06-08 13:10:51,986 - INFO - 移動文件: separate_新店_20250608_003900_processed.npz -> separate/
+2025-06-08 13:10:51,986 - INFO - 處理文件: separate_新港_20250608_003901_processed.npz
+2025-06-08 13:10:51,991 - INFO - 備份文件: separate_新港_20250608_003901_processed.npz -> data\backup_processed\separate_新港_20250608_003901_processed.npz
+2025-06-08 13:10:51,991 - INFO - 移動文件: separate_新港_20250608_003901_processed.npz -> separate/
+2025-06-08 13:10:51,997 - INFO - 處理文件: separate_新營_20250608_003902_processed.npz
+2025-06-08 13:10:52,008 - INFO - 備份文件: separate_新營_20250608_003902_processed.npz -> data\backup_processed\separate_新營_20250608_003902_processed.npz
+2025-06-08 13:10:52,009 - INFO - 移動文件: separate_新營_20250608_003902_processed.npz -> separate/
+2025-06-08 13:10:52,009 - INFO - 處理文件: separate_新竹_20250608_003903_processed.npz
+2025-06-08 13:10:52,011 - INFO - 備份文件: separate_新竹_20250608_003903_processed.npz -> data\backup_processed\separate_新竹_20250608_003903_processed.npz
+2025-06-08 13:10:52,011 - INFO - 移動文件: separate_新竹_20250608_003903_processed.npz -> separate/
+2025-06-08 13:10:52,021 - INFO - 處理文件: separate_新莊_20250608_003904_processed.npz
+2025-06-08 13:10:52,032 - INFO - 備份文件: separate_新莊_20250608_003904_processed.npz -> data\backup_processed\separate_新莊_20250608_003904_processed.npz
+2025-06-08 13:10:52,032 - INFO - 移動文件: separate_新莊_20250608_003904_processed.npz -> separate/
+2025-06-08 13:10:52,032 - INFO - 處理文件: separate_朴子_20250608_003905_processed.npz
+2025-06-08 13:10:52,045 - INFO - 備份文件: separate_朴子_20250608_003905_processed.npz -> data\backup_processed\separate_朴子_20250608_003905_processed.npz
+2025-06-08 13:10:52,045 - INFO - 移動文件: separate_朴子_20250608_003905_processed.npz -> separate/
+2025-06-08 13:10:52,045 - INFO - 處理文件: separate_松山_20250608_003906_processed.npz
+2025-06-08 13:10:52,057 - INFO - 備份文件: separate_松山_20250608_003906_processed.npz -> data\backup_processed\separate_松山_20250608_003906_processed.npz
+2025-06-08 13:10:52,058 - INFO - 移動文件: separate_松山_20250608_003906_processed.npz -> separate/
+2025-06-08 13:10:52,058 - INFO - 處理文件: separate_板橋_20250608_003906_processed.npz
+2025-06-08 13:10:52,061 - INFO - 備份文件: separate_板橋_20250608_003906_processed.npz -> data\backup_processed\separate_板橋_20250608_003906_processed.npz
+2025-06-08 13:10:52,071 - INFO - 移動文件: separate_板橋_20250608_003906_processed.npz -> separate/
+2025-06-08 13:10:52,071 - INFO - 處理文件: separate_林口_20250608_003907_processed.npz
+2025-06-08 13:10:52,078 - INFO - 備份文件: separate_林口_20250608_003907_processed.npz -> data\backup_processed\separate_林口_20250608_003907_processed.npz
+2025-06-08 13:10:52,078 - INFO - 移動文件: separate_林口_20250608_003907_processed.npz -> separate/
+2025-06-08 13:10:52,083 - INFO - 處理文件: separate_林園_20250608_003908_processed.npz
+2025-06-08 13:10:52,094 - INFO - 備份文件: separate_林園_20250608_003908_processed.npz -> data\backup_processed\separate_林園_20250608_003908_processed.npz
+2025-06-08 13:10:52,095 - INFO - 移動文件: separate_林園_20250608_003908_processed.npz -> separate/
+2025-06-08 13:10:52,095 - INFO - 處理文件: separate_桃園_20250607_215757_processed.npz
+2025-06-08 13:10:52,105 - INFO - 備份文件: separate_桃園_20250607_215757_processed.npz -> data\backup_processed\separate_桃園_20250607_215757_processed.npz
+2025-06-08 13:10:52,105 - INFO - 移動文件: separate_桃園_20250607_215757_processed.npz -> separate/
+2025-06-08 13:10:52,105 - INFO - 處理文件: separate_桃園_20250607_215908_processed.npz
+2025-06-08 13:10:52,116 - INFO - 備份文件: separate_桃園_20250607_215908_processed.npz -> data\backup_processed\separate_桃園_20250607_215908_processed.npz
+2025-06-08 13:10:52,119 - INFO - 移動文件: separate_桃園_20250607_215908_processed.npz -> separate/
+2025-06-08 13:10:52,119 - INFO - 處理文件: separate_桃園_20250608_003909_processed.npz
+2025-06-08 13:10:52,123 - INFO - 備份文件: separate_桃園_20250608_003909_processed.npz -> data\backup_processed\separate_桃園_20250608_003909_processed.npz
+2025-06-08 13:10:52,123 - INFO - 移動文件: separate_桃園_20250608_003909_processed.npz -> separate/
+2025-06-08 13:10:52,123 - INFO - 處理文件: separate_楠梓_20250608_003910_processed.npz
+2025-06-08 13:10:52,143 - INFO - 備份文件: separate_楠梓_20250608_003910_processed.npz -> data\backup_processed\separate_楠梓_20250608_003910_processed.npz
+2025-06-08 13:10:52,143 - INFO - 移動文件: separate_楠梓_20250608_003910_processed.npz -> separate/
+2025-06-08 13:10:52,143 - INFO - 處理文件: separate_橋頭_20250608_003911_processed.npz
+2025-06-08 13:10:52,154 - INFO - 備份文件: separate_橋頭_20250608_003911_processed.npz -> data\backup_processed\separate_橋頭_20250608_003911_processed.npz
+2025-06-08 13:10:52,155 - INFO - 移動文件: separate_橋頭_20250608_003911_processed.npz -> separate/
+2025-06-08 13:10:52,155 - INFO - 處理文件: separate_永和_20250608_003912_processed.npz
+2025-06-08 13:10:52,164 - INFO - 備份文件: separate_永和_20250608_003912_processed.npz -> data\backup_processed\separate_永和_20250608_003912_processed.npz
+2025-06-08 13:10:52,164 - INFO - 移動文件: separate_永和_20250608_003912_processed.npz -> separate/
+2025-06-08 13:10:52,169 - INFO - 處理文件: separate_汐止_20250608_003912_processed.npz
+2025-06-08 13:10:52,175 - INFO - 備份文件: separate_汐止_20250608_003912_processed.npz -> data\backup_processed\separate_汐止_20250608_003912_processed.npz
+2025-06-08 13:10:52,175 - INFO - 移動文件: separate_汐止_20250608_003912_processed.npz -> separate/
+2025-06-08 13:10:52,182 - INFO - 處理文件: separate_沙鹿_20250608_003913_processed.npz
+2025-06-08 13:10:52,191 - INFO - 備份文件: separate_沙鹿_20250608_003913_processed.npz -> data\backup_processed\separate_沙鹿_20250608_003913_processed.npz
+2025-06-08 13:10:52,192 - INFO - 移動文件: separate_沙鹿_20250608_003913_processed.npz -> separate/
+2025-06-08 13:10:52,192 - INFO - 處理文件: separate_淡水_20250608_003914_processed.npz
+2025-06-08 13:10:52,195 - INFO - 備份文件: separate_淡水_20250608_003914_processed.npz -> data\backup_processed\separate_淡水_20250608_003914_processed.npz
+2025-06-08 13:10:52,204 - INFO - 移動文件: separate_淡水_20250608_003914_processed.npz -> separate/
+2025-06-08 13:10:52,204 - INFO - 處理文件: separate_湖口_20250608_003915_processed.npz
+2025-06-08 13:10:52,215 - INFO - 備份文件: separate_湖口_20250608_003915_processed.npz -> data\backup_processed\separate_湖口_20250608_003915_processed.npz
+2025-06-08 13:10:52,215 - INFO - 移動文件: separate_湖口_20250608_003915_processed.npz -> separate/
+2025-06-08 13:10:52,215 - INFO - 處理文件: separate_潮州_20250608_003916_processed.npz
+2025-06-08 13:10:52,227 - INFO - 備份文件: separate_潮州_20250608_003916_processed.npz -> data\backup_processed\separate_潮州_20250608_003916_processed.npz
+2025-06-08 13:10:52,228 - INFO - 移動文件: separate_潮州_20250608_003916_processed.npz -> separate/
+2025-06-08 13:10:52,228 - INFO - 處理文件: separate_竹山_20250608_003917_processed.npz
+2025-06-08 13:10:52,239 - INFO - 備份文件: separate_竹山_20250608_003917_processed.npz -> data\backup_processed\separate_竹山_20250608_003917_processed.npz
+2025-06-08 13:10:52,240 - INFO - 移動文件: separate_竹山_20250608_003917_processed.npz -> separate/
+2025-06-08 13:10:52,240 - INFO - 處理文件: separate_竹東_20250608_003918_processed.npz
+2025-06-08 13:10:52,245 - INFO - 備份文件: separate_竹東_20250608_003918_processed.npz -> data\backup_processed\separate_竹東_20250608_003918_processed.npz
+2025-06-08 13:10:52,252 - INFO - 移動文件: separate_竹東_20250608_003918_processed.npz -> separate/
+2025-06-08 13:10:52,252 - INFO - 處理文件: separate_線西_20250608_003918_processed.npz
+2025-06-08 13:10:52,262 - INFO - 備份文件: separate_線西_20250608_003918_processed.npz -> data\backup_processed\separate_線西_20250608_003918_processed.npz
+2025-06-08 13:10:52,263 - INFO - 移動文件: separate_線西_20250608_003918_processed.npz -> separate/
+2025-06-08 13:10:52,263 - INFO - 處理文件: separate_美濃_20250608_003919_processed.npz
+2025-06-08 13:10:52,273 - INFO - 備份文件: separate_美濃_20250608_003919_processed.npz -> data\backup_processed\separate_美濃_20250608_003919_processed.npz
+2025-06-08 13:10:52,274 - INFO - 移動文件: separate_美濃_20250608_003919_processed.npz -> separate/
+2025-06-08 13:10:52,274 - INFO - 處理文件: separate_臺南_20250608_003920_processed.npz
+2025-06-08 13:10:52,282 - INFO - 備份文件: separate_臺南_20250608_003920_processed.npz -> data\backup_processed\separate_臺南_20250608_003920_processed.npz
+2025-06-08 13:10:52,288 - INFO - 移動文件: separate_臺南_20250608_003920_processed.npz -> separate/
+2025-06-08 13:10:52,288 - INFO - 處理文件: separate_臺東_20250608_003921_processed.npz
+2025-06-08 13:10:52,295 - INFO - 備份文件: separate_臺東_20250608_003921_processed.npz -> data\backup_processed\separate_臺東_20250608_003921_processed.npz
+2025-06-08 13:10:52,299 - INFO - 移動文件: separate_臺東_20250608_003921_processed.npz -> separate/
+2025-06-08 13:10:52,299 - INFO - 處理文件: separate_臺西_20250608_003922_processed.npz
+2025-06-08 13:10:52,310 - INFO - 備份文件: separate_臺西_20250608_003922_processed.npz -> data\backup_processed\separate_臺西_20250608_003922_processed.npz
+2025-06-08 13:10:52,311 - INFO - 移動文件: separate_臺西_20250608_003922_processed.npz -> separate/
+2025-06-08 13:10:52,311 - INFO - 處理文件: separate_花蓮_20250608_003923_processed.npz
+2025-06-08 13:10:52,321 - INFO - 備份文件: separate_花蓮_20250608_003923_processed.npz -> data\backup_processed\separate_花蓮_20250608_003923_processed.npz
+2025-06-08 13:10:52,321 - INFO - 移動文件: separate_花蓮_20250608_003923_processed.npz -> separate/
+2025-06-08 13:10:52,322 - INFO - 處理文件: separate_苗栗_20250608_003923_processed.npz
+2025-06-08 13:10:52,328 - INFO - 備份文件: separate_苗栗_20250608_003923_processed.npz -> data\backup_processed\separate_苗栗_20250608_003923_processed.npz
+2025-06-08 13:10:52,328 - INFO - 移動文件: separate_苗栗_20250608_003923_processed.npz -> separate/
+2025-06-08 13:10:52,328 - INFO - 處理文件: separate_菜寮_20250608_003924_processed.npz
+2025-06-08 13:10:52,345 - INFO - 備份文件: separate_菜寮_20250608_003924_processed.npz -> data\backup_processed\separate_菜寮_20250608_003924_processed.npz
+2025-06-08 13:10:52,345 - INFO - 移動文件: separate_菜寮_20250608_003924_processed.npz -> separate/
+2025-06-08 13:10:52,345 - INFO - 處理文件: separate_萬華_20250608_003925_processed.npz
+2025-06-08 13:10:52,357 - INFO - 備份文件: separate_萬華_20250608_003925_processed.npz -> data\backup_processed\separate_萬華_20250608_003925_processed.npz
+2025-06-08 13:10:52,357 - INFO - 移動文件: separate_萬華_20250608_003925_processed.npz -> separate/
+2025-06-08 13:10:52,357 - INFO - 處理文件: separate_萬里_20250608_003926_processed.npz
+2025-06-08 13:10:52,361 - INFO - 備份文件: separate_萬里_20250608_003926_processed.npz -> data\backup_processed\separate_萬里_20250608_003926_processed.npz
+2025-06-08 13:10:52,369 - INFO - 移動文件: separate_萬里_20250608_003926_processed.npz -> separate/
+2025-06-08 13:10:52,369 - INFO - 處理文件: separate_西屯_20250608_003927_processed.npz
+2025-06-08 13:10:52,381 - INFO - 備份文件: separate_西屯_20250608_003927_processed.npz -> data\backup_processed\separate_西屯_20250608_003927_processed.npz
+2025-06-08 13:10:52,382 - INFO - 移動文件: separate_西屯_20250608_003927_processed.npz -> separate/
+2025-06-08 13:10:52,382 - INFO - 處理文件: separate_觀音_20250608_003928_processed.npz
+2025-06-08 13:10:52,395 - INFO - 備份文件: separate_觀音_20250608_003928_processed.npz -> data\backup_processed\separate_觀音_20250608_003928_processed.npz
+2025-06-08 13:10:52,395 - INFO - 移動文件: separate_觀音_20250608_003928_processed.npz -> separate/
+2025-06-08 13:10:52,395 - INFO - 處理文件: separate_豐原_20250608_003929_processed.npz
+2025-06-08 13:10:52,406 - INFO - 備份文件: separate_豐原_20250608_003929_processed.npz -> data\backup_processed\separate_豐原_20250608_003929_processed.npz
+2025-06-08 13:10:52,406 - INFO - 移動文件: separate_豐原_20250608_003929_processed.npz -> separate/
+2025-06-08 13:10:52,406 - INFO - 處理文件: separate_金門_20250608_003929_processed.npz
+2025-06-08 13:10:52,411 - INFO - 備份文件: separate_金門_20250608_003929_processed.npz -> data\backup_processed\separate_金門_20250608_003929_processed.npz
+2025-06-08 13:10:52,420 - INFO - 移動文件: separate_金門_20250608_003929_processed.npz -> separate/
+2025-06-08 13:10:52,420 - INFO - 處理文件: separate_陽明_20250608_003930_processed.npz
+2025-06-08 13:10:52,425 - INFO - 備份文件: separate_陽明_20250608_003930_processed.npz -> data\backup_processed\separate_陽明_20250608_003930_processed.npz
+2025-06-08 13:10:52,425 - INFO - 移動文件: separate_陽明_20250608_003930_processed.npz -> separate/
+2025-06-08 13:10:52,432 - INFO - 處理文件: separate_頭份_20250608_003931_processed.npz
+2025-06-08 13:10:52,442 - INFO - 備份文件: separate_頭份_20250608_003931_processed.npz -> data\backup_processed\separate_頭份_20250608_003931_processed.npz
+2025-06-08 13:10:52,443 - INFO - 移動文件: separate_頭份_20250608_003931_processed.npz -> separate/
+2025-06-08 13:10:52,443 - INFO - 處理文件: separate_馬公_20250608_003932_processed.npz
+2025-06-08 13:10:52,455 - INFO - 備份文件: separate_馬公_20250608_003932_processed.npz -> data\backup_processed\separate_馬公_20250608_003932_processed.npz
+2025-06-08 13:10:52,456 - INFO - 移動文件: separate_馬公_20250608_003932_processed.npz -> separate/
+2025-06-08 13:10:52,456 - INFO - 處理文件: separate_馬祖_20250608_003933_processed.npz
+2025-06-08 13:10:52,458 - INFO - 備份文件: separate_馬祖_20250608_003933_processed.npz -> data\backup_processed\separate_馬祖_20250608_003933_processed.npz
+2025-06-08 13:10:52,458 - INFO - 移動文件: separate_馬祖_20250608_003933_processed.npz -> separate/
+2025-06-08 13:10:52,469 - INFO - 處理文件: separate_麥寮_20250608_003933_processed.npz
+2025-06-08 13:10:52,474 - INFO - 備份文件: separate_麥寮_20250608_003933_processed.npz -> data\backup_processed\separate_麥寮_20250608_003933_processed.npz
+2025-06-08 13:10:52,474 - INFO - 移動文件: separate_麥寮_20250608_003933_processed.npz -> separate/
+2025-06-08 13:10:52,480 - INFO - 處理文件: separate_龍潭_20250608_003934_processed.npz
+2025-06-08 13:10:52,493 - INFO - 備份文件: separate_龍潭_20250608_003934_processed.npz -> data\backup_processed\separate_龍潭_20250608_003934_processed.npz
+2025-06-08 13:10:52,493 - INFO - 移動文件: separate_龍潭_20250608_003934_processed.npz -> separate/
+2025-06-08 13:10:52,493 - INFO - 處理文件: separate_norm_桃園_20250607_215758_processed.npz
+2025-06-08 13:10:52,493 - ERROR - 移動文件失敗 separate_norm_桃園_20250607_215758_processed.npz: [Errno 2] No such file or directory: 'data\\processed\\separate_norm_桃園_20250607_215758_processed.npz'
+2025-06-08 13:10:52,493 - INFO - 處理文件: combine_168_test.npz
+2025-06-08 13:10:52,554 - INFO - 備份文件: combine_168_test.npz -> data\backup_processed\combine_168_test.npz
+2025-06-08 13:10:52,554 - INFO - 移動文件: combine_168_test.npz -> combine/
+2025-06-08 13:10:52,554 - INFO - 處理文件: combine_168_train.npz
+2025-06-08 13:10:52,772 - INFO - 備份文件: combine_168_train.npz -> data\backup_processed\combine_168_train.npz
+2025-06-08 13:10:52,772 - INFO - 移動文件: combine_168_train.npz -> combine/
+2025-06-08 13:10:52,772 - INFO - 處理文件: combine_norm_168_test.npz
+2025-06-08 13:10:53,092 - INFO - 備份文件: combine_norm_168_test.npz -> data\backup_processed\combine_norm_168_test.npz
+2025-06-08 13:10:53,092 - INFO - 移動文件: combine_norm_168_test.npz -> combine_norm/
+2025-06-08 13:10:53,092 - INFO - 處理文件: combine_norm_168_train.npz
+2025-06-08 13:10:53,924 - INFO - 備份文件: combine_norm_168_train.npz -> data\backup_processed\combine_norm_168_train.npz
+2025-06-08 13:10:53,924 - INFO - 移動文件: combine_norm_168_train.npz -> combine_norm/
+2025-06-08 13:10:53,924 - INFO - 處理文件: combine_small_test.npz
+2025-06-08 13:10:53,942 - INFO - 備份文件: combine_small_test.npz -> data\backup_processed\combine_small_test.npz
+2025-06-08 13:10:53,943 - INFO - 移動文件: combine_small_test.npz -> combine/
+2025-06-08 13:10:53,943 - INFO - 處理文件: combine_small_train.npz
+2025-06-08 13:10:53,964 - INFO - 備份文件: combine_small_train.npz -> data\backup_processed\combine_small_train.npz
+2025-06-08 13:10:53,964 - INFO - 移動文件: combine_small_train.npz -> combine/
+2025-06-08 13:10:53,965 - INFO - 處理文件: combine_norm_168_test.npz
+2025-06-08 13:10:53,965 - ERROR - 移動文件失敗 combine_norm_168_test.npz: [Errno 2] No such file or directory: 'data\\processed\\combine_norm_168_test.npz'
+2025-06-08 13:10:53,965 - INFO - 處理文件: combine_norm_168_train.npz
+2025-06-08 13:10:53,965 - ERROR - 移動文件失敗 combine_norm_168_train.npz: [Errno 2] No such file or directory: 'data\\processed\\combine_norm_168_train.npz'
+2025-06-08 13:10:53,965 - INFO - 處理文件: separate_scaler.pkl
+2025-06-08 13:10:53,966 - INFO - 備份文件: separate_scaler.pkl -> data\backup_processed\separate_scaler.pkl
+2025-06-08 13:10:53,966 - INFO - 移動文件: separate_scaler.pkl -> separate/
+2025-06-08 13:10:53,966 - INFO - 🔍 驗證重新組織結果
+2025-06-08 13:10:53,966 - INFO - separate: 89 個文件
+2025-06-08 13:10:53,966 - INFO - separate_norm: 1 個文件
+2025-06-08 13:10:53,966 - INFO - combine: 4 個文件
+2025-06-08 13:10:53,969 - INFO - combine_norm: 2 個文件
+2025-06-08 13:10:53,969 - INFO - station_specific: 0 個文件
+2025-06-08 13:10:53,969 - INFO - ============================================================
+2025-06-08 13:10:53,970 - INFO - 🎉 文件重新組織完成!
+2025-06-08 13:10:53,970 - INFO - 📊 總計移動: 85 個文件
+2025-06-08 13:10:53,970 - INFO - 📁 報告保存: file_reorganization_report_20250608_131053.md
+2025-06-08 13:10:53,970 - INFO - ============================================================
