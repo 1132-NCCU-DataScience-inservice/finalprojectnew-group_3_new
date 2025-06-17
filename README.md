@@ -26,7 +26,6 @@ idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Proje
 
 * 系統使用手冊與討論紀錄
 ### data
-data/
 
 原始空氣品質與氣象資料（如 CSV）
 
@@ -38,7 +37,7 @@ acquire.R: 抓取與整理 AQI 與氣象資料
 features.R: 特徵工程與合併
 
 modeling.R: 預測與分群模型訓練
-### shiny-app/
+### shiny-app
 
 global.R, ui.R, server.R
 
