@@ -1,40 +1,48 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZXf3Hbkv)
-# [GroupID] your project title
+# [Group3] 1132-DS-final_air-quality
 The goals of this project.
+空氣品質受到氣象條件強烈影響；單用 AQI 資料易低估光化學作用、降雨清洗等效果。
+本專案在期末報告框架基礎上，新增氣象輔助變數，同時確保：
+
+長期趨勢：STL / Prophet
+短期預報：XGBoost → PM₂.₅、AQI 下一 1‒24 小時
+污染源分類：K-Means / 階層式分群
+異常事件偵測：IsolationForest / LOF
+互動溝通：Shiny Dashboard + Leaflet 地圖
 
 ## Contributors
 |組員|系級|學號|工作分配|
 |-|-|-|-|
-|何大南|資科碩二|110753202|團隊中的吉祥物🦒，負責增進團隊氣氛| 
-|張小明|資科碩二|xxxxxxxxx|團隊的中流砥柱，一個人打十個|
-
-## Quick start
-Please provide an example command or a few commands to reproduce your analysis, such as the following R script:
-```R
-Rscript code/your_script.R --input data/training --output results/performance.tsv
-```
+|李翔仁|資科碩一|113971021|團隊中的吉祥物🦒，負責增進團隊氣氛| 
+|張敦皓|資科碩一|113971007|團隊的中流砥柱，一個人打十個|
+|林遠哲|資科碩一|113971001|團隊的中流砥柱，一個人打十個|
+|王秀暐|資科碩三|111971025|團隊的中流砥柱，一個人打十個|
 
 ## Folder organization and its related description
 idea by Noble WS (2009) [A Quick Guide to Organizing Computational Biology Projects.](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424) PLoS Comput Biol 5(7): e1000424.
 
 ### docs
-* Your presentation, 1132_DS-FP_groupID.ppt/pptx/pdf (i.e.,1132_DS-FP_group1.ppt), by **06.10**
-* Any related document for the project, i.e.,
-  * discussion log
-  * software user guide
+* 簡報檔, 1132_DS-FP_group3.ppt , by **06.10**
 
+* 系統使用手冊與討論紀錄
 ### data
-* Input
-  * Source
-  * Format
-  * Size
+data/
+
+原始空氣品質與氣象資料（如 CSV）
+
+處理後資料（如 parquet / feather）
 
 ### code
-* Analysis steps
-* Which method or package do you use?
-* How do you perform training and evaluation?
-  * Cross-validation, or extra separated data
-* What is a null model for comparison?
+acquire.R: 抓取與整理 AQI 與氣象資料
+
+features.R: 特徵工程與合併
+
+modeling.R: 預測與分群模型訓練
+### shiny-app/
+
+global.R, ui.R, server.R
+
+地圖顯示、指標查詢與異常分析
 
 # 臺灣空氣品質監測與預測專案（Air-Quality-TW）
 
@@ -174,10 +182,5 @@ Chan, J. (2025). Air-Quality-TW: Integrating CWA Meteorology with AQX_P_488 for 
 MIT License © 2025
 
 
-### results
-* What is your performance?
-* Is the improvement significant?
 
-## References
-* Packages you use
-* Related publications
+
