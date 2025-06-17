@@ -4,10 +4,9 @@
 整合 **AQX\_P\_488** 空氣品質資料與中央氣象署 (CWA) 氣象觀測，
 建立一條 **可重複、可擴充、易維護** 的資料科學流水線，涵蓋：
 
-* **資料獲取 → 清理 / 特徵工程 → 時間序列與機器學習預測 →**
-  **分群 / 異常偵測 → 評估解釋 → Shiny 互動展示**
+* **資料獲取 → 清理 / 特徵工程 → 時間序列與機器學習預測 →**  **分群 / 異常偵測 → 評估解釋 → Shiny 互動展示**
 
-> **專案規劃文件**：[https://docs.google.com/document/d/1fWCmSwpUNJA2OCpSXNO9Z6GWopuk0UtO65z6cOMXtyc/edit](https://docs.google.com/document/d/1fWCmSwpUNJA2OCpSXNO9Z6GWopuk0UtO65z6cOMXtyc/edit)
+> **專案規劃文件**：[https://docs.google.com/document/d/1fWCmSwpUNJA2OCpSXNO9Z6GWopuk0UtO65z6cOMXtyc/edit](https://docs.google.com/document/d/1fWCmSwpUNJA2OCpSXNO9Z6GWopuk0UtO65z6cOMXtyc/edit)  
 > **最終簡報**：`docs/Air Pollution Analysis – Final Project.pptx`
 
 ---
