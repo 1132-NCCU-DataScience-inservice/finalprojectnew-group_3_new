@@ -1,0 +1,293 @@
+測試樣本數: 8703
+✅ 預測完成
+預測範圍: -4.74 ~ 2.56
+💾 LSTM 模型已保存:
+  完整模型: lstm_separate_norm_Nomorlization_基隆_466940_combined_windows_complete.rds      
+  模型狀態: lstm_separate_norm_Nomorlization_基隆_466940_combined_windows_state.pt
+  架構資訊: lstm_separate_norm_Nomorlization_基隆_466940_combined_windows_architecture.rds  
+  訓練歷史: lstm_separate_norm_Nomorlization_基隆_466940_combined_windows_history.rds       
+✅ LSTM 完成 - RMSE: 0.209
+清理前GPU記憶體: 0 GB
+清理後GPU記憶體: 0 GB
+釋放記憶體: 0 GB
+
+📄 處理檔案: Nomorlization_崙背_C0K250_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_崙背_C0K250_combined_windows.rds ( 668.4 KB )
+⚠️  特徵數量不一致，重新生成特徵名稱
+    資料維度: 25 個特徵
+    提供的特徵名稱: 24 個
+  重新生成 25 個特徵名稱
+✅ 載入完成: 43,512 個窗口
+  序列長度: 72 小時
+  特徵數量: 25
+  資料類型: separate_norm
+📊 執行時序資料切分...
+  總樣本數: 43,512
+  切分比例: 0.7 / 0.1 / 0.2
+  切分方法: sequential
+AQI 時間序列資料切分結果
+========================
+資料類型: separate_norm
+切分方法: sequential
+總樣本數: 43,512
+
+📊 各集合統計:
+  訓練集: 30,458 個樣本 ( 70 %)
+  驗證集: 4,351 個樣本 ( 10 %)
+  測試集: 8,703 個樣本 ( 20 %)
+
+🎯 目標變數分佈:
+  訓練集: 均值= 0.02 , 標準差= 0.71 , 範圍=[ -2.06 , 2.35 ]
+  驗證集: 均值= -0.18 , 標準差= 0.65 , 範圍=[ -1.72 , 1.77 ]
+  測試集: 均值= 0.04 , 標準差= 0.64 , 範圍=[ -1.92 , 2.29 ]
+
+切分時間: 2025-06-16 18:19:59
+
+🌳 訓練 LightGBM 模型...
+🌳 開始訓練 LightGBM 模型...
+訓練樣本數: 30458
+驗證樣本數: 4351
+🔄 展平張量: 30458 × 72 × 25 → 30458 × 1800
+✅ 展平完成
+  輸出維度: 30458 × 1800
+  矩陣類型: matrix
+  記憶體使用: 418.4 Mb
+📊 創建 LightGBM 資料集...
+🚀 開始模型訓練...
+❌ LightGBM 訓練失敗: std::bad_alloc
+
+❌ LightGBM 失敗: std::bad_alloc
+
+
+🧠 訓練 LSTM 模型...
+🧠 開始訓練 LSTM 模型...
+訓練樣本數: 30458
+驗證樣本數: 4351
+特徵維度: 25
+序列長度: 72
+使用設備: cuda
+GPU: CUDA設備可用
+GPU記憶體: 正常
+⚠️  混合精度不支援，使用標準精度
+模型參數數量: 236289
+🚀 開始模型訓練...
+Epoch   1/100 - 訓練損失: 0.083153 - 驗證損失: 0.015619 - 學習率: 1.00e-03 - 時間: 1.2s
+         GPU記憶體: 正常
+Epoch  10/100 - 訓練損失: 0.008570 - 驗證損失: 0.005894 - 學習率: 1.00e-03 - 時間: 1.0s
+         GPU記憶體: 正常
+Epoch  20/100 - 訓練損失: 0.006958 - 驗證損失: 0.006094 - 學習率: 1.00e-03 - 時間: 1.0s
+         GPU記憶體: 正常
+Epoch 29: reducing learning rate of group 1 to 5.0000e-04
+🛑 早停觸發，停止訓練 (epoch 30 )
+✅ LSTM 訓練完成
+訓練時間: 0.59 分鐘
+最終訓練損失: 0
+最終驗證損失: 0
+最佳驗證損失: 0.005576
+🔮 執行 LSTM 預測...
+測試樣本數: 8703
+✅ 預測完成
+預測範圍: -1.19 ~ 2.1
+💾 LSTM 模型已保存:
+  完整模型: lstm_separate_norm_Nomorlization_崙背_C0K250_combined_windows_complete.rds 
+  模型狀態: lstm_separate_norm_Nomorlization_崙背_C0K250_combined_windows_state.pt
+  架構資訊: lstm_separate_norm_Nomorlization_崙背_C0K250_combined_windows_architecture.rds  
+  訓練歷史: lstm_separate_norm_Nomorlization_崙背_C0K250_combined_windows_history.rds       
+✅ LSTM 完成 - RMSE: 0.0917
+清理前GPU記憶體: 0 GB
+清理後GPU記憶體: 0 GB
+釋放記憶體: 0 GB
+
+📄 處理檔案: Nomorlization_淡水_466900_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_淡水_466900_combined_windows.rds ( 620.6 KB )
+⚠️  特徵數量不一致，重新生成特徵名稱
+    資料維度: 25 個特徵
+    提供的特徵名稱: 24 個
+  重新生成 25 個特徵名稱
+✅ 載入完成: 43,512 個窗口
+  序列長度: 72 小時
+  特徵數量: 25
+  資料類型: separate_norm
+📊 執行時序資料切分...
+  總樣本數: 43,512
+  切分比例: 0.7 / 0.1 / 0.2
+  切分方法: sequential
+AQI 時間序列資料切分結果
+========================
+資料類型: separate_norm
+切分方法: sequential
+總樣本數: 43,512
+
+📊 各集合統計:
+  訓練集: 30,458 個樣本 ( 70 %)
+  驗證集: 4,351 個樣本 ( 10 %)
+  測試集: 8,703 個樣本 ( 20 %)
+
+🎯 目標變數分佈:
+  訓練集: 均值= -0.01 , 標準差= 0.89 , 範圍=[ -5.39 , 2.9 ]
+  驗證集: 均值= -0.29 , 標準差= 0.93 , 範圍=[ -3.64 , 2.65 ]
+  測試集: 均值= 0.07 , 標準差= 0.93 , 範圍=[ -5.39 , 2.83 ]
+
+切分時間: 2025-06-16 18:20:42
+❌ 檔案處理失敗: cannot allocate vector of size 418.3 Mb 
+
+📄 處理檔案: Nomorlization_麥寮_A2K360_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_麥寮_A2K360_combined_windows.rds ( 631.9 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_麥寮_A2K360_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_善化_C0O900_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_善化_C0O900_combined_windows.rds ( 655.4 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_善化_C0O900_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_富貴角_C0AI20_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_富貴角_C0AI20_combined_windows.rds ( 591.4 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_富貴角_C0AI20_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_復興_C0V710_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_復興_C0V710_combined_windows.rds ( 702.1 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_復興_C0V710_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_湖口_C0D650_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_湖口_C0D650_combined_windows.rds ( 633.4 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_湖口_C0D650_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_菜寮_C0AD30_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_菜寮_C0AD30_combined_windows.rds ( 668.4 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_菜寮_C0AD30_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_陽明_466910_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_陽明_466910_combined_windows.rds ( 542.9 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_陽明_466910_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_新竹_C0D660_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_新竹_C0D660_combined_windows.rds ( 651.5 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_新竹_C0D660_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_新店_C0AC80_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_新店_C0AC80_combined_windows.rds ( 646.6 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_新店_C0AC80_combined_windows.rds): cannot allocate vector of size 645.4 Mb
+
+📄 處理檔案: Nomorlization_新莊_C0ACA0_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_新莊_C0ACA0_combined_windows.rds ( 682.8 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_新莊_C0ACA0_combined_windows.rds): cannot allocate vector of size 645.4 Mb
+
+📄 處理檔案: Nomorlization_新港_C0M790_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_新港_C0M790_combined_windows.rds ( 665 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_新港_C0M790_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_新營_C0X250_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_新營_C0X250_combined_windows.rds ( 656.7 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_新營_C0X250_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_楠梓_C0V770_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_楠梓_C0V770_combined_windows.rds ( 768.7 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_楠梓_C0V770_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_萬里_C0A940_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_萬里_C0A940_combined_windows.rds ( 607.1 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_萬里_C0A940_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_萬華_466920_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_萬華_466920_combined_windows.rds ( 681.4 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_萬華_466920_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_嘉義_C0M730_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_嘉義_C0M730_combined_windows.rds ( 720.7 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_嘉義_C0M730_combined_windows.rds): error reading from connection
+
+📄 處理檔案: Nomorlization_彰化_C0G910_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_彰化_C0G910_combined_windows.rds ( 669.8 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_彰化_C0G910_combined_windows.rds): error reading from connection
+
+📄 處理檔案: Nomorlization_臺西_C0K530_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_臺西_C0K530_combined_windows.rds ( 729.7 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_臺西_C0K530_combined_windows.rds): error reading from connection
+
+📄 處理檔案: Nomorlization_臺東_C0SA10_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_臺東_C0SA10_combined_windows.rds ( 574.9 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_臺東_C0SA10_combined_windows.rds): error reading from connection
+
+📄 處理檔案: Nomorlization_臺南_467410_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_臺南_467410_combined_windows.rds ( 649 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_臺南_467410_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_潮州_C0R220_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_潮州_C0R220_combined_windows.rds ( 659.7 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_潮州_C0R220_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_線西_C0G890_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_線西_C0G890_combined_windows.rds ( 667.1 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_線西_C0G890_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_橋頭_C0V760_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_橋頭_C0V760_combined_windows.rds ( 675.8 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_橋頭_C0V760_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_頭份_C0E420_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_頭份_C0E420_combined_windows.rds ( 637.1 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_頭份_C0E420_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_龍潭_C0C670_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_龍潭_C0C670_combined_windows.rds ( 848.8 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_龍潭_C0C670_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_豐原_C0F9M0_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_豐原_C0F9M0_combined_windows.rds ( 647.9 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_豐原_C0F9M0_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+📄 處理檔案: Nomorlization_觀音_467050_combined_windows.rds
+📄 載入滑動窗口資料: Nomorlization_觀音_467050_combined_windows.rds ( 627.8 KB )
+❌ 檔案處理失敗: 載入檔案失敗 (Nomorlization_觀音_467050_combined_windows.rds): cannot allocate vector of size 597.5 Mb
+
+ ============================================================
+📂 處理資料類型: COMBINE
+📁 路徑: D:/pythonWork/R_datascience/final/Train_R_new/Train_R/generate_sliding_windows/sliding_windows_production/Combine
+============================================================
+🔍 檢測到大檔案模式: 合併原始資料
+📊 載入大檔案索引...
+📋 選擇 5 / 17 個chunk進行訓練
+
+📄 處理chunk: Combine_AllData_chunk01.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Combine_AllData_chunk02.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Combine_AllData_chunk03.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Combine_AllData_chunk04.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Combine_AllData_chunk05.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+ ============================================================
+📂 處理資料類型: COMBINE_NORM
+📁 路徑: D:/pythonWork/R_datascience/final/Train_R_new/Train_R/generate_sliding_windows/sliding_windows_production/Combine_Normalization
+============================================================
+🔍 檢測到大檔案模式: 合併標準化資料
+📊 載入大檔案索引...
+📋 選擇 5 / 17 個chunk進行訓練
+
+📄 處理chunk: Nomorlization_Combine_AllData_chunk01.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Nomorlization_Combine_AllData_chunk02.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Nomorlization_Combine_AllData_chunk03.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Nomorlization_Combine_AllData_chunk04.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+📄 處理chunk: Nomorlization_Combine_AllData_chunk05.rds
+❌ Chunk處理失敗: cannot allocate vector of size 11.3 Gb 
+
+ ================================================================================
+🎉 管線執行完成！
+⏱️  總執行時間: 211.23 分鐘
+================================================================================
+📊 處理統計:
+  總檔案數: 122
